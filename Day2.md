@@ -15,4 +15,4 @@ airport beacon on during day: airspace is below VFR mins
 - ![[Pasted image 20260313232459.png]] print and take to every checkride
 - unicom vs. ctaf
 - ![[Pasted image 20260314000224.png]]
-- 
+- Airport traffic pattern matching based on wind question:
