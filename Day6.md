@@ -1,0 +1,13 @@
+- FAR: 50 titles, title14 is aeronautics and space. 
+- CFR: 5 vols, chapters and subchapters![[Pasted image 20260319213916.png]]
+- Part1: night-end of eveing civil twilight and the beginning of morning civil twilight as published in the air almanac, converted to local time.
+- Part61: student pilot-subpar C, private pilot-subpar E: 61.113-Pro Rata Share, Sales, Charity, Recovery Ops, Incidental to business, Production testing, towing gliders (P-SCRIPT)
+- 61.2: valid and current, 61.3: pilot certificate, ID, medical
+- Medical: 1 (ATP) 12 months,<40yrs old, 2![[Pasted image 20260319215644.png]]
+- 1st class never downgrade, only the class privelidge.
+- Basic Med: driver's license, must have held valid FAA med after 2006. GW<12,500 lbs, <250kts, not in Fight Levels. Fill out CMEC, physician fill his part, ed course every 24mon [BasicMed Online Course Login](https://basicmedicalcourse.aopa.org/client/app.html#/auth/logon?renewalType=NEW)
+- 61.51-logbooks, 61.56-flight review, 61.57-recent flight experience (night: 3 t/o landings, 1 hour before sunrise..)
+- 61.87 61.93: before solo reqmts. 
+- 61.103-113: pilot priveliages and limitaitons
+- Part 91 (all the ways to lose license): 91.17-alcholo or drugs: Zyrtec, Dramamine, benedral etc..
+- 

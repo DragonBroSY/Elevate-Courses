@@ -74,3 +74,11 @@ E-elt on
 - 70kts
 - full pwr, pitch up to 20deg
 - recover: AoA, level, pwr, Vx, cruise xlist
+
+# 03/18
+- Airport Ops: Advise twr when runup complete, wait for twr to call while hold short
+- Slow flight: holding alt while config to enter maneuver <100' loss
+- Pwr-on: climb away after achieve 76kts
+- Pwr-off: less nose up after pull power, more realistic sight pic, it will still stall
+- Emer Desc: use corr xlist first, it may just fix issue, then ABCDE
+- 
