@@ -6,6 +6,7 @@ Drop audio files into audio-inbox/ → auto-uploads to Cloudflare R2
 """
 
 import os
+import re
 import json
 import time
 import subprocess
@@ -39,9 +40,10 @@ FEED_FILE    = DOCS_DIR / "feed.xml"
 
 # ── Podcast identity ───────────────────────────────────────────────────────
 PODCAST_TITLE       = "Elevate Courses"
-PODCAST_DESCRIPTION = "Flight training recordings"
+PODCAST_DESCRIPTION = "Private pilot flight training recordings by DragonBroSY. Real cockpit audio, ground sessions, and study material. New episodes added after every lesson."
 PODCAST_AUTHOR      = "DragonBroSY"
 GITHUB_PAGES_URL    = "https://dragonbrosy.github.io/Elevate-Courses"
+PODCAST_COVER_URL   = f"{GITHUB_PAGES_URL}/cockpit.jpg"
 
 # ── R2 config (from .env) ──────────────────────────────────────────────────
 R2_ACCOUNT_ID  = os.environ["R2_ACCOUNT_ID"]
@@ -51,6 +53,7 @@ R2_BUCKET      = os.environ.get("R2_BUCKET", "elevate-audio")
 R2_PUBLIC_URL  = os.environ["R2_PUBLIC_URL"].rstrip("/")   # e.g. https://pub-xxxx.r2.dev
 
 AUDIO_EXTENSIONS = {".mp3", ".m4a", ".wav", ".aac", ".opus"}
+WAV_CONVERT_EXTS = {".wav"}  # these get converted to MP3 before upload
 
 # ── R2 client ──────────────────────────────────────────────────────────────
 def get_r2_client():
@@ -59,7 +62,11 @@ def get_r2_client():
         endpoint_url=f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
         aws_access_key_id=R2_ACCESS_KEY,
         aws_secret_access_key=R2_SECRET_KEY,
-        config=Config(signature_version="s3v4"),
+        config=Config(
+            signature_version="s3v4",
+            request_checksum_calculation="when_required",
+            response_checksum_validation="when_required",
+        ),
         region_name="auto",
     )
 
@@ -87,6 +94,70 @@ def mime_type(path: Path) -> str:
         ".aac":  "audio/aac",
         ".opus": "audio/ogg",
     }.get(path.suffix.lower(), "audio/mpeg")
+
+def parse_title(stem: str) -> str:
+    """Generate a clean episode title from the filename stem.
+    Handles patterns like TX01_MIC009_20260320_192305_orig
+    """
+    tx  = re.search(r'TX(\d+)', stem, re.IGNORECASE)
+    dt  = re.search(r'(\d{8})_(\d{6})', stem)
+    day = re.search(r'day(\d+)', stem, re.IGNORECASE)
+
+    parts = []
+    if tx:
+        parts.append(f"Session {int(tx.group(1)):02d}")
+    elif day:
+        parts.append(f"Day {int(day.group(1)):02d}")
+
+    if dt:
+        try:
+            d = datetime.strptime(dt.group(1), "%Y%m%d")
+            t = datetime.strptime(dt.group(2), "%H%M%S")
+            parts.append(d.strftime("%B %d, %Y"))
+            parts.append(t.strftime("%H:%M") + "Z")
+        except ValueError:
+            pass
+    elif re.search(r'\d{8}', stem):
+        m = re.search(r'(\d{8})', stem)
+        try:
+            d = datetime.strptime(m.group(1), "%Y%m%d")
+            parts.append(d.strftime("%B %d, %Y"))
+        except ValueError:
+            pass
+
+    if not parts:
+        # Fallback: clean up underscores/dashes
+        cleaned = re.sub(r'[_\-]+', ' ', stem).strip()
+        return cleaned.title()
+
+    return " — ".join(parts)
+
+def parse_shownotes(stem: str, filename: str) -> str:
+    """Auto-generate show notes from filename metadata."""
+    tx  = re.search(r'TX(\d+)', stem, re.IGNORECASE)
+    mic = re.search(r'MIC(\d+)', stem, re.IGNORECASE)
+    dt  = re.search(r'(\d{8})_(\d{6})', stem)
+
+    lines = [f"Elevate Courses — flight training recording by DragonBroSY."]
+
+    if tx:
+        lines.append(f"Session: TX{tx.group(1).zfill(2)}")
+    if mic:
+        lines.append(f"Microphone track: MIC{mic.group(1).zfill(3)}")
+    if dt:
+        try:
+            d = datetime.strptime(dt.group(1), "%Y%m%d")
+            t = datetime.strptime(dt.group(2), "%H%M%S")
+            lines.append(f"Recorded: {d.strftime('%B %d, %Y')} at {t.strftime('%H:%M')} Zulu")
+        except ValueError:
+            pass
+
+    lines.append("")
+    lines.append("Topics may include: pre-flight, ATC communications, maneuvers, navigation, emergency procedures, and debrief.")
+    lines.append("")
+    lines.append("Subscribe to Elevate Courses to follow the full private pilot training journey.")
+
+    return "\n".join(lines)
 
 def load_episodes() -> list:
     if EPISODES_FILE.exists():
@@ -152,13 +223,19 @@ def build_feed(episodes: list):
         "xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
     })
     ch = ET.SubElement(rss, "channel")
-    ET.SubElement(ch, "title").text          = PODCAST_TITLE
-    ET.SubElement(ch, "link").text           = GITHUB_PAGES_URL
-    ET.SubElement(ch, "description").text    = PODCAST_DESCRIPTION
-    ET.SubElement(ch, "language").text       = "en-us"
-    ET.SubElement(ch, "itunes:author").text  = PODCAST_AUTHOR
+    ET.SubElement(ch, "title").text           = PODCAST_TITLE
+    ET.SubElement(ch, "link").text            = GITHUB_PAGES_URL
+    ET.SubElement(ch, "description").text     = PODCAST_DESCRIPTION
+    ET.SubElement(ch, "language").text        = "en-us"
+    ET.SubElement(ch, "itunes:author").text   = PODCAST_AUTHOR
     ET.SubElement(ch, "itunes:explicit").text = "false"
+    ET.SubElement(ch, "itunes:type").text     = "episodic"
     ET.SubElement(ch, "itunes:category", {"text": "Education"})
+    ET.SubElement(ch, "itunes:image", {"href": PODCAST_COVER_URL})
+    img = ET.SubElement(ch, "image")
+    ET.SubElement(img, "url").text   = PODCAST_COVER_URL
+    ET.SubElement(img, "title").text = PODCAST_TITLE
+    ET.SubElement(img, "link").text  = GITHUB_PAGES_URL
 
     for ep in sorted(episodes, key=lambda x: x["date"], reverse=True):
         item = ET.SubElement(ch, "item")
@@ -191,6 +268,20 @@ def git_push(filename: str):
         subprocess.run(["git", "push"], cwd=VAULT_DIR, check=True)
         print("  Pushed to GitHub.")
 
+def convert_to_mp3(path: Path) -> Path:
+    """Convert WAV (or other lossless) to MP3 128kbps for Spotify compatibility."""
+    mp3_path = path.with_suffix(".mp3")
+    print(f"  Converting {path.name} → {mp3_path.name} (MP3 128kbps)...")
+    result = subprocess.run(
+        ["ffmpeg", "-i", str(path), "-codec:a", "libmp3lame", "-b:a", "128k",
+         "-y", str(mp3_path)],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"ffmpeg failed: {result.stderr[-300:]}")
+    print(f"  Converted: {mp3_path.stat().st_size / 1_000_000:.1f} MB")
+    return mp3_path
+
 def process_file(path: Path):
     if path.suffix.lower() not in AUDIO_EXTENSIONS:
         return
@@ -203,13 +294,25 @@ def process_file(path: Path):
         print("  Timed out waiting — skipping.")
         return
 
+    # Convert WAV → MP3 before upload (Spotify rejects large WAVs)
+    if path.suffix.lower() in WAV_CONVERT_EXTS:
+        try:
+            path = convert_to_mp3(path)
+        except Exception as e:
+            print(f"  Conversion failed: {e}")
+            return
+
     episodes = load_episodes()
     if already_uploaded(path.name, episodes):
         print("  Already uploaded — skipping.")
         return
 
-    title = path.stem.replace("_", " ").replace("-", " ").title()
-    pub_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    title      = parse_title(path.stem)
+    shownotes  = parse_shownotes(path.stem, path.name)
+    pub_date   = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    print(f"  Title:      {title}")
+    print(f"  Show notes: {shownotes.splitlines()[0]}...")
 
     try:
         url = upload_to_r2(path)
@@ -221,7 +324,7 @@ def process_file(path: Path):
             "duration":    get_duration(path),
             "size":        path.stat().st_size,
             "mime":        mime_type(path),
-            "description": title,
+            "description": shownotes,
         })
         save_episodes(episodes)
         build_feed(episodes)
