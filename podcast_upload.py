@@ -114,7 +114,7 @@ def parse_title(stem: str) -> str:
             d = datetime.strptime(dt.group(1), "%Y%m%d")
             t = datetime.strptime(dt.group(2), "%H%M%S")
             parts.append(d.strftime("%B %d, %Y"))
-            parts.append(t.strftime("%H:%M") + "Z")
+            parts.append(t.strftime("%H:%M"))
         except ValueError:
             pass
     elif re.search(r'\d{8}', stem):
@@ -148,14 +148,14 @@ def parse_shownotes(stem: str, filename: str) -> str:
         try:
             d = datetime.strptime(dt.group(1), "%Y%m%d")
             t = datetime.strptime(dt.group(2), "%H%M%S")
-            lines.append(f"Recorded: {d.strftime('%B %d, %Y')} at {t.strftime('%H:%M')} Zulu")
+            lines.append(f"Recorded: {d.strftime('%B %d, %Y')} at {t.strftime('%H:%M')}")
         except ValueError:
             pass
 
     lines.append("")
-    lines.append("Topics may include: pre-flight, ATC communications, maneuvers, navigation, emergency procedures, and debrief.")
+    lines.append("Real cockpit audio covering pre-flight, ATC communications, maneuvers, navigation, and debrief.")
     lines.append("")
-    lines.append("Subscribe to Elevate Courses to follow the full private pilot training journey.")
+    lines.append("Follow the full private pilot training journey on Elevate Courses.")
 
     return "\n".join(lines)
 
