@@ -3,3 +3,14 @@
 .obsidian/cache
 .trash/
 .DS_Store
+
+# Podcast — audio files never go in git (too large, go to Cloudflare R2)
+audio-inbox/*.mp3
+audio-inbox/*.m4a
+audio-inbox/*.wav
+audio-inbox/*.aac
+audio-inbox/*.opus
+audio-inbox/uploaded/
+
+# Credentials
+.env
