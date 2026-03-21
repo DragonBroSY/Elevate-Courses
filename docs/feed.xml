@@ -6,6 +6,11 @@
     <description>Private pilot flight training recordings by DragonBroSY. Real cockpit audio, ground sessions, and study material. New episodes added after every lesson.</description>
     <language>en-us</language>
     <itunes:author>DragonBroSY</itunes:author>
+    <itunes:owner>
+      <itunes:name>DragonBroSY</itunes:name>
+      <itunes:email>hkreuk3@icloud.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>hkreuk3@icloud.com (DragonBroSY)</managingEditor>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Education"/>
