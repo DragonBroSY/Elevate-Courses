@@ -3,11 +3,33 @@
   <channel>
     <title>Elevate Courses</title>
     <link>https://dragonbrosy.github.io/Elevate-Courses</link>
-    <description>Flight training recordings</description>
+    <description>Private pilot flight training recordings by DragonBroSY. Real cockpit audio, ground sessions, and study material. New episodes added after every lesson.</description>
     <language>en-us</language>
     <itunes:author>DragonBroSY</itunes:author>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
     <itunes:category text="Education"/>
+    <itunes:image href="https://dragonbrosy.github.io/Elevate-Courses/cockpit.jpg"/>
+    <image>
+      <url>https://dragonbrosy.github.io/Elevate-Courses/cockpit.jpg</url>
+      <title>Elevate Courses</title>
+      <link>https://dragonbrosy.github.io/Elevate-Courses</link>
+    </image>
+    <item>
+      <title>Session 01 — March 20, 2026 — 17:23</title>
+      <description>Elevate Courses — flight training recording by DragonBroSY.
+Session: TX01
+Microphone track: MIC005
+Recorded: March 20, 2026 at 17:23
+
+Real cockpit audio covering pre-flight, ATC communications, maneuvers, navigation, and debrief.
+
+Follow the full private pilot training journey on Elevate Courses.</description>
+      <pubDate>Sat, 21 Mar 2026 18:16:22 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.mp3</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.mp3" length="28803603" type="audio/mpeg"/>
+      <itunes:duration>00:30:00</itunes:duration>
+    </item>
     <item>
       <title>Tx01 Mic009 20260320 192305 Orig</title>
       <description>Tx01 Mic009 20260320 192305 Orig</description>
