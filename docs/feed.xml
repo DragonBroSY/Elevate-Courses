@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Elevate Courses</title>
+    <link>https://dragonbrosy.github.io/Elevate-Courses</link>
+    <description>Flight training recordings</description>
+    <language>en-us</language>
+    <itunes:author>DragonBroSY</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <item>
+      <title>Tx01 Mic005 20260320 172304 Orig</title>
+      <description>Tx01 Mic005 20260320 172304 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 17:54:22 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.wav" length="259254376" type="audio/wav"/>
+    </item>
+  </channel>
+</rss>
