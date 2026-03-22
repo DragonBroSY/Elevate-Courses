@@ -147,6 +147,21 @@ def publish():
         )
         (DOCS_NOTES / "index.md").write_text(index, encoding="utf-8")
 
+    # Regenerate sitemap
+    base = "https://dragonbrosy.github.io/Elevate-Courses"
+    urls = [f"  <url><loc>{base}/</loc></url>",
+            f"  <url><loc>{base}/notes/</loc></url>"]
+    for _, slug, _, _ in published:
+        urls.append(f"  <url><loc>{base}/notes/{slug}</loc></url>")
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls) + "\n"
+        "</urlset>\n"
+    )
+    (VAULT_ROOT / "docs" / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    print(f"  Updated sitemap ({len(published) + 2} URLs)")
+
     return len(published)
 
 

@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} — Elevate Courses</title>
+  <meta name="description" content="{% if page.topics %}{{ page.topics }} — {% endif %}Flight training notes by DragonBroSY." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dragonbrosy.github.io/Elevate-Courses/notes/{{ page.name | remove: '.md' }}" />
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
