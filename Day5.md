@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 5 — Weather"
+date: 2026-03-18
+topics: "Stability, clouds, icing, METARs, TAFs, AIRMETs"
+---
+
 - FAA aviation wx handbook
 - ![[Pasted image 20260318213737.png]] Stability is determined looking at lapse rate 2deg/1000', if <2deg/1K-stable, >2deg/1K-unstable
 - unstable air-uplifting air, stable air-descending air

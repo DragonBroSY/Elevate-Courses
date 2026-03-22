@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 2 — Airport Operations"
+date: 2026-03-14
+topics: "Runways, hold lines, displaced threshold"
+---
+
 Displaced threshold can be used for TO
 
 Non-movemt area line crossing req'd clearance if crossing solid->dash

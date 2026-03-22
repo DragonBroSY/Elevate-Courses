@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 4 — Aerodynamics & Weight & Balance"
+date: 2026-03-17
+topics: "Lift, drag, stability, spins, weight & balance"
+---
+
 Lift=Bernoulli & Newton 3rd law
 lift and weight can be equal at any speed by adj AOA
 planform is the shape of wing viewed from above: aspect ratio and tapering

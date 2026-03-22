@@ -2,144 +2,107 @@
 layout: note
 title: "Flightline Reference"
 date: 2026-03-18
+topics: "Checklists, maneuvers, session debrief notes"
 ---
 
-![Archer Cockpit](../cockpit.jpg)
+![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
+## Emer Desc ##
+### ABCDE
+A-airspeed 115kts, pwr-idle, bank 3-40deg
+B-best area to land
+C-checklist
+D-declare emer 121.5&7700
+E-elt on
 
-## Emergency Descent — ABCDE
+# After Start-Flt Inst Check
+1. clock ticking with second hand
+2. a/s=0
+3. att ind 0deg < 5deg, blue over brown
+4. alt=field elev within 75'
+5. hsi=mag compass within 10deg
+6. vsi=0
+7. mag compass-no cracks, no bubbles, deviation card present
+8. stby att=0deg
+9. a/s=0
+10. alt within 75' of field elev and within 50' of G500
 
-- **A** — Airspeed 115 kts, pwr idle, bank 30–40°
-- **B** — Best area to land
-- **C** — Checklist
-- **D** — Declare emergency 121.5 & 7700
-- **E** — ELT on
+# Taxi-Flt Inst Check
+1. brick outside of turn, turn coord inside
+2. hsi/mag compass swing inside of turn
+3. att, vsi=0
 
----
+# Run Up-Flt Inst Check
+- set HDG bug to RWY (mag) HDG, Radio1/2: twr/ctaf, ground/atis 
 
-## After Start — Flight Instrument Check
-
-1. Clock ticking with second hand
-2. A/S = 0
-3. Attitude indicator 0° (<5°), blue over brown
-4. Alt = field elevation ±75'
-5. HSI = mag compass ±10°
-6. VSI = 0
-7. Mag compass — no cracks, no bubbles, deviation card present
-8. Stby att = 0°
-9. A/S = 0
-10. Alt within 75' of field elev and within 50' of G500
-
----
-
-## Taxi — Flight Instrument Check
-
-1. Ball outside of turn, turn coordinator inside
-2. HSI/mag compass swing inside of turn
-3. Att, VSI = 0
-
----
-
-## Run Up — Flight Instrument Check
-
-- Set HDG bug to RWY (mag) HDG
-- Radio 1/2: Twr/CTAF, Ground/ATIS
-
----
-
-## Pax Brief
-
-- **Door**: enter top → bottom latch; exit bottom → top latch
-- **Emergency exit**: right door, windows x2
-- **Seat & seatbelts**: demonstrate adjust seat, put on seatbelt across body and buckle
-- **Fire extinguisher**: location, check pointer in green, PASS (Point, Aim, Squeeze, Sweep)
+# Pax Brief
+- Door: enter top, bottom latch, exit bottom, top latch
+- Emer exit: right door, windows x2
+- Seat&seatbelts: demonstrate adj seat, put on seatbelt across body and buckle
+- fire extingusiher: lcoation, check pointer in green, PASS (point, aim, squeez, sweep)
 - No smoking
-- PIC authority: CFI is PIC
-- Positive exchange of flight controls: call, respond, verify, demo
+- PIC authroity: CFI is PIC
+- Pos Ex Flight Controls: call, respond, verify, demo
 
----
+# Pre-Maneuver Check CRAACC
+1. clearing turns
+2. ref point, pick and turn to it
+3. alt *no lower than 1500AGL*
+4. a/s
+5. config: cruise, landing, clean
+	- cruise: TiT PM-throttle 2300, engine inst, tank, pump off, mix lean
+	- landing/clean: PT MF-pump on, tank, mix enrich, flap 0/40
+6. call
 
-## Pre-Maneuver Check — CRAACC
+# Before Landing-PLT MF
+1. pump
+2. landing light
+3. tank
+4. mix full rich
+5. flaps
 
-1. Clearing turns
-2. Ref point — pick and turn to it
-3. Alt — *no lower than 1,500 AGL*
-4. A/S
-5. Config: cruise / landing / clean
-   - **Cruise**: TiT PM — Throttle 2300, engine instruments, tank, pump off, mix lean
-   - **Landing/Clean**: PT MF — pump on, tank, mix enrich, flap 0/40
-6. Call
+# Steep Turns
+- 100kts
+- cruise checklist
+- 45deg
+- add 100-200 rpm
+- a/s use PWR (normal command, ie. not reverse commnad)
+- alt use pitch
+- ![Pasted image 20260320122248.png](../assets/Pasted%20image%2020260320122248.png)
 
----
+# Slow Flight
+- 1500 rpm, landing config (pump, tank, mix, flaps)
+- 50-55kts
+- add pwr maintain a/s and alt
+- recover: throttle full, flaps 0, Vx, cruise xlist
+# Power Off Stall
+- 1500 rpm, landing config (pump, tank, mix, flaps)
+- capture 66kts, desc 123, pwr-idle, pitch up to 20deg
+- recover: AoA, level, pwr, two notch (straight to 10deg), Vx, flaps 0, cruise xlist
+# Power On Stall
+- 1500 rpm, clean config (pump, tank, mix, flaps)
+- 70kts
+- full pwr, pitch up to 20deg
+- recover: AoA, level, pwr, Vx, cruise xlist
 
-## Before Landing — PLT MF
-
-1. Pump
-2. Landing light
-3. Tank
-4. Mix full rich
-5. Flaps
-
----
-
-## Steep Turns
-
-- 100 kts
-- Cruise checklist
-- 45°
-- Add 100–200 RPM
-- A/S: use PWR (normal command)
-- Alt: use pitch
-
----
-
-## Slow Flight
-
-- 1,500 RPM, landing config (pump, tank, mix, flaps)
-- 50–55 kts
-- Add power, maintain A/S and alt
-- **Recover**: throttle full, flaps 0, Vx, cruise checklist
-
----
-
-## Power Off Stall
-
-- 1,500 RPM, landing config (pump, tank, mix, flaps)
-- Capture 66 kts, descend 123 fpm, pwr idle, pitch up to 20°
-- **Recover**: AOA, level, pwr, two notch (straight to 10°), Vx, flaps 0, cruise checklist
-
----
-
-## Power On Stall
-
-- 1,500 RPM, clean config
-- 70 kts
-- Full pwr, pitch up to 20°
-- **Recover**: AOA, level, pwr, Vx, cruise checklist
-
----
-
-## Session Notes
-
-**03/18**
-- Airport ops: advise twr when runup complete, wait for twr to call while hold short
-- Slow flight: holding alt while configuring to enter maneuver <100' loss
-- Pwr-on: climb away after achieving 76 kts
-- Pwr-off: less nose up after pull power, more realistic sight pic — it will still stall
-- Emer desc: use correct checklist first, it may just fix the issue, then ABCDE
-
-**03/19**
-- Slow flight: turns no more than 10°; recovery: can't lose alt, slowly lower flaps (prevent alt loss), "full pwr, slow flaps"
+# 03/18
+- Airport Ops: Advise twr when runup complete, wait for twr to call while hold short
+- Slow flight: holding alt while config to enter maneuver <100' loss
+- Pwr-on: climb away after achieve 76kts
+- Pwr-off: less nose up after pull power, more realistic sight pic, it will still stall
+- Emer Desc: use corr xlist first, it may just fix issue, then ABCDE
+# 03/19
+- Slow flight: turns no more than 10deg, recovery: can't lose alt, slowww lowering flaps (prevent alt lost), same as go-around flaps need to be retracted slowww "full pwr, slow flaps"
 - Emergency: checklist, pitch, bank
-- Turn around point: CRAACC using clean config & best place to land; 1,000 AGL, 90 kts
+- Turn around pt: CRAACC using clean config & best place to land. 1000AGL, 90kts
 - Pump always on before proper tank
-- Position report: look at HSI tail, doesn't matter CDI not centered
-
-**03/20**
-- PDK turns crosswind 400' prior to TPA (vs. 300' like everywhere else)
-- XTK (crosstrack) is 0.6 NM to turn from crosswind to downwind
-- At TPA: pitch, pwr, trim (2,000 RPM, 90 kts, 2,000', 1.0 XTK) on downwind, BEFORE LANDING (PLT-MF)
-- Abeam touchdown point: 1,500 RPM, 10° flaps, 80 kts, lose 200' and 45° to touchdown point to turn base
-- Base: 70 kts, 25° flaps, 0.3 XTK before turning final — **G-CASH** (Glideslope, Config, A/S, Stabilized, Heels)
-- Taxi clearance: 21R via B, E cross 16, advise when runup complete
-- Traffic pattern scan: "A/S, alt, XTK"
-- Climb with right rudder; turns in traffic pattern should be <20°
+- Position report: look at HSI tail, don't matter CDI not centered
+# 03/20
+- PDK turns xwind 400' prior to TPA, as opposed to 300' like everywhere else
+- xtk (crosstrack) is 0.6NM to turn from xwind to downwind
+- at TPA, pitch, pwr, trim (2000RPM, 90kts, 2000', 1.0 xtk) on downwind, BEFORE LANDING (PLT-MF)
+- abeam touchdown point (or traffic) 1500rpm, 10deg flaps, 80kts, lose 200' and 45deg to touchdown point to turn base
+- base: 70kts, 25deg flaps, 0.3 xtk (crosstrack) before turning final, G-CASH (glideslope, config (already in), a/s, stablized, heels)
+- taxi clearance: 21R via B, E cross 16, advise when runup complete
+- traffic pattern scan should be "a/s, alt, xtk"
+- Climb with right rudder, turns in traffic pattern should be <20deg
+- 

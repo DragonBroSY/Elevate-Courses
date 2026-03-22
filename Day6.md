@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 6 — FARs, Airworthiness & Ground Reference"
+date: 2026-03-19
+topics: "Parts 61/91, medical, equipment, ground maneuvers"
+---
+
 - FAR: 50 titles, title14 is aeronautics and space. 
 - CFR: 5 vols, chapters and subchapters![[Pasted image 20260319213916.png]]
 - Part1: night-end of eveing civil twilight and the beginning of morning civil twilight as published in the air almanac, converted to local time.

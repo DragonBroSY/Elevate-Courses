@@ -2,14 +2,25 @@
 layout: note
 title: "Day 2 — Airport Operations"
 date: 2026-03-14
+topics: "Runways, hold lines, displaced threshold"
 ---
 
-Displaced threshold can be used for takeoff
+Displaced threshold can be used for TO
 
-Non-movement area line crossing requires clearance if crossing solid→dash
+Non-movemt area line crossing req'd clearance if crossing solid->dash
 
-**RWY markings**: Threshold (shows width) → 500ft marking (from threshold) → 1000-footers ([FAA AIM ref](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html))
+RWY markings: THreshold (show width)->500ft marking (from threshold)->1000footers (https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html)
 
-**Hold lines**: dashed lines — no clearance to cross; solid → cleared to cross
+Hold lines: dash lines-no cleareance to xrs, solid->clear to xrs
 
-Chart supplement for airport info
+Chart supp for airport
+
+taxi edge lights are blue omnidirectional lights
+
+airport beacon on during day: airspace is below VFR mins
+
+- ![Pasted image 20260313232459.png](../assets/Pasted%20image%2020260313232459.png) print and take to every checkride
+- unicom vs. ctaf
+- ![Pasted image 20260314000224.png](../assets/Pasted%20image%2020260314000224.png)
+- Airport traffic pattern matching based on wind question:
+![Pasted image 20260314003357.png](../assets/Pasted%20image%2020260314003357.png)

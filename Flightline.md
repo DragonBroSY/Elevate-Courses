@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Flightline Reference"
+date: 2026-03-18
+topics: "Checklists, maneuvers, session debrief notes"
+---
+
 ![[Archer-cockpit.jpg]]
 ## Emer Desc ##
 ### ABCDE

@@ -9,7 +9,9 @@
       "Bash(gh repo:*)",
       "Bash(gh api:*)",
       "Bash(ls -t \"C:/Users/GPBur/Pictures/Screenshots/\"*.png)",
-      "WebFetch(domain:dragonbrosy.github.io)"
+      "WebFetch(domain:dragonbrosy.github.io)",
+      "Bash(git:*)",
+      "Bash(python publish_notes.py)"
     ]
   }
 }

@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 1 — Systems & Instruments"
+date: 2026-03-13
+topics: "POH, engine, carb heat, pitot-static, gyros"
+---
+
 *POH format*:
 - GLEN P WAS-General, limitation, emergency, norm ops, perf, wB, sys, service
 

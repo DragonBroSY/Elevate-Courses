@@ -2,27 +2,28 @@
 layout: note
 title: "Day 1 — Systems & Instruments"
 date: 2026-03-13
+topics: "POH, engine, carb heat, pitot-static, gyros"
 ---
 
 *POH format*:
-- GLEN P WAS — General, Limitation, Emergency, Norm Ops, Perf, W&B, Sys, Service
+- GLEN P WAS-General, limitation, emergency, norm ops, perf, wB, sys, service
 
-Req'd Equipment: 91.205
+Req'd Ep: 91.205
 
-**LHAND** — Lycoming, Horizontally-Opposed, Air-Cooled, Naturally-Aspirated, Direct-Drive
+LHAND-Lycoming HorOppo AirCooled NatAsp DirDrive
 
-Mags — impulse coupler
+Mags-impulse coupler
 
-Oil — dry vs wet sump
+Oil-dry vs wet sump
 
-**TSRASSPAD** — Cessna Fuel Flow
+TSRASSPAD-Cessna Fuel Flow
 
-Landing gear — shimmy damper
+Landing gear-shimmy damper
 
-Carb heat enriches air/fuel mixture
+Carb heat enrich air/fuel mixture
 
-PitotStatic — [video](https://www.youtube.com/watch?v=kdFGbUouE_4)
+PitotStatic-https://www.youtube.com/watch?v=kdFGbUouE_4
 
-VSI — calibrated leak
+VSI-calibrated leak
 
-Gyro precession, torque, P-factor (descending blade)
+gyro procession, tq, p-factor (desc blade
