@@ -1,0 +1,7 @@
+title: Elevate Courses
+description: Flight training notes — DragonBroSY
+baseurl: /Elevate-Courses
+url: https://dragonbrosy.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
