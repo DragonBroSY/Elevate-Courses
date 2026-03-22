@@ -89,3 +89,13 @@ E-elt on
 - Turn around pt: CRAACC using clean config & best place to land. 1000AGL, 90kts
 - Pump always on before proper tank
 - Position report: look at HSI tail, don't matter CDI not centered
+# 03/20
+- PDK turns xwind 400' prior to TPA, as opposed to 300' like everywhere else
+- xtk (crosstrack) is 0.6NM to turn from xwind to downwind
+- at TPA, pitch, pwr, trim (2000RPM, 90kts, 2000', 1.0 xtk) on downwind, BEFORE LANDING (PLT-MF)
+- abeam touchdown point (or traffic) 1500rpm, 10deg flaps, 80kts, lose 200' and 45deg to touchdown point to turn base
+- base: 70kts, 25deg flaps, 0.3 xtk (crosstrack) before turning final, G-CASH (glideslope, config (already in), a/s, stablized, heels)
+- taxi clearance: 21R via B, E cross 16, advise when runup complete
+- traffic pattern scan should be "a/s, alt, xtk"
+- Climb with right rudder, turns in traffic pattern should be <20deg
+- 

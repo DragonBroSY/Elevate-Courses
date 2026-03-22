@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install boto3 watchdog mutagen python-dotenv)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Users/GPBur/AppData/Local/Programs/Python/Python312:/c/Users/GPBur/AppData/Local/Programs/Python/Python312/Scripts:/c/Program Files/nodejs\")",
+      "Bash(cmd.exe /c \"npm install -g wrangler 2>&1\")",
+      "Bash(curl:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)",
+      "Bash(ls -t \"C:/Users/GPBur/Pictures/Screenshots/\"*.png)",
+      "WebFetch(domain:dragonbrosy.github.io)"
+    ]
+  }
+}
