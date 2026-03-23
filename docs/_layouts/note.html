@@ -24,6 +24,14 @@ layout: default
 </article>
 
 <script>
-  MathJax = { tex: { inlineMath: [['$','$']] } };
+  MathJax = {
+    tex: {
+      inlineMath: [['$','$']],
+      displayMath: [['$$','$$']]
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
