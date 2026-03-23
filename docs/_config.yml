@@ -5,3 +5,4 @@ url: https://dragonbrosy.github.io
 markdown: kramdown
 kramdown:
   input: GFM
+theme: minima
