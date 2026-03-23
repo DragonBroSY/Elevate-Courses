@@ -21,7 +21,7 @@ Study materials, reference PDFs, and useful links.
 
 | Link | Description |
 |------|-------------|
-| [LaTeX Quick Reference](latex) | Math formula syntax for notes |
+| [Syntax Reference](syntax) | Markdown, Obsidian, and LaTeX math syntax |
 
 ---
 
