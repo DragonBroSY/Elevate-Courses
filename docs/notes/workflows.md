@@ -7,6 +7,25 @@ How this site is built and maintained.
 
 ---
 
+## 0. Starting a Writing Session
+
+**Always run `start.sh` before writing.** This pulls any edits made on GitHub
+(web edits, auto-published changes) to your local vault first — preventing conflicts.
+
+```bash
+./start.sh
+```
+
+Or manually:
+
+```bash
+git pull
+```
+
+Skip this and you risk your next `push.sh` overwriting GitHub edits.
+
+---
+
 ## 1. Publishing Notes
 
 Write in Obsidian → push → GitHub Actions → live site.
