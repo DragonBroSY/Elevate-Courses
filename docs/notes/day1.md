@@ -3,6 +3,7 @@ layout: note
 title: "Day 1 — Systems & Instruments"
 date: 2026-03-13
 topics: "POH, engine, carb heat, pitot-static, gyros"
+source_hash: 7dccee053d36
 ---
 
 *POH format*:

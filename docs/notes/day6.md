@@ -3,6 +3,7 @@ layout: note
 title: "Day 6 — FARs, Airworthiness & Ground Reference"
 date: 2026-03-19
 topics: "Parts 61/91, medical, equipment, ground maneuvers"
+source_hash: 363aa86d20f2
 ---
 
 - FAR: 50 titles, title14 is aeronautics and space. 

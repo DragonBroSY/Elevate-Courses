@@ -3,6 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
+source_hash: dd66faff9cd7
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)

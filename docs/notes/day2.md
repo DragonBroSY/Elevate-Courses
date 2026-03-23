@@ -3,6 +3,7 @@ layout: note
 title: "Day 2 — Airport Operations"
 date: 2026-03-14
 topics: "Runways, hold lines, displaced threshold"
+source_hash: 772b959d193e
 ---
 
 Displaced threshold can be used for TO

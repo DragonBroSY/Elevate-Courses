@@ -14,5 +14,5 @@ title: "Course Notes"
 
 ---
 
-- [Resources](resources) — PDFs, charts, reference links
-- [Workflows](workflows) — How this site works
+- [Resources](resources) - PDFs, charts, reference links
+- [Workflows](workflows) - How this site works

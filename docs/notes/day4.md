@@ -3,6 +3,7 @@ layout: note
 title: "Day 4 — Aerodynamics & Weight & Balance"
 date: 2026-03-17
 topics: "Lift, drag, stability, spins, weight & balance"
+source_hash: 41409b7090ac
 ---
 
 Lift=Bernoulli & Newton 3rd law

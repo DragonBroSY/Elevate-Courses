@@ -3,6 +3,7 @@ layout: note
 title: "Day 5 — Weather"
 date: 2026-03-18
 topics: "Stability, clouds, icing, METARs, TAFs, AIRMETs"
+source_hash: 9d4cfbecc78c
 ---
 
 - FAA aviation wx handbook
