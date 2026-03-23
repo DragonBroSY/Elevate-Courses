@@ -187,24 +187,29 @@ Supported in Obsidian natively and on the site via MathJax.
 ```
 $$L = \frac{1}{2} \rho v^2 S C_L$$
 ```
+
 $$L = \frac{1}{2} \rho v^2 S C_L$$
 
 ```
 $$V_A = V_S \times \sqrt{n}$$
 ```
+
 $$V_A = V_S \times \sqrt{n}$$
 
 ```
 $$\text{Density Altitude} = \text{PA} + 120 \times (T - T_{std})$$
 ```
+
 $$\text{Density Altitude} = \text{PA} + 120 \times (T - T_{std})$$
 
 ```
 $$\text{TAS} = \text{IAS} \times \sqrt{\frac{\rho_0}{\rho}}$$
 ```
+
 $$\text{TAS} = \text{IAS} \times \sqrt{\frac{\rho_0}{\rho}}$$
 
 ```
 $$\text{Fuel burn} = \frac{\text{distance}}{\text{TAS}} \times \text{GPH}$$
 ```
+
 $$\text{Fuel burn} = \frac{\text{distance}}{\text{TAS}} \times \text{GPH}$$
