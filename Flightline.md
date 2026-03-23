@@ -105,4 +105,15 @@ E-elt on
 - taxi clearance: 21R via B, E cross 16, advise when runup complete
 - traffic pattern scan should be "a/s, alt, xtk"
 - Climb with right rudder, turns in traffic pattern should be <20deg
-- 
+
+# Airworthiness Check
+- ELT 121.5-12 mo, 1 hr use or 50%
+- W&B: usable fuel is $48\text{gal}\cdot6=288lbs$ fuel burn is $20gal\cdot6=120lbs$
+- Performance: $$ 
+\begin{aligned}
+ISA=15^\circ C, std lapse rate\rightarrow F.E.@PDK=1000' \rightarrow ISA@PDK=13^\circ C \\
+PA=(29.92-baro)\cdot 1000+F.E \\
+DA=PA+(OAT-ISA@PDK)\cdot 120 \\
+V_A=115 \cdot \sqrt{\frac{Wt_{\text{takeoff or landing}}}{2550}}
+\end{aligned}
+$$
