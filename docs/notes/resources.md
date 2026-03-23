@@ -17,6 +17,14 @@ Study materials, reference PDFs, and useful links.
 
 ---
 
+## Site Reference
+
+| Link | Description |
+|------|-------------|
+| [LaTeX Quick Reference](latex) | Math formula syntax for notes |
+
+---
+
 ## Official References
 
 | Link | Description |
