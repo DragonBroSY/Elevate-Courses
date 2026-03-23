@@ -11,3 +11,8 @@ title: "Course Notes"
 | [Day 5 — Weather](day5) | Stability, clouds, icing, METARs, TAFs, AIRMETs |
 | [Day 6 — FARs, Airworthiness & Ground Reference](day6) | Parts 61/91, medical, equipment, ground maneuvers |
 | [Flightline Reference](flightline) | Checklists, maneuvers, session debrief notes |
+
+---
+
+- [Resources](resources) — PDFs, charts, reference links
+- [Workflows](workflows) — How this site works

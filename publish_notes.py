@@ -143,7 +143,10 @@ def publish():
         index = (
             "---\nlayout: note\ntitle: \"Course Notes\"\n---\n\n"
             "| Note | Topics |\n|------|--------|\n"
-            + rows + "\n"
+            + rows + "\n\n"
+            "---\n\n"
+            "- [Resources](resources) — PDFs, charts, reference links\n"
+            "- [Workflows](workflows) — How this site works\n"
         )
         (DOCS_NOTES / "index.md").write_text(index, encoding="utf-8")
 
