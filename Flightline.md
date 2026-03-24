@@ -109,11 +109,12 @@ E-elt on
 # Airworthiness Check
 - ELT 121.5-12 mo, 1 hr use or 50%
 - W&B: usable fuel is $48\text{gal}\cdot6=288lbs$ fuel burn is $20gal\cdot6=120lbs$
-- Performance: $$ 
-\begin{aligned}
-ISA=15^\circ C, std lapse rate\rightarrow F.E.@PDK=1000' \rightarrow ISA@PDK=13^\circ C \\
-PA=(29.92-baro)\cdot 1000+F.E \\
-DA=PA+(OAT-ISA@PDK)\cdot 120 \\
-V_A=115 \cdot \sqrt{\frac{Wt_{\text{takeoff or landing}}}{2550}}
-\end{aligned}
-$$
+- Performance:
+
+$$\text{ISA} = 15^\circ C,\ \text{std lapse rate} \rightarrow \text{F.E.@PDK} = 1000\ \text{ft} \rightarrow \text{ISA@PDK} = 13^\circ C$$
+
+$$PA = (29.92 - \text{baro}) \cdot 1000 + \text{F.E.}$$
+
+$$DA = PA + (OAT - \text{ISA@PDK}) \cdot 120$$
+
+$$V_A = 115 \cdot \sqrt{\frac{W_{t,\ \text{T/O or ldg}}}{2550}}$$

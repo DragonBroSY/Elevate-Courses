@@ -11,8 +11,8 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #090c12;
-      color: #d4dce8;
+      background: #ffffff;
+      color: #1a2a3a;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       min-height: 100vh;
     }
@@ -33,7 +33,7 @@
     .hero-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(to bottom, transparent 30%, #090c12 100%);
+      background: linear-gradient(to bottom, transparent 30%, #ffffff 100%);
     }
     .hero-text {
       position: absolute;
@@ -57,7 +57,7 @@
     }
     .hero-sub {
       font-size: 0.8rem;
-      color: #7a8fa8;
+      color: #c0d4ec;
       margin-top: 0.4rem;
     }
 
@@ -66,15 +66,15 @@
       display: flex;
       gap: 1.5rem;
       padding: 0.75rem 1.5rem;
-      background: #0d1117;
-      border-bottom: 1px solid #1e2a38;
+      background: #f4f7fb;
+      border-bottom: 1px solid #dce6f0;
       font-size: 0.72rem;
-      color: #4a9eff;
+      color: #2a6abf;
       letter-spacing: 0.08em;
       overflow-x: auto;
       white-space: nowrap;
     }
-    .hud-item span { color: #5a7a9a; margin-right: 0.3rem; }
+    .hud-item span { color: #9ab0c8; margin-right: 0.3rem; }
 
     /* ── Main ── */
     .main {
@@ -87,17 +87,17 @@
       font-size: 0.65rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: #3a5a7a;
+      color: #9ab0c8;
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
-      border-bottom: 1px solid #1a2530;
+      border-bottom: 1px solid #dce6f0;
     }
 
     /* ── Episode card ── */
     .episode {
-      background: #0d1520;
-      border: 1px solid #1a2a3a;
-      border-left: 3px solid #1a4a7a;
+      background: #f8fafc;
+      border: 1px solid #dce6f0;
+      border-left: 3px solid #b0caea;
       border-radius: 8px;
       padding: 1rem 1.2rem;
       margin-bottom: 0.75rem;
@@ -115,14 +115,14 @@
     .ep-title {
       font-weight: 600;
       font-size: 0.95rem;
-      color: #e2eaf5;
+      color: #1a2a3a;
       line-height: 1.3;
     }
     .ep-badge {
       font-size: 0.65rem;
-      background: #0a2040;
-      color: #4a9eff;
-      border: 1px solid #1a4a7a;
+      background: #eef4ff;
+      color: #2a6abf;
+      border: 1px solid #b0caea;
       border-radius: 4px;
       padding: 0.15rem 0.5rem;
       white-space: nowrap;
@@ -130,7 +130,7 @@
     }
     .ep-meta {
       font-size: 0.72rem;
-      color: #3a5a7a;
+      color: #9ab0c8;
       margin-bottom: 0.75rem;
     }
     audio {
@@ -142,8 +142,8 @@
     /* ── Subscribe ── */
     .subscribe {
       margin-top: 2rem;
-      background: #0d1520;
-      border: 1px solid #1a2a3a;
+      background: #f8fafc;
+      border: 1px solid #dce6f0;
       border-radius: 8px;
       padding: 1rem 1.2rem;
       display: flex;
@@ -152,10 +152,10 @@
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .subscribe-label { font-size: 0.8rem; color: #5a7a9a; }
+    .subscribe-label { font-size: 0.8rem; color: #6a8aaa; }
     .subscribe-url {
       font-size: 0.72rem;
-      color: #4a9eff;
+      color: #2a6abf;
       text-decoration: none;
       font-family: monospace;
       word-break: break-all;
@@ -166,13 +166,15 @@
     footer {
       text-align: center;
       font-size: 0.65rem;
-      color: #243040;
+      color: #9ab0c8;
       padding: 2rem 1rem;
       letter-spacing: 0.1em;
+      border-top: 1px solid #dce6f0;
+      margin-top: 2rem;
     }
 
-    .empty { color: #3a5a7a; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
-    .loading { color: #3a5a7a; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
+    .empty { color: #9ab0c8; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
+    .loading { color: #9ab0c8; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
   </style>
 </head>
 <body>
@@ -195,7 +197,7 @@
     <div class="hud-item" id="hud-count"><span>EPISODES</span>—</div>
     <div class="hud-item" id="hud-hours"><span>TOTAL</span>—</div>
     <div class="hud-item"><span>FEED</span>RSS 2.0</div>
-    <div class="hud-item"><a href="notes/" style="color:#4a9eff;text-decoration:none;">NOTES &#8599;</a></div>
+    <div class="hud-item"><a href="notes/" style="color:#2a6abf;text-decoration:none;">NOTES &#8599;</a></div>
   </div>
 
   <!-- Episodes -->
@@ -210,29 +212,6 @@
           https://dragonbrosy.github.io/Elevate-Courses/feed.xml
         </a>
       </div>
-    </div>
-  </div>
-
-  <!-- METAR / TAF -->
-  <div class="main" style="margin-top:0; padding-top:0;">
-    <div class="section-label" style="margin-top:1.5rem;">Weather &nbsp;·&nbsp; KPDK</div>
-
-    <div class="episode" style="margin-bottom:0.75rem;">
-      <div class="ep-header" style="margin-bottom:0.5rem;">
-        <div class="ep-title">METAR</div>
-        <button onclick="toggleDecode('metar')" style="font-size:0.65rem;background:#0a2040;color:#4a9eff;border:1px solid #1a4a7a;border-radius:4px;padding:0.15rem 0.6rem;cursor:pointer;letter-spacing:0.05em;">DECODE</button>
-      </div>
-      <div id="metar-raw" style="font-family:monospace;font-size:0.78rem;color:#c4d4e4;line-height:1.5;">Loading...</div>
-      <div id="metar-decoded" style="display:none;margin-top:0.75rem;"></div>
-    </div>
-
-    <div class="episode">
-      <div class="ep-header" style="margin-bottom:0.5rem;">
-        <div class="ep-title">TAF</div>
-        <button onclick="toggleDecode('taf')" style="font-size:0.65rem;background:#0a2040;color:#4a9eff;border:1px solid #1a4a7a;border-radius:4px;padding:0.15rem 0.6rem;cursor:pointer;letter-spacing:0.05em;">DECODE</button>
-      </div>
-      <div id="taf-raw" style="font-family:monospace;font-size:0.78rem;color:#c4d4e4;line-height:1.5;">Loading...</div>
-      <div id="taf-decoded" style="display:none;margin-top:0.75rem;"></div>
     </div>
   </div>
 
@@ -261,7 +240,6 @@
           const url      = item.querySelector("enclosure")?.getAttribute("url") || "";
           const durStr   = item.querySelector("duration")?.textContent || "";
 
-          // Parse duration for total hours
           if (durStr) {
             const parts = durStr.split(":").map(Number);
             if (parts.length === 3) totalSecs += parts[0]*3600 + parts[1]*60 + parts[2];
@@ -285,7 +263,6 @@
           container.appendChild(ep);
         });
 
-        // Update HUD
         document.getElementById("hud-count").innerHTML =
           `<span>EPISODES</span>${items.length}`;
         const h = Math.floor(totalSecs/3600);
@@ -303,94 +280,6 @@
     }
 
     loadFeed();
-    loadWeather();
-
-    async function loadWeather() {
-      const BASE = "https://aviationweather.gov/api/data";
-      try {
-        const [mRes, tRes] = await Promise.all([
-          fetch(`${BASE}/metar?ids=KPDK&format=json`),
-          fetch(`${BASE}/taf?ids=KPDK&format=json`)
-        ]);
-        const [mData, tData] = await Promise.all([mRes.json(), tRes.json()]);
-
-        // METAR
-        const m = mData[0];
-        document.getElementById("metar-raw").textContent = m?.rawOb || "N/A";
-        if (m) document.getElementById("metar-decoded").innerHTML = decodeMETAR(m);
-
-        // TAF
-        const t = tData[0];
-        document.getElementById("taf-raw").textContent = t?.rawTAF?.replace(/\n/g, " ") || "N/A";
-        if (t) document.getElementById("taf-decoded").innerHTML = decodeTAF(t);
-
-      } catch(e) {
-        document.getElementById("metar-raw").textContent = "Unable to load weather.";
-        document.getElementById("taf-raw").textContent = "Unable to load weather.";
-      }
-    }
-
-    function toggleDecode(type) {
-      const el = document.getElementById(`${type}-decoded`);
-      el.style.display = el.style.display === "none" ? "block" : "none";
-    }
-
-    function row(label, value) {
-      return `<div style="display:flex;gap:0.75rem;padding:0.2rem 0;border-bottom:1px solid #1a2530;font-size:0.78rem;">
-        <span style="color:#3a5a7a;min-width:130px;">${label}</span>
-        <span style="color:#c4d4e4;">${value}</span>
-      </div>`;
-    }
-
-    function flightCategory(cat) {
-      const colors = { VFR:"#2ecc71", MVFR:"#3498db", IFR:"#e74c3c", LIFR:"#9b59b6" };
-      return `<span style="color:${colors[cat]||'#c4d4e4'};font-weight:600;">${cat}</span>`;
-    }
-
-    function decodeMETAR(m) {
-      const wdir = m.wdir === 0 ? "Calm" : `${m.wdir}°`;
-      const wspd = m.wspd != null ? `${m.wspd} kt${m.wgst ? ` gusting ${m.wgst} kt` : ""}` : "—";
-      const clouds = (m.clouds || []).map(c =>
-        `${skyCondition(c.cover)} at ${(c.base * 100).toLocaleString()} ft`
-      ).join(", ") || "Clear";
-      const obs = m.wxString || "None";
-      const altHg = m.altim ? (m.altim / 33.8639).toFixed(2) : "—";
-
-      return [
-        row("Flight Category", m.fltcat ? flightCategory(m.fltcat) : "—"),
-        row("Time (Z)", m.reportTime || "—"),
-        row("Wind", `${wdir} at ${wspd}`),
-        row("Visibility", m.visib != null ? `${m.visib} SM` : "—"),
-        row("Weather", obs),
-        row("Sky", clouds),
-        row("Temperature", m.temp != null ? `${m.temp}°C / ${Math.round(m.temp*9/5+32)}°F` : "—"),
-        row("Dewpoint", m.dewp != null ? `${m.dewp}°C` : "—"),
-        row("Altimeter", `${altHg} inHg`),
-      ].join("");
-    }
-
-    function decodeTAF(t) {
-      const lines = (t.fcsts || []).map(f => {
-        const wdir = f.wdir === 0 ? "Calm" : `${f.wdir}°`;
-        const wspd = f.wspd != null ? `${f.wspd} kt${f.wgst ? ` gusting ${f.wgst} kt` : ""}` : "—";
-        const clouds = (f.clouds || []).map(c =>
-          `${skyCondition(c.cover)} at ${(c.base * 100).toLocaleString()} ft`
-        ).join(", ") || "Clear";
-        const timeFrom = f.timeFrom ? new Date(f.timeFrom).toUTCString().slice(5,22) + "Z" : "";
-        return `<div style="padding:0.4rem 0;border-bottom:1px solid #1a2530;font-size:0.78rem;">
-          <div style="color:#4a9eff;margin-bottom:0.2rem;">${timeFrom} ${f.fcstType||""}</div>
-          ${row("Wind", `${wdir} at ${wspd}`)}
-          ${row("Visibility", f.visib != null ? `${f.visib} SM` : "—")}
-          ${row("Weather", f.wxString || "None")}
-          ${row("Sky", clouds)}
-        </div>`;
-      });
-      return lines.join("") || "No forecast periods available.";
-    }
-
-    function skyCondition(code) {
-      return { SKC:"Clear", CLR:"Clear", FEW:"Few", SCT:"Scattered", BKN:"Broken", OVC:"Overcast", VV:"Vertical Visibility" }[code] || code;
-    }
   </script>
 </body>
 </html>
