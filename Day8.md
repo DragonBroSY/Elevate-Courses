@@ -1,9 +1,9 @@
-  ---
+---
   publish: true
   title: "Day 8 — VFR Flight Planning"
   date: 2026-03-23
   topics: "VOR, GPS, RAIM, VFR planning"
-  ---
+---
 - vor cdi: 2deg/dot
 - BADVAG-vor checks (gnd&air):
 - ![[Pasted image 20260323215255.png]]
