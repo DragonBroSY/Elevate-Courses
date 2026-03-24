@@ -11,7 +11,12 @@
       "Bash(ls -t \"C:/Users/GPBur/Pictures/Screenshots/\"*.png)",
       "WebFetch(domain:dragonbrosy.github.io)",
       "Bash(git:*)",
-      "Bash(python publish_notes.py)"
+      "Bash(python publish_notes.py)",
+      "WebFetch(domain:aviationweather.gov)",
+      "Bash(gh run:*)",
+      "Bash(ls -t \"C:\\\\Users\\\\GPBur\\\\Pictures\\\\Screenshots\"/*.png)",
+      "Bash(ls -t \"/c/Users/GPBur/Pictures/Screenshots/\"*.png)",
+      "Bash(grep:*)"
     ]
   }
 }
