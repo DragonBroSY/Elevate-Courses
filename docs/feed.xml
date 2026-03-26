@@ -6,11 +6,6 @@
     <description>Private pilot flight training recordings by DragonBroSY. Real cockpit audio, ground sessions, and study material. New episodes added after every lesson.</description>
     <language>en-us</language>
     <itunes:author>DragonBroSY</itunes:author>
-    <itunes:owner>
-      <itunes:name>DragonBroSY</itunes:name>
-      <itunes:email>hkreuk3@icloud.com</itunes:email>
-    </itunes:owner>
-    <managingEditor>hkreuk3@icloud.com (DragonBroSY)</managingEditor>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Education"/>
@@ -20,6 +15,21 @@
       <title>Elevate Courses</title>
       <link>https://dragonbrosy.github.io/Elevate-Courses</link>
     </image>
+    <item>
+      <title>Session 01 — March 25, 2026 — 12:14</title>
+      <description>Elevate Courses — flight training recording by DragonBroSY.
+Session: TX01
+Microphone track: MIC001
+Recorded: March 25, 2026 at 12:14
+
+Real cockpit audio covering pre-flight, ATC communications, maneuvers, navigation, and debrief.
+
+Follow the full private pilot training journey on Elevate Courses.</description>
+      <pubDate>Thu, 26 Mar 2026 14:20:48 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC001_20260325_121451_orig.mp3</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC001_20260325_121451_orig.mp3" length="17043" type="audio/mpeg"/>
+      <itunes:duration>00:00:01</itunes:duration>
+    </item>
     <item>
       <title>Session 01 — March 20, 2026 — 19:23</title>
       <description>Elevate Courses — flight training recording by DragonBroSY.
@@ -94,6 +104,41 @@ Follow the full private pilot training journey on Elevate Courses.</description>
       <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.mp3</guid>
       <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.mp3" length="28803603" type="audio/mpeg"/>
       <itunes:duration>00:30:00</itunes:duration>
+    </item>
+    <item>
+      <title>Tx01 Mic009 20260320 192305 Orig</title>
+      <description>Tx01 Mic009 20260320 192305 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 18:00:08 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC009_20260320_192305_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC009_20260320_192305_orig.wav" length="185154856" type="audio/wav"/>
+    </item>
+    <item>
+      <title>Tx01 Mic008 20260320 185305 Orig</title>
+      <description>Tx01 Mic008 20260320 185305 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 17:58:28 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC008_20260320_185305_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC008_20260320_185305_orig.wav" length="259254376" type="audio/wav"/>
+    </item>
+    <item>
+      <title>Tx01 Mic007 20260320 182305 Orig</title>
+      <description>Tx01 Mic007 20260320 182305 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 17:57:05 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC007_20260320_182305_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC007_20260320_182305_orig.wav" length="259254376" type="audio/wav"/>
+    </item>
+    <item>
+      <title>Tx01 Mic006 20260320 175305 Orig</title>
+      <description>Tx01 Mic006 20260320 175305 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 17:55:42 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC006_20260320_175305_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC006_20260320_175305_orig.wav" length="259254376" type="audio/wav"/>
+    </item>
+    <item>
+      <title>Tx01 Mic005 20260320 172304 Orig</title>
+      <description>Tx01 Mic005 20260320 172304 Orig</description>
+      <pubDate>Sat, 21 Mar 2026 17:54:22 +0000</pubDate>
+      <guid isPermaLink="false">https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.wav</guid>
+      <enclosure url="https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC005_20260320_172304_orig.wav" length="259254376" type="audio/wav"/>
     </item>
   </channel>
 </rss>
