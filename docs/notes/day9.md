@@ -1,9 +1,9 @@
 ---
 layout: note
-title: "Day 8 — VFR Flight Planning"
-date: 2026-03-23
-topics: "VOR, GPS, RAIM, VFR planning"
-source_hash: dff613dc50a8
+title: "Day 9 — ADM"
+date: 2026-03-25
+topics: "Aeromed, ADM"
+source_hash: a9507dbbeda6
 ---
 
 - ![Pasted image 20260324222326.png](../assets/Pasted%20image%2020260324222326.png)
