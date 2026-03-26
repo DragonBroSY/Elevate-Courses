@@ -118,5 +118,15 @@
     "size": 28803603,
     "mime": "audio/mpeg",
     "description": "Elevate Courses — flight training recording by DragonBroSY.\nSession: TX01\nMicrophone track: MIC002\nRecorded: March 25, 2026 at 12:32\n\nReal cockpit audio covering pre-flight, ATC communications, maneuvers, navigation, and debrief.\n\nFollow the full private pilot training journey on Elevate Courses."
+  },
+  {
+    "filename": "TX01_MIC003_20260325_130217_orig.mp3",
+    "title": "Session 01 — March 25, 2026 — 13:02",
+    "url": "https://pub-c5c6238bfa50450997b5926f422d5adc.r2.dev/TX01_MIC003_20260325_130217_orig.mp3",
+    "date": "Thu, 26 Mar 2026 14:21:38 +0000",
+    "duration": 1800,
+    "size": 28803610,
+    "mime": "audio/mpeg",
+    "description": "Elevate Courses — flight training recording by DragonBroSY.\nSession: TX01\nMicrophone track: MIC003\nRecorded: March 25, 2026 at 13:02\n\nReal cockpit audio covering pre-flight, ATC communications, maneuvers, navigation, and debrief.\n\nFollow the full private pilot training journey on Elevate Courses."
   }
 ]
