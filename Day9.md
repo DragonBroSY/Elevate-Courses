@@ -1,8 +1,8 @@
 ---
   publish: true
-  title: "Day 8 — VFR Flight Planning"
-  date: 2026-03-23
-  topics: "VOR, GPS, RAIM, VFR planning"
+  title: "Day 9 — ADM"
+  date: 2026-03-25
+  topics: "Aeromed, ADM"
 ---
 
 - ![[Pasted image 20260324222326.png]]
