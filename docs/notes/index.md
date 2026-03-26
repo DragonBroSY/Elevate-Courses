@@ -11,7 +11,7 @@ title: "Course Notes"
 | [Day 5 — Weather](day5) | Stability, clouds, icing, METARs, TAFs, AIRMETs |
 | [Day 6 — FARs, Airworthiness & Ground Reference](day6) | Parts 61/91, medical, equipment, ground maneuvers |
 | [Day 8 — VFR Flight Planning](day8) | VOR, GPS, RAIM, VFR planning |
-| [Day 8 — VFR Flight Planning](day9) | VOR, GPS, RAIM, VFR planning |
+| [Day 9 — ADM](day9) | Aeromed, ADM |
 | [Flightline Reference](flightline) | Checklists, maneuvers, session debrief notes |
 
 ---
