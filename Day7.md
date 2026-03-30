@@ -1,0 +1,11 @@
+- Va=airplane will stall safely before structural damage, protection for one axis at a time only
+- ![[Pasted image 20260327231754.png]]
+- ![[Pasted image 20260327231805.png]]
+- ![[Pasted image 20260327231835.png]]
+- ![[Pasted image 20260327232027.png]]
+- red on red-you dead, white on white-fly all night, red over white-you aright
+- ![[Pasted image 20260327232522.png]]
+- cram is full power, clean-slow due to loss of lift
+- ![[Pasted image 20260327233242.png]]
+- ![[Pasted image 20260328000929.png]]
+- 
