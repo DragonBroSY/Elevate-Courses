@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 2d638a0d1e20
+source_hash: 764196b7ad47
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -111,7 +111,7 @@ E-elt on
 - ELT 121.5-12 mo, 1 hr use or 50%
 - W&B: usable fuel is $48\text{gal}\cdot6=288lbs$ fuel burn is $20gal\cdot6=120lbs$
 - Performance:
-
+use 4500' for alt on charts:
 $$\text{ISA} = 15^\circ C,\ \text{std lapse rate} \rightarrow \text{F.E.@PDK} = 1000\ \text{ft} \rightarrow \text{ISA@PDK} = 13^\circ C$$
 
 $$PA = (29.92 - \text{baro}) \cdot 1000 + \text{F.E.}$$
@@ -119,3 +119,18 @@ $$PA = (29.92 - \text{baro}) \cdot 1000 + \text{F.E.}$$
 $$DA = PA + (OAT - \text{ISA@PDK}) \cdot 120$$
 
 $$V_A = 115 \cdot \sqrt{\frac{W_{t,\ \text{T/O or ldg}}}{2550}}$$
+
+# 03/26
+- Flight instrument check first proctected turn:
+	- Brick swinging outside of turn, hsi&mag compass swinging inside of turn. vsi is showing zero. 
+	- TPA-pitch, pwr, trim: nose down above horizon, otherwise will lose alt. 
+	- Float and hold off landing as long as can!
+# 03/27
+App checklist:
+- @20 nm to start setup RET3O
+- Radio call @ 10, 7, 5, 3, downwind
+- Rudder control on landing-roundout and flare, touchdown
+- downwind speed control, throttle 2000rpm
+- a/s, alt, xtk(on g430 nav page) scan
+- during float, wait for sink to occur then flare, hold unitl sink happens, otherwise too much energy exist during flare will cause plane to take back off from the ground
+- taxi speed <=15GS
