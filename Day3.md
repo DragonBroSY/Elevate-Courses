@@ -1,0 +1,90 @@
+### Airspace
+- ![[Pasted image 20260330213721.png]]
+- ![[Pasted image 20260330214804.png]]
+- this is due to radar coverage limitation: ![[Pasted image 20260330215038.png]]
+- ![[Pasted image 20260330215838.png]]
+- ![[Pasted image 20260330220134.png]]
+- ![[Pasted image 20260330221519.png]]
+- D: "D for dialog!"
+	- two way radio: at least read back tail number, if busy, they say "ac calling, standby"->NOT cleared! they say "cxk215, standby"->CLEARED they say "cxk215, stay outside"->NOT cleared
+	- 
+- C "C for congested":
+- shelf begins at 1200AGL ![[Pasted image 20260330221739.png]]
+- Mode C, ADSB-out Req'd, be given xpdr code, traffic advisory if atc workload permitting
+- ![[Pasted image 20260330222104.png]]
+- "contact bigsky app within 20NM"
+- B: "B for busiest" ![[Pasted image 20260330222316.png]]
+- shape of "cake" is matched to the app/dep of the airport. 30NM modeC veil (& adsb-out). Must be CLEARED "cxk cleared thru B, maintain east of I-15"
+- ![[Pasted image 20260330223808.png]]
+- appears on TAC charts (white box): 
+![[Pasted image 20260330224002.png]]
+- also only appear on TAC charts (clearance into B and clearance to fly the transition): ![[Pasted image 20260330224252.png]]
+- foreflight auto shows the TAC charts when zoomed in
+- VFR Flyway is suggested routes to stay OUT! Alt and Dir to remain clear of B: ![[Pasted image 20260330224737.png]]
+- ![[Pasted image 20260330224829.png]]
+- Class A is never depicted on charts, bc it always exists at that alt limit
+- ![[Pasted image 20260330225321.png]]
+- 91.117 for a/c max speeds
+- ![[Pasted image 20260330225524.png]]
+- ![[Pasted image 20260330225805.png]]
+- ![[Pasted image 20260330231710.png]]
+- ![[Pasted image 20260330231757.png]]
+- ![[Pasted image 20260330232854.png]]
+- ![[Pasted image 20260330233113.png]]
+- ![[Pasted image 20260330233206.png]]
+- ![[Pasted image 20260330233438.png]]
+- ![[Pasted image 20260330233751.png]]
+- ![[Pasted image 20260330233842.png]]
+- ![[Pasted image 20260330233909.png]]
+- ![[Pasted image 20260330234240.png]]
+- ![[Pasted image 20260330234322.png]]
+- ![[Pasted image 20260330234346.png]]
+- [Airspace Memory Aid](https://www.youtube.com/watch?v=3f0pUpBo8gg)
+- ![[Pasted image 20260330234523.png]]
+- say if getting close to land, destination suddenly get socked in, SVFR is the answer (**See 91.157 and AIM 4-4-6 SVFR**)
+- TRSA is legacy hi-tec radar enabled airport only meets Class D requirement, similar to class C (ex: Erie (KERI), Palm Springs (KPSP), Macon (KMCN), Muskegon (MKG) TRSA): ![[Pasted image 20260330234905.png]]
+- ![[Pasted image 20260330235209.png]]
+- ![[Pasted image 20260330235313.png]]
+- ![[Pasted image 20260330235729.png]]
+- ![[Pasted image 20260330235844.png]]
+- ![[Pasted image 20260330235916.png]]
+- SATR ("book")->SFRA("chapter in a book")
+- ![[Pasted image 20260331000033.png]]
+- Spec Area Traffic Rules: ![[Pasted image 20260331000139.png]]
+- VANSS: ![[Pasted image 20260331000304.png]]
+- TFR (protect large crowds): i.e. Disneyland
+- ![[Pasted image 20260331001005.png]]
+- pub cycle is 56days
+- ![[Pasted image 20260331001151.png]]
+- ![[Pasted image 20260331001229.png]]
+- TAC is half of sectional scale
+- ![[Pasted image 20260331001307.png]]
+- ![[Pasted image 20260331001351.png]]
+- ![[Pasted image 20260331001527.png]]
+- ![[Pasted image 20260331001828.png]]
+- ![[Pasted image 20260331002009.png]] Elevation in feet is in MSL
+- ![[Pasted image 20260331002119.png]]
+- yellow is populated areas, not congested areas
+- ![[Pasted image 20260331002202.png]]
+- stadium >30K seating capacity is just a racetrack
+- ![[Pasted image 20260331002407.png]]
+- ![[Pasted image 20260331002431.png]]
+- ![[Pasted image 20260331002508.png]]
+- ![[Pasted image 20260331002529.png]]
+- ![[Pasted image 20260331002645.png]]
+- vfr checkpoints: ![[Pasted image 20260331002741.png]]
+- ![[Pasted image 20260331002759.png]]
+- ![[Pasted image 20260331002845.png]]
+- ![[Pasted image 20260331002918.png]]
+- ![[Pasted image 20260331002953.png]]
+- ![[Pasted image 20260331003008.png]]
+- G exists where A, B, C, D, E don't: ![[Pasted image 20260331003056.png]]
+- ![[Pasted image 20260331003205.png]]
+- ![[Pasted image 20260331003331.png]]
+- ![[Pasted image 20260331003355.png]]
+- ![[Pasted image 20260331003407.png]]
+- ![[Pasted image 20260331003442.png]]
+- "minus is up to, but not including": just "one foot below 7800"
+- ![[Pasted image 20260331003627.png]]
+- ex: ![[Pasted image 20260331003730.png]]
+- 

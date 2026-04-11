@@ -268,6 +268,55 @@ def git_push(filename: str):
         subprocess.run(["git", "push"], cwd=VAULT_DIR, check=True)
         print("  Pushed to GitHub.")
 
+
+def create_episode_note(episode: dict):
+    """Write an Obsidian note for the episode and open it in the app."""
+    stem     = Path(episode["filename"]).stem
+    tx       = re.search(r'TX(\d+)', stem, re.IGNORECASE)
+    mic      = re.search(r'MIC(\d+)', stem, re.IGNORECASE)
+    dt_match = re.search(r'(\d{8})', stem)
+
+    session  = f"TX{tx.group(1).zfill(2)}" if tx else "TX??"
+    track    = f"MIC{mic.group(1).zfill(3)}" if mic else "MIC???"
+    date_str = (datetime.strptime(dt_match.group(1), "%Y%m%d")
+                .strftime("%Y-%m-%d")) if dt_match else ""
+
+    note_name = f"{session} {track} {date_str}".strip()
+    note_path = VAULT_DIR / "Podcast" / "Episodes" / f"{note_name}.md"
+
+    if note_path.exists():
+        return  # already created on a previous run
+
+    note_path.parent.mkdir(parents=True, exist_ok=True)
+
+    content = (
+        f"---\n"
+        f'title: "{episode["title"]}"\n'
+        f"date: {date_str}\n"
+        f'session: "{session}"\n'
+        f'mic: "{track}"\n'
+        f'url: "{episode["url"]}"\n'
+        f'duration: "{format_duration(episode["duration"])}"\n'
+        f"tags: [podcast, elevate, {session.lower()}]\n"
+        f"---\n\n"
+        f"# {episode['title']}\n\n"
+        f"| | |\n|---|---|\n"
+        f"| **Session** | {session} |\n"
+        f"| **Track** | {track} |\n"
+        f"| **Duration** | {format_duration(episode['duration'])} |\n"
+        f"| **Audio** | [{Path(episode['url']).name}]({episode['url']}) |\n\n"
+        f"## Notes\n\n"
+    )
+
+    note_path.write_text(content, encoding="utf-8")
+    print(f"  Episode note: Podcast/Episodes/{note_name}.md")
+
+    # Surface in Obsidian if the app is running (non-fatal if not)
+    subprocess.run(
+        ["obsidian", "open", f"path=Podcast/Episodes/{note_name}.md"],
+        check=False, capture_output=True
+    )
+
 def convert_to_mp3(path: Path) -> Path:
     """Convert WAV (or other lossless) to MP3 128kbps for Spotify compatibility."""
     mp3_path = path.with_suffix(".mp3")
@@ -329,6 +378,7 @@ def process_file(path: Path):
         save_episodes(episodes)
         build_feed(episodes)
         git_push(path.name)
+        create_episode_note(episodes[-1])
 
         UPLOADED_DIR.mkdir(exist_ok=True)
         path.rename(UPLOADED_DIR / path.name)
