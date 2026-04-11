@@ -1,3 +1,10 @@
+---
+publish: false
+title: "Flight Training — fly.drabro.org"
+date: 2026-02-21
+topics: "WordPress, Lightsail, AWS Polly, R22, POH, ACS, web project, fly.drabro.org"
+---
+
 # Flight Training
 
 ## Quick Reference

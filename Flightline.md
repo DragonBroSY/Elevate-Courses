@@ -135,3 +135,21 @@ App checklist:
 - taxi speed <=15GS
 
 # 04/01
+- Look for upwind traffic after rotation, prepare for tower instructions
+- PDK turn xwind @400' prior TPA, i.e. @1600'
+- if parrellel traffic on final, use 0.4NM as opposed to the regualr 0.3NM final leg turn.
+# 04/02
+- first protected turn to check "brick swinging outside, hsi/mag compass swinging with turn, vsi=0"
+- nose on horizon for 80kts on downwind
+- still use aileron for centerline correction when floating. bigger movements required since slower airspeed during float, control surfaces less effective
+# 04/06
+- meomorize after landing
+- final items before t/o: pump, landing light, mixture, traffic on final
+- before trasfer controls, feet on brakes, 1000rpm, transfer controls, let off brakes
+- after t/o: last item is zoom out on traffic page
+- look down, look up during cruise
+- app xlist: 20NM-RET3O, 10, 7, 5, 3 calls
+- downwind only lose 200', if not 45deg, hold 1800' until so
+- fuel pump on before switching tanks
+- chairfly with traffic in pattern
+- 

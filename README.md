@@ -1,3 +1,10 @@
+---
+publish: false
+title: "Elevate Courses — GitHub Setup Reference"
+date: 2026-02-25
+topics: "setup, git, GitHub, SSH, markdown reference"
+---
+
 # Elevate Courses — GitHub Setup Reference
 
 ## Prerequisites

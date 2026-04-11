@@ -1,3 +1,10 @@
+---
+publish: false
+title: "ATP Piper Archer (G500) — Checklists"
+date: 2026-02-25
+topics: "checklists, Piper Archer, G500, normal procedures, emergency procedures, V-speeds, ATP policy, run-up, pattern work"
+---
+
 # ATP Piper Archer (G500) — Checklists
 
 ## Before Maneuver Checklist

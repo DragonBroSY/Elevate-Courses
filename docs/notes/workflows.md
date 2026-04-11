@@ -1,6 +1,9 @@
 ---
 layout: note
+publish: true
 title: "Workflows"
+date: 2026-03-13
+topics: "workflow, publishing, git, obsidian-git, podcast, GitHub Pages"
 ---
 
 How this site is built and maintained.

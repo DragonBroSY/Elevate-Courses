@@ -1,6 +1,9 @@
 ---
 layout: note
+publish: true
 title: "Resources"
+date: 2026-03-13
+topics: "resources, PDFs, FAA, AIM, regulations, videos, reference"
 ---
 
 Study materials, reference PDFs, and useful links.

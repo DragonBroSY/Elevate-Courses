@@ -1,3 +1,10 @@
+---
+publish: false
+title: "Session — 2026-02-25 Obsidian Vault Setup"
+date: 2026-02-25
+topics: "session, vault setup, obsidian, git, GitHub, slash commands"
+---
+
 # 2026-02-25 - Obsidian vault setup
 Tags: #meta #session
 

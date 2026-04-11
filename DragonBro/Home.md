@@ -1,3 +1,10 @@
+---
+publish: false
+title: "DragonBro Vault Home"
+date: 2026-02-25
+topics: "navigation, markdown reference, vault, obsidian"
+---
+
 # DragonBro Vault
 
 ## Navigation

@@ -1,3 +1,10 @@
+---
+publish: false
+title: "RTX 4070 — GPU Projects"
+date: 2026-02-25
+topics: "NVIDIA RTX 4070, local LLM, Ollama, Stable Diffusion, ComfyUI, CUDA, Discord bot, AI, GPU"
+---
+
 # RTX 4070 - GPU Projects
 
 ## Hardware

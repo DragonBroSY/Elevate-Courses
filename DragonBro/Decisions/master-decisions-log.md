@@ -1,3 +1,10 @@
+---
+publish: false
+title: "Master Decisions Log"
+date: 2026-02-21
+topics: "decisions, infrastructure, AWS, Lightsail, branding, git, GitHub, drabro.org"
+---
+
 # Master Decisions Log
 
 Chronological record of major cross-project decisions.

@@ -1,6 +1,9 @@
 ---
 layout: note
+publish: true
 title: "Syntax Reference"
+date: 2026-03-13
+topics: "markdown, obsidian, LaTeX, syntax, reference"
 ---
 
 Quick reference for Markdown, Obsidian, and LaTeX math syntax.

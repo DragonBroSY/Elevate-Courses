@@ -1,6 +1,9 @@
 ---
 layout: note
+publish: true
 title: "Course Notes"
+date: 2026-03-13
+topics: "index, course overview, flight training"
 ---
 
 | Note | Topics |

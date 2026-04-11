@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 3 — Airspace"
+date: 2026-03-31
+topics: "airspace, Class A B C D E G, TRSA, TFR, SFRA, sectional charts, TAC, VFR, SVFR"
+---
+
 ### Airspace
 - ![[Pasted image 20260330213721.png]]
 - ![[Pasted image 20260330214804.png]]
