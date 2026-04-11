@@ -133,3 +133,5 @@ App checklist:
 - a/s, alt, xtk(on g430 nav page) scan
 - during float, wait for sink to occur then flare, hold unitl sink happens, otherwise too much energy exist during flare will cause plane to take back off from the ground
 - taxi speed <=15GS
+
+# 04/01
