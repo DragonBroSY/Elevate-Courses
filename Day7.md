@@ -1,3 +1,10 @@
+---
+publish: true
+title: "Day 7 — Approach & Landing"
+date: 2026-03-27
+topics: "Va, maneuvering speed, VASI, PAPI, approach, landing, go-around, traffic pattern"
+---
+
 - Va=airplane will stall safely before structural damage, protection for one axis at a time only
 - ![[Pasted image 20260327231754.png]]
 - ![[Pasted image 20260327231805.png]]

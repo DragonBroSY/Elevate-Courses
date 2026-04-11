@@ -152,4 +152,31 @@ App checklist:
 - downwind only lose 200', if not 45deg, hold 1800' until so
 - fuel pump on before switching tanks
 - chairfly with traffic in pattern
+# 04/07
+- wheels down, maintain center, fall
+# 04/09
+- Memorize emer xlist:
+	- eng fire
+	- low oil
+	- eng out
+	- pwr off 180
+- Goldies pvt oral study
+- steep turn: make sure to hit 45deg
+- slow flight: 
+	- enter @ desire alt, so not already loosing alt
+	- reverse cmd: pwr-alt, pitch-a/s
+	- recovery: slow pitch nose, take out flaps in one slow motion by holding the flap button
+- pwr-off stall recovery: positive rate, before take out last notch of flaps
+- pwr-on stall recovery: don't pitch too much into the brown
+- turn around point: clean config, 90kts, enter tailwind, wait 3 sec before steepen bank so won't turned too much in
+- check freq before landing so can swap to tower right away after landing xlist
+- calls: important info first, traffic info, callsign last
+# 04/10
+- 1st balloon: release some pressure, if no sinking, then pitch down a little
+- ext downwind: lose 200' as desired off of abeam point, pull power to 2000rpm to maintain 1800', 80kts, 10deg flaps until clear to turn base
+- final: correct w/o pwr first, then use power as required
+- downwind: trimmed out, flaps should should help to get 80kts, 70kts w/o adj trim if pwr is set @1500rpm
+- fight for centerline before in-ground effect, so less work in ground due to more control travels arerequried at slow a/s
+- downwind xtk displine
+- stall horn every landing flare
 - 
