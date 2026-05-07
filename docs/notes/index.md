@@ -11,6 +11,7 @@ title: "Course Notes"
 | [Day 4 — Aerodynamics & Weight & Balance](day4) | Lift, drag, stability, spins, weight & balance |
 | [Day 5 — Weather](day5) | Stability, clouds, icing, METARs, TAFs, AIRMETs |
 | [Day 6 — FARs, Airworthiness & Ground Reference](day6) | Parts 61/91, medical, equipment, ground maneuvers |
+| [Day 7 — Approach & Landing](day7) | Va, maneuvering speed, VASI, PAPI, approach, landing, go-around, traffic pattern |
 | [Day 8 — VFR Flight Planning](day8) | VOR, GPS, RAIM, VFR planning |
 | [Day 9 — ADM](day9) | Aeromed, ADM |
 | [Elevate — Course Index](elevate) | index, course overview, flight training |
