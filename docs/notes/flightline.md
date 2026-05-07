@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: ad74747b3a26
+source_hash: 1163926fa4d5
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -195,4 +195,16 @@ App checklist:
 - stay at least 20nm away
 - pirep modifiers: "ua"-routine pi, "/ov AHN270025"-over Athens 270deg 25NM, "/TM"-time in zulu, "/TP"-type a/c, "DURGC/D"-during climb/descend
 - type of fog-"raiseup": 
-	- radiation fog: 
+	- radiation fog: cool ground
+	- advection:
+	- ice fog: frozen by supercooled
+	- steam: hot steam
+	- upslope: moist air updraft terrain
+	- precipatation: rain through cold and dry air, temp/dew point spread
+- icing:
+	- structural: clear, rime (mily due to air pockets), mixed
+	- induction: carb (20-70 w/ visible moisture), pitot
+
+# 04/20
+- airspace
+	- A: 18k-60k, IFR, xpdr, 2way radio, adsb
