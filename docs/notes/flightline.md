@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 1b49556038c5
+source_hash: ad74747b3a26
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -180,4 +180,19 @@ App checklist:
 - fight for centerline before in-ground effect, so less work in ground due to more control travels arerequried at slow a/s
 - downwind xtk displine
 - stall horn every landing flare
-- 
+
+# 04/11
+- Slow flight: pwr 1500, 25deg, 2000rpm right away to prevent alt loss
+# Ground Lesson
+- isobars: equal pressure, closer lines->turbulent air
+- low pressure-"ICU", inward, counterclock, upward
+- high pressure-"OCD", outward, clockwise, downward
+- ingridients of thunderstorm: unstable air, uplifting, moisture
+- thunderstorm stages: 
+	- cumulus: rain cloud, 10-min, little rain
+	- mature: winds, lightnign, heavy rain, 10-20 min
+	- dissipating
+- stay at least 20nm away
+- pirep modifiers: "ua"-routine pi, "/ov AHN270025"-over Athens 270deg 25NM, "/TM"-time in zulu, "/TP"-type a/c, "DURGC/D"-during climb/descend
+- type of fog-"raiseup": 
+	- radiation fog: 
