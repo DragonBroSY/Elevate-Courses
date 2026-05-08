@@ -206,4 +206,25 @@ App checklist:
 
 # 04/20
 - airspace
-	- A: 18k-60k, IFR, xpdr, 2way radio, adsb
+	- A: 18k-60k, IFR, xpdr, 2way radio, adsb, speed over land< mach1
+	- B: 3-cofc; not touching the cloud, speed limit(91.117)-250kts<10k, under shelf-200kts
+	- C: solid magenta, 10nm from center, up to 4K, 1200-4K
+	- D: blue dash, 2500', 4NM, 2way, bcc, 200kts
+	- E: vignette/dash magenta, everywhere else, >10k: all3, F111, mach1, below 10k-bcc
+	- G: ground to 700agl, gnd to 1200agl, day-cc 250kts, night-bcc kts
+- Regs: 14CFR-aviation
+	- part43: MX, appxA-C is preventive mx
+	- part61: how to get certs
+	- part91: how to lose certs
+- part61:
+- if "x" =0-pvt, =2-commercial, =5-ATP, =8-CFI
+
+| 61.103 | enligibilty        |
+| ------ | ------------------ |
+| 61.105 | aero knowldge      |
+| 61.107 | flight proficiency |
+| 61.109 | aero expereince    |
+| 61.1x3 |                    |
+| 61.1x5 |                    |
+| 61.1x7 |                    |
+| 61.1x9 |                    |
