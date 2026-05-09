@@ -228,3 +228,16 @@ App checklist:
 | 61.1x5 |                    |
 | 61.1x7 |                    |
 | 61.1x9 |                    |
+- 61.23: medical, <40yrs old, >40yrs old, valid 60 calendar months
+	- privileges: 
+		- <40, 1st ATP-12 mo, 2nd Comm-12 mo, 3rd Pvt-60 mo
+		- >40, 1st-6 mo, 2nd-12 mo, 3rd-24 mo
+- 61.113: PVT privileges: P-SCRIPT
+	- pro rata share
+	- search and location ops
+	- charity
+	- rescue medical transport
+	- incidental to bussiness
+	- production flight test
+	- towing
+- 
