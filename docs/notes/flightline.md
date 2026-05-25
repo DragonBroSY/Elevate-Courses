@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 55e38b707e4c
+source_hash: 715589eed84d
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -250,4 +250,18 @@ App checklist:
 	- Trough: elongated area of low pressure
 	- Windshear: change in wind direction and speed
 	- Mountain wave: identified by steady lenticular cloud hovering over mountains. Z-icing, S-mountain obscuration, T-turbulence![Pasted image 20260524230611.png](../assets/Pasted%20image%2020260524230611.png)
-	- 
+	- Metar: A02-precip discriminator
+	- Airmet: 6hours, STZ
+	- Convective Sigmet: 2 hours
+	- More aft cg->less stable, higher cruise speed, lower stall speed (more range of angle with aft cg)
+	- ![Pasted image 20260524234225.png](../assets/Pasted%20image%2020260524234225.png)![Pasted image 20260524234351.png](../assets/Pasted%20image%2020260524234351.png)
+	- 2550lbs-max T/O, 2558lbs-max taxi
+	- PA28-181 has a stabilator, anti-servo(opposite)->moves in the same direction, L/R mags, one is engine driven, one is electrically driven, impulse coupler
+	- shimmy dampener-nose steering disconnects while in flight for xwind landings. 
+	- 76" prop length, POH says 76" is min prop length
+	- complex: 1. retractable landing gear 2. const speed prop 3. retractable flaps
+	- hydraulic fluid: pink, brake fluid: red, oil: 5W50
+	- electrical: 28V sys-DC electric, 24V Lead Acid Battery, 70AMP alternator
+	- Avionics: 4TAMPA-dual 430s, temp probe, AHRS (ATT, ASI, Turn Coord), Magnetometer, PFD/MFD, ADC (pitot static and temp probe)
+	- Oxygen 91.211: 
+		- 
