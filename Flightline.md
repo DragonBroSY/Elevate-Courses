@@ -263,4 +263,24 @@ App checklist:
 	- electrical: 28V sys-DC electric, 24V Lead Acid Battery, 70AMP alternator
 	- Avionics: 4TAMPA-dual 430s, temp probe, AHRS (ATT, ASI, Turn Coord), Magnetometer, PFD/MFD, ADC (pitot static and temp probe)
 	- Oxygen 91.211: 
-		- 
+		- 12501-14000: 30min, crew use oxygen
+		- 14001-15000: crew must use oxygen
+		- 15001+: crew use oxygen, pax provided
+	- 
+
+| Storage     | Delivery         | Masks      |
+| ----------- | ---------------- | ---------- |
+| Gas         | Continuouis Flow | Cannulus   |
+| Liquid      | Dilutor Demand   | Rebreather |
+| Solid State | Pressure Demand  | Quick Don  |
+|             |                  |            |
+![[Pasted image 20260525003536.png]]
+![[Pasted image 20260525003554.png]]
+
+|                   | ASI                    | ALT         | VSI                            |
+| ----------------- | ---------------------- | ----------- | ------------------------------ |
+| Blocked Ram       | 0                      | good        | good                           |
+| Blocked Ram+Drain | incr->climb decr->desc | good        | good                           |
+| Blocked Static    | decr->climb incr->desc | freezed     | slowly drop to 0               |
+| Alt Static Source | Read higher            | Read Higher | Momentary climb then equal out |
+- 
