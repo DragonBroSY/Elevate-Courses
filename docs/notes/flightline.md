@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: e7367a59e5a2
+source_hash: 55e38b707e4c
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -241,4 +241,13 @@ App checklist:
 	- incidental to bussiness
 	- production flight test
 	- towing
-- 
+- Cold front: cold air taking over warm air mass, pushes warm air mass up->thunderstorm, rain, towering cumulonimbus
+- ![Pasted image 20260524225435.png](../assets/Pasted%20image%2020260524225435.png)
+- ![Pasted image 20260524225447.png](../assets/Pasted%20image%2020260524225447.png)
+- Scattered front: mix of both types
+- Occluded front: cold overtaking warm:
+	- ![Pasted image 20260524225847.png](../assets/Pasted%20image%2020260524225847.png)
+	- Trough: elongated area of low pressure
+	- Windshear: change in wind direction and speed
+	- Mountain wave: identified by steady lenticular cloud hovering over mountains. Z-icing, S-mountain obscuration, T-turbulence![Pasted image 20260524230611.png](../assets/Pasted%20image%2020260524230611.png)
+	- 
