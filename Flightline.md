@@ -240,4 +240,13 @@ App checklist:
 	- incidental to bussiness
 	- production flight test
 	- towing
-- 
+- Cold front: cold air taking over warm air mass, pushes warm air mass up->thunderstorm, rain, towering cumulonimbus
+- ![[Pasted image 20260524225435.png]]
+- ![[Pasted image 20260524225447.png]]
+- Scattered front: mix of both types
+- Occluded front: cold overtaking warm:
+	- ![[Pasted image 20260524225847.png]]
+	- Trough: elongated area of low pressure
+	- Windshear: change in wind direction and speed
+	- Mountain wave: identified by steady lenticular cloud hovering over mountains. Z-icing, S-mountain obscuration, T-turbulence![[Pasted image 20260524230611.png]]
+	- 
