@@ -283,4 +283,15 @@ App checklist:
 | Blocked Ram+Drain | incr->climb decr->desc | good        | good                           |
 | Blocked Static    | decr->climb incr->desc | freezed     | slowly drop to 0               |
 | Alt Static Source | Read higher            | Read Higher | Momentary climb then equal out |
+- Regs:
+	- 61-how to become pilots
+	- 91-rules, how to lose license
+		- 91.3: pic-final authority, deviation due to emergency, wrtitten report upon request
+		- 91.7: airworthiness
+		- 91.17: alcohol or drugs, 8 hour bottle to throttle (.04%)
+		- 91.103: preflight actions NWKRAFT
+		- 91.119: 1000 above, 2000 laterally
+		- 91.121: altimeter setting. greater than 18000 msl->29.92
+		- 91.125: light gun signals
+- ![[Pasted image 20260525234502.png]]
 - 
