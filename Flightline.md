@@ -305,8 +305,29 @@ App checklist:
 	- symatogravic: fighter jet on carrier
 - RWY illusions: GARRF
 	- GND lights: marta train lights, buford hwy lights
-	- atomesphere: haze, fog
+	- atmosphere: haze, fog
 	- rwy width: wider->closer
 	- rwy slopes: upslope->farther, downslope->closer
 	- featureless terrain: fly over water, black hole
 - Hypoxia: 
+	- hypoxic: high alt
+	- hypemic: lack of o2 in blood
+	- histotoxic: alcohol and drugs
+	- stagnant: pulling Gs
+- Hyperventilation: breathing too fast, body not producing enough CO.
+- Decompression sickness: 24 hours if >8000', if pax sick, land airport with decompression chamber. 
+- Aerodynamics:
+	- drags: 
+		- parasite: skin (rivets, paint)
+		- induced: byproduct of lift, decrease with airspeed
+	- chordline: leading edge to trailing edge
+	- lift: newton's third law, Bernoulli
+	- stalls: coanda effect (flow no longer laminar)
+	- static stability:
+		- control input: plane respd. pos, neutral, negative
+		- dynamic stability: return to pos stability
+	- load factor: centrifugal force
+	- adverse yaw: nose yaw right. 
+	- pfactor: adv blade->bigger chunk of air
+	- gyro procession: climbing, force applied to the bottom blade
+	- 
