@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 96f3f8d70886
+source_hash: e2f9b1fa6c2c
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -310,4 +310,4 @@ App checklist:
 	- rwy width: wider->closer
 	- rwy slopes: upslope->farther, downslope->closer
 	- featureless terrain: fly over water, black hole
-- 
+- Hypoxia: 
