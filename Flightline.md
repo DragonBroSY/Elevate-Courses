@@ -309,4 +309,4 @@ App checklist:
 	- rwy width: wider->closer
 	- rwy slopes: upslope->farther, downslope->closer
 	- featureless terrain: fly over water, black hole
-- 
+- Hypoxia: 
