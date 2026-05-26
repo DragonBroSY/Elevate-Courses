@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 67763cf7e311
+source_hash: 96f3f8d70886
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -295,4 +295,19 @@ App checklist:
 		- 91.121: altimeter setting. greater than 18000 msl->29.92
 		- 91.125: light gun signals
 - ![Pasted image 20260525234502.png](../assets/Pasted%20image%2020260525234502.png)
+- Human factors: ICEFLAGS
+	- Inversion-climbing for prolonged time
+	- Coriolis: sudden head movement
+	- Elevator illusion: updraft, thought was climbing
+	- False horizon: string of lights in distance, falsely lined up
+	- Leans: prolonged turn, sudden stop, thought was moving in opposite direcrion of turn
+	- autokinesis
+	- graveyard spiral: leans, stop turn
+	- symatogravic: fighter jet on carrier
+- RWY illusions: GARRF
+	- GND lights: marta train lights, buford hwy lights
+	- atomesphere: haze, fog
+	- rwy width: wider->closer
+	- rwy slopes: upslope->farther, downslope->closer
+	- featureless terrain: fly over water, black hole
 - 
