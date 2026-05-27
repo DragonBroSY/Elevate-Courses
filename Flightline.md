@@ -332,5 +332,44 @@ App checklist:
 	- gyro procession: climbing, force applied to the bottom blade
 	- 91.205B: ATOMATOFLAMES (altimeter, tach, oil press, manifold press, aispeed, temp, oil temp, fuel qty, landing gear, anticollidon, mag compass, elt, safty belts)
 	- 91.205C: FLAPS (fuses, landing light, anticollision, )
-	- 91.205B: KOEL, MEL, ADS, REGS, TCDS
 	- PAVE xlist: pilot (IMSAFE), aircraft (AV1ATE), enViroment, External
+	- VOR checks: BADVAG-bench (+-4deg), airway (+-6), dual (4 each), vot (180TO, 360FM), airborn, gnd
+	- VSpeeds:
+		- Vso: 45
+		- Vs: 50
+		- Vr: 60
+		- Vx, Vy: 64, 76
+		- Vg: 76
+		- Vfe: 102
+		- Va: 113@2550, 89@1630
+		- Vno max cruise: 125
+		- Vne: 154
+	- 61.113 PVT Limits: PSCRIPT
+		- pro rata share
+		- salesperson 200TT
+		- charitable
+		- rescue
+		- incidental
+		- production flights
+		- towing
+	- Winds aloft forecast: [AWC Wind/temp: mia](https://aviationweather.gov/data/windtemp/?region=mia&fcst=6&level=low)
+		- 'temps neg abv 24000'->517333 decoded as: (51-50=010 deg), 50 means adding 100 to wind speed->100+73=173kts, -33 deg
+	- stationary fronts: high press, low press, use screwdriver analogy, high->clokwise, downward, outwards
+	- turbulence types: light, mod, severe, extreme
+	- types of cloud coverage: 
+		- skc-0/8 coverage
+		- few-1/8-2/8
+		- sct-3/8-4/8
+		- bkn-5/8-7/8
+		- ovc-8/8
+		- bkn or ovc is ceiling
+	- cg-fwd: MILF-more stable (more leverage, 2/3 primary control surfaces are in the tail), increased stall speed, lower cruise a/s (more drag on stabilator), favorable stall recovery. cg-aft is opposite
+- ASI (diaphragm), alt (aneroid wafer), vsi (diaphragm with calibrated leak)
+- 
+
+|                                            | alt     | vsi                  | a/s                      |
+| ------------------------------------------ | ------- | -------------------- | ------------------------ |
+| blocked ram                                | good    | good                 | 0                        |
+| blocked ram+drain                          | good    | good                 | altimeter, aneroid wafer |
+| blocked static                             | freezed | drop to zero         | good, slightly off       |
+| alt static source (->cabin press is lower) | higher  | higher but equalizes | higher                   |
