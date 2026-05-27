@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 59d985637512
+source_hash: 8595bf36d1ee
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -331,4 +331,7 @@ App checklist:
 	- adverse yaw: nose yaw right. 
 	- pfactor: adv blade->bigger chunk of air
 	- gyro procession: climbing, force applied to the bottom blade
-	- 
+	- 91.205B: ATOMATOFLAMES (altimeter, tach, oil press, manifold press, aispeed, temp, oil temp, fuel qty, landing gear, anticollidon, mag compass, elt, safty belts)
+	- 91.205C: FLAPS (fuses, landing light, anticollision, )
+	- 91.205B: KOEL, MEL, ADS, REGS, TCDS
+	- PAVE xlist: pilot (IMSAFE), aircraft (AV1ATE), enViroment, External
