@@ -373,3 +373,17 @@ App checklist:
 | blocked ram+drain                          | good    | good                 | altimeter, aneroid wafer |
 | blocked static                             | freezed | drop to zero         | good, slightly off       |
 | alt static source (->cabin press is lower) | higher  | higher but equalizes | higher                   |
+# PVT Checkride Prep
+- ![[Pasted image 20260602125541.png]]
+- ![[Pasted image 20260602125612.png]]
+- ![[Pasted image 20260602125657.png]]
+- ![[Pasted image 20260602125717.png]]
+ ![[Pasted image 20260602125741.png|264]]
+- ![[Pasted image 20260602125804.png]]
+- ![[Pasted image 20260602125836.png]]
+- ![[Pasted image 20260602125852.png]]
+- ![[Pasted image 20260602125907.png]]
+- ![[Pasted image 20260602125925.png]]
+- ![[Pasted image 20260602125958.png]]
+- ![[Pasted image 20260602130012.png]]
+- 
