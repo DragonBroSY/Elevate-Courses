@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: b9b298b9277d
+source_hash: 23ee1d75aef9
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -374,3 +374,17 @@ App checklist:
 | blocked ram+drain                          | good    | good                 | altimeter, aneroid wafer |
 | blocked static                             | freezed | drop to zero         | good, slightly off       |
 | alt static source (->cabin press is lower) | higher  | higher but equalizes | higher                   |
+# PVT Checkride Prep
+- ![Pasted image 20260602125541.png](../assets/Pasted%20image%2020260602125541.png)
+- ![Pasted image 20260602125612.png](../assets/Pasted%20image%2020260602125612.png)
+- ![Pasted image 20260602125657.png](../assets/Pasted%20image%2020260602125657.png)
+- ![Pasted image 20260602125717.png](../assets/Pasted%20image%2020260602125717.png)
+ ![Pasted image 20260602125741.png](../assets/Pasted%20image%2020260602125741.png)
+- ![Pasted image 20260602125804.png](../assets/Pasted%20image%2020260602125804.png)
+- ![Pasted image 20260602125836.png](../assets/Pasted%20image%2020260602125836.png)
+- ![Pasted image 20260602125852.png](../assets/Pasted%20image%2020260602125852.png)
+- ![Pasted image 20260602125907.png](../assets/Pasted%20image%2020260602125907.png)
+- ![Pasted image 20260602125925.png](../assets/Pasted%20image%2020260602125925.png)
+- ![Pasted image 20260602125958.png](../assets/Pasted%20image%2020260602125958.png)
+- ![Pasted image 20260602130012.png](../assets/Pasted%20image%2020260602130012.png)
+- 
