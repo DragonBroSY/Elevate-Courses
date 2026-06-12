@@ -3,4 +3,6 @@
 ![[Pasted image 20260611215721.png]]
 - 3 things req'd to land: stabilized appch, visibility (RVR)-horizontal dist seen down rwy
 - ![[Pasted image 20260611220317.png]]
+- ![[Pasted image 20260611223018.png]]
+- ![[Pasted image 20260611223738.png]]
 - 
