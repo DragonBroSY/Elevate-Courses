@@ -5,4 +5,6 @@
 - ![[Pasted image 20260611220317.png]]
 - ![[Pasted image 20260611223018.png]]
 - ![[Pasted image 20260611223738.png]]
+- ![[Pasted image 20260611233400.png]]
+- Bearing method is also approved by AIM-auto wind correction
 - 
