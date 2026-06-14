@@ -83,4 +83,27 @@
 - ![[Pasted image 20260614120257.png]]
 - part95 IFR Alt![[Pasted image 20260614120514.png]]
 - part97 Std Inst Procedures
+- ![[Pasted image 20260614122725.png]]
+- ![[Pasted image 20260614123647.png]]
+- ![[Pasted image 20260614124317.png]]
+- ![[Pasted image 20260614124823.png]]
+- ![[Pasted image 20260614124901.png]]
+- Icing expected when visible moisture (precip or clouds) btw +2 and -10 degree C. 
+- ![[Pasted image 20260614125558.png]]
+- ![[Pasted image 20260614130135.png]]
+- +GRABCARDD
+- ![[Pasted image 20260614130236.png]]
+- ![[Pasted image 20260614130942.png]]
+- ![[Pasted image 20260614131140.png]]
+- ![[Pasted image 20260614131209.png]]
+- ![[Pasted image 20260614131608.png]]
+- ![[Pasted image 20260614131719.png]]
+- at least 4 sats for 3D GPS solution
+- ![[Pasted image 20260614132422.png]]
+- ![[Pasted image 20260614132611.png]]
+- ![[Pasted image 20260614132651.png]]
+- OM-FAF, MM-DA, IM-DA for CATII![[Pasted image 20260614133046.png]]
+- AIM Ch2 Sec1-Airport lighting sys
+- ![[Pasted image 20260614133356.png]]
+- ![[Pasted image 20260614133700.png]]
 - 
