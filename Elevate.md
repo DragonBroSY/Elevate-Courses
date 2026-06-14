@@ -20,7 +20,7 @@ Make a note of something, [[create a link]], or try [the Importer](https://help.
 [[Day9]]
 
 # IFR
-[[IFR-Day1]]
+[[IFR-Elevates]]
 
 
  

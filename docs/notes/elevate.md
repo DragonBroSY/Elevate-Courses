@@ -21,7 +21,7 @@ Make a note of something, [create a link](create-a-link), or try [the Importer](
 [Day9](day9)
 
 # IFR
-[IFR-Day1](ifr-day1)
+[IFR-Day1](IFR-Elevates.md)
 
 
  
