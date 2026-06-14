@@ -3,7 +3,7 @@ layout: note
 title: "Elevate — Course Index"
 date: 2026-03-13
 topics: "index, course overview, flight training"
-source_hash: 141c332100fa
+source_hash: 36b3bbc74442
 ---
 
 [Flightline](flightline)
@@ -21,7 +21,7 @@ Make a note of something, [create a link](create-a-link), or try [the Importer](
 [Day9](day9)
 
 # IFR
-[IFR-Day1](IFR-Elevates.md)
+[IFR-Elevates](ifr-elevates)
 
 
  
