@@ -129,4 +129,8 @@ $$
 	- Gnd: 
 	-  Dual is 4deg, so is bench, ![[Pasted image 20260615215357.png]]
  - ILS system: GLAM
- - 
+ - RNAV is GPS
+ - Multi GNSS Space Service Vol: 
+ - ![[Pasted image 20260615223915.png]]
+ - ![[Pasted image 20260615224011.png]]
+- 
