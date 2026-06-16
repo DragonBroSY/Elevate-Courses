@@ -109,4 +109,24 @@
 - ![[Pasted image 20260614135742.png]]
 - ![[Pasted image 20260614140213.png]]
 - ![[Pasted image 20260614142514.png]]
-- 
+## Day3
+![[Pasted image 20260615213635.png]]
+- Full scale deflection is 10deg
+- Bearing is TO, Radial is FROM
+- ![[Pasted image 20260615214003.png]]
+- Compulsory is part of MARVOOUSVFRC500
+- ![[Pasted image 20260615214422.png]]
+- ![[Pasted image 20260615214537.png]]
+- ![[Pasted image 20260615214555.png]]
+$$
+- (Jepp Chart /uparrow)
+$$
+- Reverse sensing is corrected by G1000
+- ![[Pasted image 20260615215028.png]]
+- ![[Pasted image 20260615215216.png]]
+- 91.171: 
+	- Air: air
+	- Gnd: 
+	-  Dual is 4deg, so is bench, ![[Pasted image 20260615215357.png]]
+ - ILS system: GLAM
+ - 
