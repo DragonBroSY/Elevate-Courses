@@ -149,4 +149,10 @@ $$
 - ![[Pasted image 20260615232057.png]]
 - ![[Pasted image 20260615234124.png]]
 - ![[Pasted image 20260615234333.png]]
+- 91.183, 91.187, AIM 5-3-3: MARVOLSVFRC500
+- ![[Pasted image 20260615235838.png]]
+- ![[Pasted image 20260616000148.png]]
+- ![[Pasted image 20260616000255.png]]
+- ![[Pasted image 20260616000405.png]]
+- ![[Pasted image 20260616000519.png]]
 - 
