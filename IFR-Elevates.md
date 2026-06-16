@@ -135,4 +135,11 @@ $$
  - ![[Pasted image 20260615224011.png]]
 - ![[Pasted image 20260615224511.png]]
 - Wide Area Ref Stations are those little black towers
+- WASS repalce RAIM, if got WASS, no need to check RAIM
+![[Pasted image 20260615225328.png]]
+- ![[Pasted image 20260615225425.png]]
+- ![[Pasted image 20260615225736.png]]
+- LPV=LP + Vertical Guidance
+- ![[Pasted image 20260615230112.png]]
+- LNAV+V, LP+V![[Pasted image 20260615230220.png]]
 - 
