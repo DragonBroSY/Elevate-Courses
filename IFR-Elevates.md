@@ -142,4 +142,6 @@ $$
 - LPV=LP + Vertical Guidance
 - ![[Pasted image 20260615230112.png]]
 - LNAV+V, LP+V![[Pasted image 20260615230220.png]]
+- ![[Pasted image 20260615230802.png]]
+- 90-108 AC RNAV substitute
 - 
