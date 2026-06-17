@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: b86c63d0a5ba
+source_hash: 7838a1bbbaf0
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -191,4 +191,5 @@ $$
 - 5T'S
 - ![Pasted image 20260616235212.png](../assets/Pasted%20image%2020260616235212.png)
 - ![Pasted image 20260616235347.png](../assets/Pasted%20image%2020260616235347.png)
+- ![Pasted image 20260616235843.png](../assets/Pasted%20image%2020260616235843.png)
 - 
