@@ -175,4 +175,5 @@ $$
 	- S-A/C ID
 - FSS: Flight Service Stations ![[Pasted image 20260616215651.png]]
 - Clearance Delivery: use shorthand ![[Pasted image 20260616220041.png]]
+- ![[Pasted image 20260616223453.png]]
 - 
