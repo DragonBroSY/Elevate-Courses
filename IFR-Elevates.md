@@ -186,4 +186,7 @@ $$
 - ![[Pasted image 20260616225926.png]]
 - ![[Pasted image 20260616232447.png]]
 - ![[Pasted image 20260616233344.png]]
+- 5T'S
+- ![[Pasted image 20260616235212.png]]
+- ![[Pasted image 20260616235347.png]]
 - 
