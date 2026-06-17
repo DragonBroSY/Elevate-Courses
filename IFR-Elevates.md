@@ -176,4 +176,6 @@ $$
 - FSS: Flight Service Stations ![[Pasted image 20260616215651.png]]
 - Clearance Delivery: use shorthand ![[Pasted image 20260616220041.png]]
 - ![[Pasted image 20260616223453.png]]
+- HAC call: HDG, Maint Alt until established/fix, cleared 21R:  ![[Pasted image 20260616224944.png]]
+- Twr Enroute Control Clearance 'tec route': 
 - 
