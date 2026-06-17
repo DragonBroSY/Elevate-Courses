@@ -178,4 +178,10 @@ $$
 - ![[Pasted image 20260616223453.png]]
 - HAC call: HDG, Maint Alt until established/fix, cleared 21R:  ![[Pasted image 20260616224944.png]]
 - Twr Enroute Control Clearance 'tec route': 
+- Departure restrictions: 
+	- clearance void time
+	- hold for release (ops issue)
+	- release time (traffic sep)
+	- expected dep clearance time (EDCT)
+- ![[Pasted image 20260616225926.png]]
 - 
