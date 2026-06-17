@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 16c3b3a1e977
+source_hash: a21ba88c5ebe
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -177,4 +177,5 @@ $$
 	- S-A/C ID
 - FSS: Flight Service Stations ![Pasted image 20260616215651.png](../assets/Pasted%20image%2020260616215651.png)
 - Clearance Delivery: use shorthand ![Pasted image 20260616220041.png](../assets/Pasted%20image%2020260616220041.png)
+- ![Pasted image 20260616223453.png](../assets/Pasted%20image%2020260616223453.png)
 - 
