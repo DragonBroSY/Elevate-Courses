@@ -1,3 +1,8 @@
+---
+publish: true
+title: "IFR Elevates"
+date: 2026-06-16
+---
 - ILS-GLAN: guidance: GS, Localizer
 - 91.175C: 12 diff visual refs descend below DA/DH or MDA?
 ![[Pasted image 20260611215721.png]]
@@ -159,4 +164,8 @@ $$
 - ![[Pasted image 20260616000800.png]]
 - ![[Pasted image 20260616000853.png]]
 - ![[Pasted image 20260616000940.png]]
-- 
+## Day 4
+- ARTCC: 22 high and low sections
+- TRACON: Ter Radar App Control ![[Pasted image 20260616213513.png]]
+- TRSA: Term Radar Service Areas, 31 in the U.S. "delta wants to be a charlie" ![[Pasted image 20260616213944.png]]
+- ATCT: Air Traffic Control Twr
