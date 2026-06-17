@@ -169,3 +169,10 @@ $$
 - TRACON: Ter Radar App Control ![[Pasted image 20260616213513.png]]
 - TRSA: Term Radar Service Areas, 31 in the U.S. "delta wants to be a charlie" ![[Pasted image 20260616213944.png]]
 - ATCT: Air Traffic Control Twr
+- ATCRBS: ATC Radar Beacon Sys-4096 diff codes, Mode:
+	- A-code only
+	- C-Press Alt
+	- S-A/C ID
+- FSS: Flight Service Stations ![[Pasted image 20260616215651.png]]
+- Clearance Delivery: use shorthand ![[Pasted image 20260616220041.png]]
+- 
