@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: a21ba88c5ebe
+source_hash: fd3da9dcf1d8
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -178,4 +178,6 @@ $$
 - FSS: Flight Service Stations ![Pasted image 20260616215651.png](../assets/Pasted%20image%2020260616215651.png)
 - Clearance Delivery: use shorthand ![Pasted image 20260616220041.png](../assets/Pasted%20image%2020260616220041.png)
 - ![Pasted image 20260616223453.png](../assets/Pasted%20image%2020260616223453.png)
+- HAC call: HDG, Maint Alt until established/fix, cleared 21R:  ![Pasted image 20260616224944.png](../assets/Pasted%20image%2020260616224944.png)
+- Twr Enroute Control Clearance 'tec route': 
 - 
