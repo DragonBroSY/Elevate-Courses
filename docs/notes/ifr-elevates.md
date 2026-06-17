@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 65cec8d17397
+source_hash: c0846b825e48
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -186,4 +186,6 @@ $$
 	- release time (traffic sep)
 	- expected dep clearance time (EDCT)
 - ![Pasted image 20260616225926.png](../assets/Pasted%20image%2020260616225926.png)
+- ![Pasted image 20260616232447.png](../assets/Pasted%20image%2020260616232447.png)
+- ![Pasted image 20260616233344.png](../assets/Pasted%20image%2020260616233344.png)
 - 
