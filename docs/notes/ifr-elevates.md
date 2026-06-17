@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: fd3da9dcf1d8
+source_hash: 65cec8d17397
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -180,4 +180,10 @@ $$
 - ![Pasted image 20260616223453.png](../assets/Pasted%20image%2020260616223453.png)
 - HAC call: HDG, Maint Alt until established/fix, cleared 21R:  ![Pasted image 20260616224944.png](../assets/Pasted%20image%2020260616224944.png)
 - Twr Enroute Control Clearance 'tec route': 
+- Departure restrictions: 
+	- clearance void time
+	- hold for release (ops issue)
+	- release time (traffic sep)
+	- expected dep clearance time (EDCT)
+- ![Pasted image 20260616225926.png](../assets/Pasted%20image%2020260616225926.png)
 - 
