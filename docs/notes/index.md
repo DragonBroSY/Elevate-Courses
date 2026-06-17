@@ -16,6 +16,7 @@ title: "Course Notes"
 | [Day 9 — ADM](day9) | Aeromed, ADM |
 | [Elevate — Course Index](elevate) | index, course overview, flight training |
 | [Flightline Reference](flightline) | Checklists, maneuvers, session debrief notes |
+| [IFR Elevates](ifr-elevates) |  |
 
 ---
 
