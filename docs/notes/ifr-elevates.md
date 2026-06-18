@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 84929ffff3ad
+source_hash: 6b505568cdd7
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -222,4 +222,9 @@ $$
 - GS/2+zero=fpm descend rate
 - ![Pasted image 20260617230548.png](../assets/Pasted%20image%2020260617230548.png)
 - ![Pasted image 20260617230815.png](../assets/Pasted%20image%2020260617230815.png)
+- ![Pasted image 20260617231037.png](../assets/Pasted%20image%2020260617231037.png)
+- ![Pasted image 20260617231131.png](../assets/Pasted%20image%2020260617231131.png)
+- ![Pasted image 20260617231440.png](../assets/Pasted%20image%2020260617231440.png)
+- This is circling apch-A, B, C if XYZ, this is just anther variation 
+- 
 - 
