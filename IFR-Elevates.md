@@ -203,7 +203,7 @@ $$
 - App Speed=1.3*vSO
 - ![[Pasted image 20260617221007.png]]
 - & until established
-- When to not fly the course reversal-SHARPTT: ![[Pasted image 20260617221316.png]]
+- When to not fly the course reversal-SHARPTT 91.175: ![[Pasted image 20260617221316.png]]
 	- stright in
 	- hold in lieu of PT
 	- arc
@@ -211,4 +211,7 @@ $$
 	- no PT
 	- timed apch
 	- teardrop course reversal
+- ![[Pasted image 20260617221633.png]]
+- ![[Pasted image 20260617222025.png]]
+- No PT id cleared for apch
 - 
