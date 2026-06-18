@@ -217,4 +217,7 @@ $$
 - ![[Pasted image 20260617223806.png]]
 - Non-precision gets you down/visual sooner than precision
 - ![[Pasted image 20260617225251.png]]
+- GS/2+zero=fpm descend rate
+- ![[Pasted image 20260617230548.png]]
+- ![[Pasted image 20260617230815.png]]
 - 
