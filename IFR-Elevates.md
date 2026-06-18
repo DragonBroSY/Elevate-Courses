@@ -220,4 +220,9 @@ $$
 - GS/2+zero=fpm descend rate
 - ![[Pasted image 20260617230548.png]]
 - ![[Pasted image 20260617230815.png]]
+- ![[Pasted image 20260617231037.png]]
+- ![[Pasted image 20260617231131.png]]
+- ![[Pasted image 20260617231440.png]]
+- This is circling apch-A, B, C if XYZ, this is just anther variation 
+- 
 - 
