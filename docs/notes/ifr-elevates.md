@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 0d96c19f73be
+source_hash: 2d04c50e4b23
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -205,7 +205,7 @@ $$
 - App Speed=1.3*vSO
 - ![Pasted image 20260617221007.png](../assets/Pasted%20image%2020260617221007.png)
 - & until established
-- When to not fly the course reversal-SHARPTT: ![Pasted image 20260617221316.png](../assets/Pasted%20image%2020260617221316.png)
+- When to not fly the course reversal-SHARPTT 91.175: ![Pasted image 20260617221316.png](../assets/Pasted%20image%2020260617221316.png)
 	- stright in
 	- hold in lieu of PT
 	- arc
@@ -213,4 +213,8 @@ $$
 	- no PT
 	- timed apch
 	- teardrop course reversal
+- ![Pasted image 20260617221633.png](../assets/Pasted%20image%2020260617221633.png)
+- ![Pasted image 20260617222025.png](../assets/Pasted%20image%2020260617222025.png)
+- No PT id cleared for apch
+- ![Pasted image 20260617223806.png](../assets/Pasted%20image%2020260617223806.png)
 - 
