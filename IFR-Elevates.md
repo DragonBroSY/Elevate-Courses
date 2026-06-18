@@ -215,4 +215,5 @@ $$
 - ![[Pasted image 20260617222025.png]]
 - No PT id cleared for apch
 - ![[Pasted image 20260617223806.png]]
+- Non-precision gets you down/visual sooner than precision
 - 
