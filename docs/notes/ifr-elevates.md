@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 13556ced4b76
+source_hash: 58294ae053e5
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -193,4 +193,10 @@ $$
 - ![Pasted image 20260616235347.png](../assets/Pasted%20image%2020260616235347.png)
 - ![Pasted image 20260616235843.png](../assets/Pasted%20image%2020260616235843.png)
 - ![Pasted image 20260617000610.png](../assets/Pasted%20image%2020260617000610.png)
+## Day 5
+- ![Pasted image 20260617213543.png](../assets/Pasted%20image%2020260617213543.png)
+- ![Pasted image 20260617213623.png](../assets/Pasted%20image%2020260617213623.png)
+- ![Pasted image 20260617213739.png](../assets/Pasted%20image%2020260617213739.png)
+- FAF for non-precision apch-GS intercept
+- ![Pasted image 20260617213951.png](../assets/Pasted%20image%2020260617213951.png)
 - 
