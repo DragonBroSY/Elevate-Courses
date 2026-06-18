@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: f000299afdc0
+source_hash: 36627918e9b0
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -218,4 +218,5 @@ $$
 - No PT id cleared for apch
 - ![Pasted image 20260617223806.png](../assets/Pasted%20image%2020260617223806.png)
 - Non-precision gets you down/visual sooner than precision
+- ![Pasted image 20260617225251.png](../assets/Pasted%20image%2020260617225251.png)
 - 
