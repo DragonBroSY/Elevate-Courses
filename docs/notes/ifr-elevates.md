@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 6b505568cdd7
+source_hash: 13b8ef31ff6b
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -226,5 +226,6 @@ $$
 - ![Pasted image 20260617231131.png](../assets/Pasted%20image%2020260617231131.png)
 - ![Pasted image 20260617231440.png](../assets/Pasted%20image%2020260617231440.png)
 - This is circling apch-A, B, C if XYZ, this is just anther variation 
-- 
+- ![Pasted image 20260617234201.png](../assets/Pasted%20image%2020260617234201.png)
+- LP+V
 - 
