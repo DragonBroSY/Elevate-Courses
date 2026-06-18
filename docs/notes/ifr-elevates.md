@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 0b5e5d1f9ac9
+source_hash: 0d96c19f73be
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -201,4 +201,16 @@ $$
 - ![Pasted image 20260617213951.png](../assets/Pasted%20image%2020260617213951.png)
 - ![Pasted image 20260617215354.png](../assets/Pasted%20image%2020260617215354.png)
 - ![Pasted image 20260617220149.png](../assets/Pasted%20image%2020260617220149.png)
+- ![Pasted image 20260617220515.png](../assets/Pasted%20image%2020260617220515.png)
+- App Speed=1.3*vSO
+- ![Pasted image 20260617221007.png](../assets/Pasted%20image%2020260617221007.png)
+- & until established
+- When to not fly the course reversal-SHARPTT: ![Pasted image 20260617221316.png](../assets/Pasted%20image%2020260617221316.png)
+	- stright in
+	- hold in lieu of PT
+	- arc
+	- radar vectored
+	- no PT
+	- timed apch
+	- teardrop course reversal
 - 
