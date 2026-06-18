@@ -197,4 +197,6 @@ $$
 - ![[Pasted image 20260617213739.png]]
 - FAF for non-precision apch-GS intercept
 - ![[Pasted image 20260617213951.png]]
+- ![[Pasted image 20260617215354.png]]
+- ![[Pasted image 20260617220149.png]]
 - 
