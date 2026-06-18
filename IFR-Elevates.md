@@ -191,4 +191,10 @@ $$
 - ![[Pasted image 20260616235347.png]]
 - ![[Pasted image 20260616235843.png]]
 - ![[Pasted image 20260617000610.png]]
+## Day 5
+- ![[Pasted image 20260617213543.png]]
+- ![[Pasted image 20260617213623.png]]
+- ![[Pasted image 20260617213739.png]]
+- FAF for non-precision apch-GS intercept
+- ![[Pasted image 20260617213951.png]]
 - 
