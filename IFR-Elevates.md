@@ -226,4 +226,6 @@ $$
 - This is circling apch-A, B, C if XYZ, this is just anther variation 
 - ![[Pasted image 20260617234201.png]]
 - LP+V
-- 
+- ![[Pasted image 20260617234940.png]]
+- ![[Pasted image 20260617235010.png]]
+- TAA: 
