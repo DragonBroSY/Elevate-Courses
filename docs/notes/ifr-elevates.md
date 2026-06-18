@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 36627918e9b0
+source_hash: 84929ffff3ad
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -219,4 +219,7 @@ $$
 - ![Pasted image 20260617223806.png](../assets/Pasted%20image%2020260617223806.png)
 - Non-precision gets you down/visual sooner than precision
 - ![Pasted image 20260617225251.png](../assets/Pasted%20image%2020260617225251.png)
+- GS/2+zero=fpm descend rate
+- ![Pasted image 20260617230548.png](../assets/Pasted%20image%2020260617230548.png)
+- ![Pasted image 20260617230815.png](../assets/Pasted%20image%2020260617230815.png)
 - 
