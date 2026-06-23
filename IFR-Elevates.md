@@ -241,4 +241,11 @@ $$
 - ![[Pasted image 20260622230707.png]]
 - ![[Pasted image 20260622230750.png]]
 - ![[Pasted image 20260622233909.png]]
+- [NOAA Legends 2014-04](https://www.blondsinaviation.com/wp-content/uploads/2019/05/NOAA-Legends-1407.pdf)
+- ![[Pasted image 20260622234626.png]]
+- [Surface Analysis Charts Explained - Pilot Institute](https://pilotinstitute.com/surface-analysis-charts-explained/)
+- ![[Pasted image 20260622234811.png]]
+- ![[Pasted image 20260622235047.png]]
+- ![[Pasted image 20260622235156.png]]
+- ![[Pasted image 20260622235450.png]]
 - 
