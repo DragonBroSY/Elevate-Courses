@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 5ae862449211
+source_hash: 1b4486b97eb7
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -243,4 +243,11 @@ $$
 - ![Pasted image 20260622230707.png](../assets/Pasted%20image%2020260622230707.png)
 - ![Pasted image 20260622230750.png](../assets/Pasted%20image%2020260622230750.png)
 - ![Pasted image 20260622233909.png](../assets/Pasted%20image%2020260622233909.png)
+- [NOAA Legends 2014-04](https://www.blondsinaviation.com/wp-content/uploads/2019/05/NOAA-Legends-1407.pdf)
+- ![Pasted image 20260622234626.png](../assets/Pasted%20image%2020260622234626.png)
+- [Surface Analysis Charts Explained - Pilot Institute](https://pilotinstitute.com/surface-analysis-charts-explained/)
+- ![Pasted image 20260622234811.png](../assets/Pasted%20image%2020260622234811.png)
+- ![Pasted image 20260622235047.png](../assets/Pasted%20image%2020260622235047.png)
+- ![Pasted image 20260622235156.png](../assets/Pasted%20image%2020260622235156.png)
+- ![Pasted image 20260622235450.png](../assets/Pasted%20image%2020260622235450.png)
 - 
