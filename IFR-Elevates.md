@@ -234,4 +234,8 @@ $$
 - ![[Pasted image 20260622214648.png]]
 - ![[Pasted image 20260622214844.png]]
 - ![[Pasted image 20260622225623.png]]
+- ![[Pasted image 20260622230059.png]]
+- 7319-60-->7 means greater than 100kts wind, 73-50-230deg at 119kts wind, minus 60degC
+- ![[Pasted image 20260622230504.png]]
+- ![[Pasted image 20260622230519.png]]
 - 
