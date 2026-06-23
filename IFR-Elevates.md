@@ -229,3 +229,6 @@ $$
 - ![[Pasted image 20260617234940.png]]
 - ![[Pasted image 20260617235010.png]]
 - TAA: 
+## Day 8
+- ![[Pasted image 20260622213532.png]]
+- 
