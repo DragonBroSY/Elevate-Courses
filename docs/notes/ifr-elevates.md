@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: e985987e20a6
+source_hash: c9f646bd18c2
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -240,4 +240,6 @@ $$
 - 7319-60-->7 means greater than 100kts wind, 73-50-230deg at 119kts wind, minus 60degC
 - ![Pasted image 20260622230504.png](../assets/Pasted%20image%2020260622230504.png)
 - ![Pasted image 20260622230519.png](../assets/Pasted%20image%2020260622230519.png)
+- ![Pasted image 20260622230707.png](../assets/Pasted%20image%2020260622230707.png)
+- ![Pasted image 20260622230750.png](../assets/Pasted%20image%2020260622230750.png)
 - 
