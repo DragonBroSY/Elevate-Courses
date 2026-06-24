@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 3fae42164bae
+source_hash: 8bb69dae4b4f
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -264,4 +264,6 @@ $$
 	2. For Altitude **on each route segment**, use highest of mnemonic [MEA (Lost Comms)](https://publish.obsidian.md/cfi-commonplace-book/Filed/MEA+\(Lost+Comms\)) – Minimum IFR altitude, Expected, Assigned
 - ![Pasted image 20260623222420.png](../assets/Pasted%20image%2020260623222420.png)
 - ![Pasted image 20260623231514.png](../assets/Pasted%20image%2020260623231514.png)
+- ![Pasted image 20260623231755.png](../assets/Pasted%20image%2020260623231755.png)
+- ![Pasted image 20260623235255.png](../assets/Pasted%20image%2020260623235255.png)
 - 
