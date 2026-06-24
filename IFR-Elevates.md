@@ -261,5 +261,5 @@ $$
 	1. For Route, use mnemonic [AVE-F](https://publish.obsidian.md/cfi-commonplace-book/Filed/AVE-F) – Assigned, Vectored, Expected, then Filed (in that order of priority)
 	2. For Altitude **on each route segment**, use highest of mnemonic [MEA (Lost Comms)](https://publish.obsidian.md/cfi-commonplace-book/Filed/MEA+\(Lost+Comms\)) – Minimum IFR altitude, Expected, Assigned
 - ![[Pasted image 20260623222420.png]]
-- 
+- ![[Pasted image 20260623231514.png]]
 - 
