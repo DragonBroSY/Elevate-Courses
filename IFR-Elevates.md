@@ -254,5 +254,7 @@ $$
 - ![[Pasted image 20260623214127.png]]
 - ![[Pasted image 20260623214247.png]]
 - AHRS-gyroscopic inst, ADC-pitot static
-- ![[Pasted image 20260623214741.png]]
-- 
+- ![[Pasted image 20260623214741.png|617]]
+- unusual att: in the blue-power thru, in the brown-power down
+- in a stall, a/s will not increase, alt decrease
+- lost comms: 91.185, mia avef
