@@ -248,4 +248,8 @@ $$
 - ![[Pasted image 20260622235047.png]]
 - ![[Pasted image 20260622235156.png]]
 - ![[Pasted image 20260622235450.png]]
+## Day 9
+- ![[Pasted image 20260623213808.png]]
+- ATC is required to notify
+- ![[Pasted image 20260623214127.png]]
 - 
