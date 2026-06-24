@@ -263,4 +263,5 @@ $$
 - ![[Pasted image 20260623222420.png]]
 - ![[Pasted image 20260623231514.png]]
 - ![[Pasted image 20260623231755.png]]
+- ![[Pasted image 20260623235255.png]]
 - 
