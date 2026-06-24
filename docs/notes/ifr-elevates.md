@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 6426afc8a7e2
+source_hash: de013e5c18db
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -257,4 +257,6 @@ $$
 - ![Pasted image 20260623214247.png](../assets/Pasted%20image%2020260623214247.png)
 - AHRS-gyroscopic inst, ADC-pitot static
 - ![Pasted image 20260623214741.png](../assets/Pasted%20image%2020260623214741.png)
-- 
+- unusual att: in the blue-power thru, in the brown-power down
+- in a stall, a/s will not increase, alt decrease
+- lost comms: 91.185, mia avef
