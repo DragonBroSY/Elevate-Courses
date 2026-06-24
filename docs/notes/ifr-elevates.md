@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 6acdd2949c29
+source_hash: 6426afc8a7e2
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -254,4 +254,7 @@ $$
 - ![Pasted image 20260623213808.png](../assets/Pasted%20image%2020260623213808.png)
 - ATC is required to notify
 - ![Pasted image 20260623214127.png](../assets/Pasted%20image%2020260623214127.png)
+- ![Pasted image 20260623214247.png](../assets/Pasted%20image%2020260623214247.png)
+- AHRS-gyroscopic inst, ADC-pitot static
+- ![Pasted image 20260623214741.png](../assets/Pasted%20image%2020260623214741.png)
 - 
