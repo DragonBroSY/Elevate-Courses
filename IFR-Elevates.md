@@ -252,4 +252,7 @@ $$
 - ![[Pasted image 20260623213808.png]]
 - ATC is required to notify
 - ![[Pasted image 20260623214127.png]]
+- ![[Pasted image 20260623214247.png]]
+- AHRS-gyroscopic inst, ADC-pitot static
+- ![[Pasted image 20260623214741.png]]
 - 
