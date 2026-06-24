@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 1b4486b97eb7
+source_hash: 6acdd2949c29
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -250,4 +250,8 @@ $$
 - ![Pasted image 20260622235047.png](../assets/Pasted%20image%2020260622235047.png)
 - ![Pasted image 20260622235156.png](../assets/Pasted%20image%2020260622235156.png)
 - ![Pasted image 20260622235450.png](../assets/Pasted%20image%2020260622235450.png)
+## Day 9
+- ![Pasted image 20260623213808.png](../assets/Pasted%20image%2020260623213808.png)
+- ATC is required to notify
+- ![Pasted image 20260623214127.png](../assets/Pasted%20image%2020260623214127.png)
 - 
