@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: de013e5c18db
+source_hash: b2ff760a7713
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -259,4 +259,7 @@ $$
 - ![Pasted image 20260623214741.png](../assets/Pasted%20image%2020260623214741.png)
 - unusual att: in the blue-power thru, in the brown-power down
 - in a stall, a/s will not increase, alt decrease
-- lost comms: 91.185, mia avef
+- lost comms: 91.185, mea avef: 
+	1. For Route, use mnemonic [AVE-F](https://publish.obsidian.md/cfi-commonplace-book/Filed/AVE-F) – Assigned, Vectored, Expected, then Filed (in that order of priority)
+	2. For Altitude **on each route segment**, use highest of mnemonic [MEA (Lost Comms)](https://publish.obsidian.md/cfi-commonplace-book/Filed/MEA+\(Lost+Comms\)) – Minimum IFR altitude, Expected, Assigned
+- 
