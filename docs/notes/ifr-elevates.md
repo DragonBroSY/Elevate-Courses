@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: a74f33f9e5ca
+source_hash: 46d9720d11ff
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -278,4 +278,5 @@ $$
 - VDP is for Non-PA
 - ![Pasted image 20260624221430.png](../assets/Pasted%20image%2020260624221430.png)
 - SHARPTT: When NOT to PT
+- Circle to land require 1.3NM radius from the rwy
 - 
