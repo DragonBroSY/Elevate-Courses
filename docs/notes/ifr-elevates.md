@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 46d9720d11ff
+source_hash: 0011c2b31a37
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -279,4 +279,7 @@ $$
 - ![Pasted image 20260624221430.png](../assets/Pasted%20image%2020260624221430.png)
 - SHARPTT: When NOT to PT
 - Circle to land require 1.3NM radius from the rwy
+- ![Pasted image 20260624231056.png](../assets/Pasted%20image%2020260624231056.png)
+- [Back Course Ex](https://www.youtube.com/watch?v=_X8yKMMzvZ8)
+- ![Pasted image 20260624231450.png](../assets/Pasted%20image%2020260624231450.png)
 - 
