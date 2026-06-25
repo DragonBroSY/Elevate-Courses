@@ -272,4 +272,8 @@ $$
 - ![[Pasted image 20260624214330.png]]
 - Precision-DA, Non Precision-MDA
 - [Jepp Chart Symbols](https://ww1.jeppesen.com/download/aopa/feb99aopa.pdf)
+- ![[Pasted image 20260624220512.png]]
+- VDP is for Non-PA
+- ![[Pasted image 20260624221430.png]]
+- SHARPTT: When NOT to PT
 - 
