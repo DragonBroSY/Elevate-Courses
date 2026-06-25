@@ -277,4 +277,7 @@ $$
 - ![[Pasted image 20260624221430.png]]
 - SHARPTT: When NOT to PT
 - Circle to land require 1.3NM radius from the rwy
+- ![[Pasted image 20260624231056.png]]
+- [Back Course Ex](https://www.youtube.com/watch?v=_X8yKMMzvZ8)
+- ![[Pasted image 20260624231450.png]]
 - 
