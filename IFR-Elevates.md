@@ -280,4 +280,10 @@ $$
 - ![[Pasted image 20260624231056.png]]
 - [Back Course Ex](https://www.youtube.com/watch?v=_X8yKMMzvZ8)
 - ![[Pasted image 20260624231450.png]]
+![[Pasted image 20260624234129.png]]
+- ![[Pasted image 20260624234715.png]]
+- ![[Pasted image 20260624235121.png]]
+- ![[Pasted image 20260624235314.png]]
+- Also refer to as 'Feeder Fixes' T-design
+- ![[Pasted image 20260625000359.png]]
 - 
