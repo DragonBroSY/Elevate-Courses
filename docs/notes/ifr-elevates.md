@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 89e162b7def2
+source_hash: a74f33f9e5ca
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -274,4 +274,8 @@ $$
 - ![Pasted image 20260624214330.png](../assets/Pasted%20image%2020260624214330.png)
 - Precision-DA, Non Precision-MDA
 - [Jepp Chart Symbols](https://ww1.jeppesen.com/download/aopa/feb99aopa.pdf)
+- ![Pasted image 20260624220512.png](../assets/Pasted%20image%2020260624220512.png)
+- VDP is for Non-PA
+- ![Pasted image 20260624221430.png](../assets/Pasted%20image%2020260624221430.png)
+- SHARPTT: When NOT to PT
 - 
