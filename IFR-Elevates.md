@@ -265,4 +265,11 @@ $$
 - ![[Pasted image 20260623231755.png]]
 - ![[Pasted image 20260623235255.png]]
 - ![[Pasted image 20260623235629.png]]
+## Day 5
+- ![[Pasted image 20260624213723.png]]
+- ![[Pasted image 20260624214019.png]]
+- PA FAF is glideslope intercept, Non-PA is identified by 'FAF'
+- ![[Pasted image 20260624214330.png]]
+- Precision-DA, Non Precision-MDA
+- [Jepp Chart Symbols](https://ww1.jeppesen.com/download/aopa/feb99aopa.pdf)
 - 
