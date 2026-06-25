@@ -276,4 +276,5 @@ $$
 - VDP is for Non-PA
 - ![[Pasted image 20260624221430.png]]
 - SHARPTT: When NOT to PT
+- Circle to land require 1.3NM radius from the rwy
 - 
