@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: bb66ca4dc7c3
+source_hash: 89e162b7def2
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -267,4 +267,11 @@ $$
 - ![Pasted image 20260623231755.png](../assets/Pasted%20image%2020260623231755.png)
 - ![Pasted image 20260623235255.png](../assets/Pasted%20image%2020260623235255.png)
 - ![Pasted image 20260623235629.png](../assets/Pasted%20image%2020260623235629.png)
+## Day 5
+- ![Pasted image 20260624213723.png](../assets/Pasted%20image%2020260624213723.png)
+- ![Pasted image 20260624214019.png](../assets/Pasted%20image%2020260624214019.png)
+- PA FAF is glideslope intercept, Non-PA is identified by 'FAF'
+- ![Pasted image 20260624214330.png](../assets/Pasted%20image%2020260624214330.png)
+- Precision-DA, Non Precision-MDA
+- [Jepp Chart Symbols](https://ww1.jeppesen.com/download/aopa/feb99aopa.pdf)
 - 
