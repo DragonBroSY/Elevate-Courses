@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 0011c2b31a37
+source_hash: b42cbad72825
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -282,4 +282,10 @@ $$
 - ![Pasted image 20260624231056.png](../assets/Pasted%20image%2020260624231056.png)
 - [Back Course Ex](https://www.youtube.com/watch?v=_X8yKMMzvZ8)
 - ![Pasted image 20260624231450.png](../assets/Pasted%20image%2020260624231450.png)
+![Pasted image 20260624234129.png](../assets/Pasted%20image%2020260624234129.png)
+- ![Pasted image 20260624234715.png](../assets/Pasted%20image%2020260624234715.png)
+- ![Pasted image 20260624235121.png](../assets/Pasted%20image%2020260624235121.png)
+- ![Pasted image 20260624235314.png](../assets/Pasted%20image%2020260624235314.png)
+- Also refer to as 'Feeder Fixes' T-design
+- ![Pasted image 20260625000359.png](../assets/Pasted%20image%2020260625000359.png)
 - 
