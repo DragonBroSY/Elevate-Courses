@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: b81f877e00a2
+source_hash: 98b681db7561
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -291,4 +291,8 @@ $$
 ## Day 7
 - ![Pasted image 20260626215933.png](../assets/Pasted%20image%2020260626215933.png)
 - ![Pasted image 20260626220514.png](../assets/Pasted%20image%2020260626220514.png)
+- 91.169: 0=123 rule
+	- 0-dest has no inst app, alt with inst required
+	- 1-1 hour before and after eta, 2000 cig, 3sm vis
+- ![Pasted image 20260626230134.png](../assets/Pasted%20image%2020260626230134.png)
 - 
