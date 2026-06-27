@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 946bb4d59bce
+source_hash: b81f877e00a2
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -289,4 +289,6 @@ $$
 - Also refer to as 'Feeder Fixes' T-design
 - ![Pasted image 20260625000359.png](../assets/Pasted%20image%2020260625000359.png)
 ## Day 7
+- ![Pasted image 20260626215933.png](../assets/Pasted%20image%2020260626215933.png)
+- ![Pasted image 20260626220514.png](../assets/Pasted%20image%2020260626220514.png)
 - 
