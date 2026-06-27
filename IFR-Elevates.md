@@ -294,4 +294,6 @@ $$
 	- 1-1 hour before and after eta, 2000 cig, 3sm vis
 - ![[Pasted image 20260626230134.png]]
 - ![[Pasted image 20260626230932.png]]
+- round robin flights with multiple touch n gos, one is OK. usually go to ctaf, then back on with atc.
+- ![[Pasted image 20260626231742.png]]
 - 
