@@ -289,4 +289,8 @@ $$
 ## Day 7
 - ![[Pasted image 20260626215933.png]]
 - ![[Pasted image 20260626220514.png]]
+- 91.169: 0=123 rule
+	- 0-dest has no inst app, alt with inst required
+	- 1-1 hour before and after eta, 2000 cig, 3sm vis
+- ![[Pasted image 20260626230134.png]]
 - 
