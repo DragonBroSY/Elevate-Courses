@@ -287,4 +287,6 @@ $$
 - Also refer to as 'Feeder Fixes' T-design
 - ![[Pasted image 20260625000359.png]]
 ## Day 7
+- ![[Pasted image 20260626215933.png]]
+- ![[Pasted image 20260626220514.png]]
 - 
