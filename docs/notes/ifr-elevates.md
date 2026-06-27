@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 87e3f4aaa409
+source_hash: b0a3a9264f26
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -296,4 +296,6 @@ $$
 	- 1-1 hour before and after eta, 2000 cig, 3sm vis
 - ![Pasted image 20260626230134.png](../assets/Pasted%20image%2020260626230134.png)
 - ![Pasted image 20260626230932.png](../assets/Pasted%20image%2020260626230932.png)
+- round robin flights with multiple touch n gos, one is OK. usually go to ctaf, then back on with atc.
+- ![Pasted image 20260626231742.png](../assets/Pasted%20image%2020260626231742.png)
 - 
