@@ -296,4 +296,20 @@ $$
 - ![[Pasted image 20260626230932.png]]
 - round robin flights with multiple touch n gos, one is OK. usually go to ctaf, then back on with atc.
 - ![[Pasted image 20260626231742.png]]
+- ![[Pasted image 20260626234338.png]]
+- HIWAS: sigmets, pireps connected to vors
+- FISB: ![[Pasted image 20260626234558.png]]
+- ![[Pasted image 20260626235238.png]]
+- ![[Pasted image 20260626235342.png]]
+- ![[Pasted image 20260626235706.png]]
+- outlook is for 6 hours or more
+- 800-wx-brief: ![[Pasted image 20260626235926.png]]
+- ![[Pasted image 20260627000614.png]]
+- Atis: 55 min past hour
+- Asos-surface obs: newer, gov
+- Awos-wx obs: Awos3, FAA owned
+- ![[Pasted image 20260627001120.png]]
+- ![[Pasted image 20260627001323.png]]
+- unscheduled ex is CWA: airment, sigmets, conv sigmets
+- Asos accessible within 25nm of facility
 - 
