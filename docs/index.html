@@ -162,6 +162,38 @@
     }
     .subscribe-url:hover { text-decoration: underline; }
 
+    /* ── Tabs ── */
+    .tabs { display: flex; gap: 0.4rem; }
+    .tab-btn {
+      background: none;
+      border: 1px solid #b0caea;
+      border-radius: 4px;
+      color: #2a6abf;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      padding: 0.2rem 0.6rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .tab-btn.active { background: #2a6abf; color: #fff; border-color: #2a6abf; }
+    .hidden { display: none; }
+
+    /* ── Note card ── */
+    .note-card {
+      display: block;
+      background: #f8fafc;
+      border: 1px solid #dce6f0;
+      border-left: 3px solid #b0caea;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.75rem;
+      text-decoration: none;
+      transition: border-left-color 0.2s;
+    }
+    .note-card:hover { border-left-color: #4a9eff; }
+    .note-title { font-weight: 600; font-size: 0.95rem; color: #1a2a3a; }
+    .note-topics { font-size: 0.72rem; color: #9ab0c8; margin-top: 0.35rem; }
+
     /* ── Footer ── */
     footer {
       text-align: center;
@@ -197,21 +229,31 @@
     <div class="hud-item" id="hud-count"><span>EPISODES</span>—</div>
     <div class="hud-item" id="hud-hours"><span>TOTAL</span>—</div>
     <div class="hud-item"><span>FEED</span>RSS 2.0</div>
-    <div class="hud-item"><a href="notes/" style="color:#2a6abf;text-decoration:none;">NOTES &#8599;</a></div>
+    <div class="hud-item tabs">
+      <button class="tab-btn active" data-panel="transmissions">TRANSMISSIONS</button>
+      <button class="tab-btn" data-panel="notes">NOTES</button>
+    </div>
   </div>
 
-  <!-- Episodes -->
+  <!-- Panels -->
   <div class="main">
-    <div class="section-label">Transmissions</div>
-    <div id="episodes"><p class="loading">Establishing comms...</p></div>
+    <div id="panel-transmissions">
+      <div class="section-label">Transmissions</div>
+      <div id="episodes"><p class="loading">Establishing comms...</p></div>
 
-    <div class="subscribe">
-      <div>
-        <div class="subscribe-label">Subscribe in any podcast app</div>
-        <a class="subscribe-url" href="feed.xml">
-          https://dragonbrosy.github.io/Elevate-Courses/feed.xml
-        </a>
+      <div class="subscribe">
+        <div>
+          <div class="subscribe-label">Subscribe in any podcast app</div>
+          <a class="subscribe-url" href="feed.xml">
+            https://dragonbrosy.github.io/Elevate-Courses/feed.xml
+          </a>
+        </div>
       </div>
+    </div>
+
+    <div id="panel-notes" class="hidden">
+      <div class="section-label">Notes</div>
+      <div id="notes-list"><p class="loading">Loading notes...</p></div>
     </div>
   </div>
 
@@ -278,6 +320,77 @@
     function esc(s) {
       return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
     }
+
+    let notesLoaded = false;
+
+    async function loadNotes() {
+      const container = document.getElementById("notes-list");
+      try {
+        const res  = await fetch("notes/index.html?_=" + Date.now());
+        const text = await res.text();
+        const doc  = new DOMParser().parseFromString(text, "text/html");
+
+        const entries = [];
+
+        doc.querySelectorAll(".post-content table tbody tr").forEach(tr => {
+          const cells = tr.querySelectorAll("td");
+          if (cells.length < 1) return;
+          const a = cells[0].querySelector("a");
+          if (!a) return;
+          entries.push({
+            href: "notes/" + a.getAttribute("href"),
+            title: a.textContent.trim(),
+            topics: cells[1] ? cells[1].textContent.trim() : ""
+          });
+        });
+
+        doc.querySelectorAll(".post-content > ul li").forEach(li => {
+          const a = li.querySelector("a");
+          if (!a) return;
+          entries.push({
+            href: "notes/" + a.getAttribute("href"),
+            title: a.textContent.trim(),
+            topics: li.textContent.replace(a.textContent, "").replace(/^[\s–-]+/, "").trim()
+          });
+        });
+
+        if (!entries.length) {
+          container.innerHTML = '<p class="empty">No notes yet.</p>';
+          return;
+        }
+
+        container.innerHTML = "";
+        entries.forEach(e => {
+          const card = document.createElement("a");
+          card.className = "note-card";
+          card.href = e.href;
+          card.innerHTML = `
+            <div class="note-title">${esc(e.title)}</div>
+            ${e.topics ? `<div class="note-topics">${esc(e.topics)}</div>` : ""}
+          `;
+          container.appendChild(card);
+        });
+
+      } catch(e) {
+        container.innerHTML = `<p class="empty">Couldn't load notes: ${e.message}</p>`;
+      }
+    }
+
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const panel = btn.dataset.panel;
+        document.getElementById("panel-transmissions").classList.toggle("hidden", panel !== "transmissions");
+        document.getElementById("panel-notes").classList.toggle("hidden", panel !== "notes");
+
+        if (panel === "notes" && !notesLoaded) {
+          notesLoaded = true;
+          loadNotes();
+        }
+      });
+    });
 
     loadFeed();
   </script>
