@@ -4,206 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elevate Courses — Flight Training</title>
-  <meta name="description" content="Flight training voice recordings and ground school notes by DragonBroSY. Study for your private pilot certificate on the go." />
+  <meta name="description" content="Flight training ground school notes and voice recordings by DragonBroSY. Study for your private pilot certificate on the go." />
   <meta name="robots" content="index, follow" />
   <link rel="sitemap" type="application/xml" href="sitemap.xml" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f5f7fa; color: #1a2a3a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
 
-    body {
-      background: #ffffff;
-      color: #1a2a3a;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      min-height: 100vh;
-    }
+    /* NAV */
+    .nav { background: #1a3a6b; border-bottom: 3px solid #c8a400; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; z-index: 100; flex-wrap: wrap; }
+    .nav-brand { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: #fff; font-size: 1.05rem; font-weight: 800; letter-spacing: -0.01em; }
+    .nav-brand .wing { font-size: 1.2rem; }
+    .nav-links { display: flex; }
+    .nav-links a, .nav-links button { background: none; border: none; cursor: pointer; color: rgba(255,255,255,0.75); text-decoration: none; font-size: 0.73rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; border-bottom: 3px solid transparent; margin-bottom: -3px; transition: color 0.15s, border-color 0.15s; font-family: inherit; }
+    .nav-links a:hover, .nav-links button:hover { color: #fff; border-bottom-color: rgba(200,164,0,0.5); }
+    .nav-links button.active { color: #fff; border-bottom-color: #c8a400; }
 
-    /* ── Hero ── */
-    .hero {
-      position: relative;
-      height: 260px;
-      overflow: hidden;
-    }
-    .hero img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 40%;
-      filter: brightness(0.55);
-    }
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, transparent 30%, #ffffff 100%);
-    }
-    .hero-text {
-      position: absolute;
-      bottom: 1.5rem;
-      left: 1.5rem;
-      right: 1.5rem;
-    }
-    .callsign {
-      font-size: 0.7rem;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: #4a9eff;
-      margin-bottom: 0.3rem;
-    }
-    .hero-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: #fff;
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-    }
-    .hero-sub {
-      font-size: 0.8rem;
-      color: #c0d4ec;
-      margin-top: 0.4rem;
-    }
-
-    /* ── HUD bar ── */
-    .hud {
-      display: flex;
-      gap: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      background: #f4f7fb;
-      border-bottom: 1px solid #dce6f0;
-      font-size: 0.72rem;
-      color: #2a6abf;
-      letter-spacing: 0.08em;
-      overflow-x: auto;
-      white-space: nowrap;
-    }
-    .hud-item span { color: #9ab0c8; margin-right: 0.3rem; }
-
-    /* ── Main ── */
-    .main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 1.5rem;
-    }
-
-    .section-label {
-      font-size: 0.65rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: #9ab0c8;
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid #dce6f0;
-    }
-
-    /* ── Episode card ── */
-    .episode {
-      background: #f8fafc;
-      border: 1px solid #dce6f0;
-      border-left: 3px solid #b0caea;
-      border-radius: 8px;
-      padding: 1rem 1.2rem;
-      margin-bottom: 0.75rem;
-      transition: border-left-color 0.2s;
-    }
-    .episode:hover { border-left-color: #4a9eff; }
-
-    .ep-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 0.6rem;
-      gap: 1rem;
-    }
-    .ep-title {
-      font-weight: 600;
-      font-size: 0.95rem;
-      color: #1a2a3a;
-      line-height: 1.3;
-    }
-    .ep-badge {
-      font-size: 0.65rem;
-      background: #eef4ff;
-      color: #2a6abf;
-      border: 1px solid #b0caea;
-      border-radius: 4px;
-      padding: 0.15rem 0.5rem;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-    .ep-meta {
-      font-size: 0.72rem;
-      color: #9ab0c8;
-      margin-bottom: 0.75rem;
-    }
-    audio {
-      width: 100%;
-      height: 36px;
-      accent-color: #4a9eff;
-    }
-
-    /* ── Subscribe ── */
-    .subscribe {
-      margin-top: 2rem;
-      background: #f8fafc;
-      border: 1px solid #dce6f0;
-      border-radius: 8px;
-      padding: 1rem 1.2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    .subscribe-label { font-size: 0.8rem; color: #6a8aaa; }
-    .subscribe-url {
-      font-size: 0.72rem;
-      color: #2a6abf;
-      text-decoration: none;
-      font-family: monospace;
-      word-break: break-all;
-    }
-    .subscribe-url:hover { text-decoration: underline; }
-
-    /* ── Tabs ── */
-    .tabs { display: flex; gap: 0.4rem; }
-    .tab-btn {
-      background: none;
-      border: 1px solid #b0caea;
-      border-radius: 4px;
-      color: #2a6abf;
-      font-size: 0.7rem;
-      letter-spacing: 0.08em;
-      padding: 0.2rem 0.6rem;
-      cursor: pointer;
-      font-family: inherit;
-    }
-    .tab-btn.active { background: #2a6abf; color: #fff; border-color: #2a6abf; }
+    /* MAIN */
+    .main { max-width: 980px; margin: 0 auto; padding: 2rem 2rem 0; width: 100%; flex: 1; }
     .hidden { display: none; }
 
-    /* ── Note card ── */
-    .note-card {
-      display: block;
-      background: #f8fafc;
-      border: 1px solid #dce6f0;
-      border-left: 3px solid #b0caea;
-      border-radius: 8px;
-      padding: 1rem 1.2rem;
-      margin-bottom: 0.75rem;
-      text-decoration: none;
-      transition: border-left-color 0.2s;
-    }
-    .note-card:hover { border-left-color: #4a9eff; }
-    .note-title { font-weight: 600; font-size: 0.95rem; color: #1a2a3a; }
-    .note-topics { font-size: 0.72rem; color: #9ab0c8; margin-top: 0.35rem; }
+    /* SECTION LABEL */
+    .slabel { font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: #1a3a6b; font-weight: 700; display: inline-block; padding-bottom: 0.45rem; border-bottom: 2px solid #c8a400; margin-bottom: 1rem; }
 
-    /* ── Footer ── */
-    footer {
-      text-align: center;
-      font-size: 0.65rem;
-      color: #9ab0c8;
-      padding: 2rem 1rem;
-      letter-spacing: 0.1em;
-      border-top: 1px solid #dce6f0;
-      margin-top: 2rem;
-    }
+    /* NOTE CARDS */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; margin-bottom: 2.2rem; }
+    .card { background: #fff; border: 1px solid #dde5ef; border-radius: 8px; padding: 1.3rem; text-decoration: none; color: inherit; transition: box-shadow 0.18s, border-color 0.18s, transform 0.18s; display: block; }
+    .card:hover { border-color: #1a3a6b; box-shadow: 0 4px 18px rgba(26,58,107,0.13); transform: translateY(-2px); }
+    .card-icon { font-size: 1.35rem; margin-bottom: 0.65rem; }
+    .card-title { font-size: 0.88rem; font-weight: 700; color: #1a2a3a; margin-bottom: 0.3rem; }
+    .card-desc { font-size: 0.73rem; color: #6a8aaa; line-height: 1.5; }
+
+    /* PANEL (audios) */
+    .panel { background: #fff; border: 1px solid #dde5ef; border-radius: 8px; overflow: hidden; margin-bottom: 1.5rem; }
+    .panel-head { background: #1a3a6b; color: #fff; padding: 0.65rem 1.1rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; display: flex; align-items: center; justify-content: space-between; }
+    .panel-head .accent { color: #c8a400; margin-left: 0.4rem; font-weight: 400; text-transform: none; letter-spacing: 0; }
+    .panel-body { padding: 1rem; }
+
+    .episode { background: #f5f7fa; border: 1px solid #dde5ef; border-left: 3px solid #c8a400; border-radius: 6px; padding: 0.9rem 1.1rem; margin-bottom: 0.75rem; }
+    .episode:last-child { margin-bottom: 0; }
+    .ep-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.6rem; gap: 1rem; }
+    .ep-title { font-weight: 600; font-size: 0.9rem; color: #1a2a3a; line-height: 1.3; }
+    .ep-badge { font-size: 0.62rem; background: #fff; color: #1a3a6b; border: 1px solid #dde5ef; border-radius: 4px; padding: 0.15rem 0.5rem; white-space: nowrap; flex-shrink: 0; font-weight: 700; }
+    .ep-meta { font-size: 0.7rem; color: #9ab0c8; margin-bottom: 0.75rem; }
+    audio { width: 100%; height: 36px; accent-color: #1a3a6b; }
+
+    .subscribe { background: #fff; border: 1px solid #dde5ef; border-radius: 8px; padding: 1rem 1.2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.2rem; }
+    .subscribe-label { font-size: 0.8rem; color: #6a8aaa; }
+    .subscribe-url { font-size: 0.72rem; color: #1a3a6b; text-decoration: none; font-family: monospace; word-break: break-all; font-weight: 600; }
+    .subscribe-url:hover { text-decoration: underline; }
+
+    footer { background: #1a3a6b; border-top: 3px solid #c8a400; text-align: center; font-size: 0.6rem; color: rgba(255,255,255,0.45); padding: 1.4rem; letter-spacing: 0.15em; text-transform: uppercase; margin-top: 1rem; }
 
     .empty { color: #9ab0c8; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
     .loading { color: #9ab0c8; padding: 2rem 0; text-align: center; font-size: 0.85rem; }
@@ -211,35 +62,29 @@
 </head>
 <body>
 
-  <!-- Hero -->
-  <div class="hero">
-    <img src="cockpit.jpg" alt="Archer cockpit" />
-    <div class="hero-overlay"></div>
-    <div class="hero-text">
-      <div class="callsign">DragonBroSY · Flight Training</div>
-      <div class="hero-title">Elevate Courses</div>
-      <div class="hero-sub">Voice recordings · Study on the go</div>
+  <nav class="nav">
+    <a class="nav-brand" href="https://dragonbrosy.github.io/"><span class="wing">&#9992;</span> Elevate Courses</a>
+    <div class="nav-links">
+      <button class="active" data-panel="notes">Notes</button>
+      <button data-panel="audios">Audios</button>
+      <a href="feed.xml">Feed</a>
+      <a href="https://dragonbrosy.github.io/">DragonBroSY</a>
     </div>
-  </div>
+  </nav>
 
-  <!-- HUD bar -->
-  <div class="hud">
-    <div class="hud-item"><span>ACFT</span>Piper Archer</div>
-    <div class="hud-item"><span>STATUS</span>TRAINING</div>
-    <div class="hud-item" id="hud-count"><span>EPISODES</span>—</div>
-    <div class="hud-item" id="hud-hours"><span>TOTAL</span>—</div>
-    <div class="hud-item"><span>FEED</span>RSS 2.0</div>
-    <div class="hud-item tabs">
-      <button class="tab-btn active" data-panel="transmissions">TRANSMISSIONS</button>
-      <button class="tab-btn" data-panel="notes">NOTES</button>
-    </div>
-  </div>
-
-  <!-- Panels -->
   <div class="main">
-    <div id="panel-transmissions">
-      <div class="section-label">Transmissions</div>
-      <div id="episodes"><p class="loading">Establishing comms...</p></div>
+
+    <div id="panel-notes">
+      <div class="slabel">Notes</div>
+      <div id="notes-list" class="cards"><p class="loading">Loading notes...</p></div>
+    </div>
+
+    <div id="panel-audios" class="hidden">
+      <div class="slabel">Audios</div>
+      <div class="panel">
+        <div class="panel-head">Transmissions <span class="accent" id="audios-meta">&mdash;</span></div>
+        <div class="panel-body" id="episodes"><p class="loading">Establishing comms...</p></div>
+      </div>
 
       <div class="subscribe">
         <div>
@@ -251,15 +96,17 @@
       </div>
     </div>
 
-    <div id="panel-notes" class="hidden">
-      <div class="section-label">Notes</div>
-      <div id="notes-list"><p class="loading">Loading notes...</p></div>
-    </div>
   </div>
 
   <footer>ELEVATE COURSES &nbsp;·&nbsp; DRAGONBROSY &nbsp;·&nbsp; ALL ALTITUDES RESERVED</footer>
 
   <script>
+    function esc(s) {
+      return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+    }
+
+    let feedLoaded = false;
+
     async function loadFeed() {
       const container = document.getElementById("episodes");
       try {
@@ -305,23 +152,14 @@
           container.appendChild(ep);
         });
 
-        document.getElementById("hud-count").innerHTML =
-          `<span>EPISODES</span>${items.length}`;
         const h = Math.floor(totalSecs/3600);
         const m = Math.floor((totalSecs%3600)/60);
-        document.getElementById("hud-hours").innerHTML =
-          `<span>TOTAL</span>${h}h ${m}m`;
+        document.getElementById("audios-meta").textContent = `${items.length} episodes · ${h}h ${m}m`;
 
       } catch(e) {
         container.innerHTML = `<p class="empty">Comms failure: ${e.message}</p>`;
       }
     }
-
-    function esc(s) {
-      return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-    }
-
-    let notesLoaded = false;
 
     async function loadNotes() {
       const container = document.getElementById("notes-list");
@@ -362,11 +200,12 @@
         container.innerHTML = "";
         entries.forEach(e => {
           const card = document.createElement("a");
-          card.className = "note-card";
+          card.className = "card";
           card.href = e.href;
           card.innerHTML = `
-            <div class="note-title">${esc(e.title)}</div>
-            ${e.topics ? `<div class="note-topics">${esc(e.topics)}</div>` : ""}
+            <div class="card-icon">&#128220;</div>
+            <div class="card-title">${esc(e.title)}</div>
+            ${e.topics ? `<div class="card-desc">${esc(e.topics)}</div>` : ""}
           `;
           container.appendChild(card);
         });
@@ -376,23 +215,23 @@
       }
     }
 
-    document.querySelectorAll(".tab-btn").forEach(btn => {
+    document.querySelectorAll(".nav-links button[data-panel]").forEach(btn => {
       btn.addEventListener("click", () => {
-        document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".nav-links button[data-panel]").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
 
         const panel = btn.dataset.panel;
-        document.getElementById("panel-transmissions").classList.toggle("hidden", panel !== "transmissions");
         document.getElementById("panel-notes").classList.toggle("hidden", panel !== "notes");
+        document.getElementById("panel-audios").classList.toggle("hidden", panel !== "audios");
 
-        if (panel === "notes" && !notesLoaded) {
-          notesLoaded = true;
-          loadNotes();
+        if (panel === "audios" && !feedLoaded) {
+          feedLoaded = true;
+          loadFeed();
         }
       });
     });
 
-    loadFeed();
+    loadNotes();
   </script>
 </body>
 </html>
