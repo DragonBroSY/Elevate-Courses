@@ -463,4 +463,28 @@ App checklist:
 	- graveyard spiral: prolonged coordinated, constant turn give pilot illusion of not turning, when returned to level flight, feel a turn in opposite direction and incorrectly entering the turn again. loss of altitude is countered with pulling back which tightens the turn even more.
 	- somatogravic: rapid accel causes the same sensation as tilting head backward, this nose high attitude is countered with push nose forward
 - Hypoxia:
-	- hypoxic: 
+	- hypoxic: lack of oxygen to the body as a whole
+	- hypemic: 'not enough blood' lack of oxygen in the blood or ability to transport to body's cells
+	- stagnant: 'not flowing' oxygen rich blood is not flowing to a part of the body
+	- histotoxic: cells inability to effectively use oxygen, caused by alchol or drugs
+## 06/19
+- Static stability is the initial tendency of an aircraft to return to its original position when it's disturbed.
+	- pos static stability: return to neutral
+	- neutral static stab: hold same
+	- neg static stab: keep same direction of travel
+- Dynamic stability is how an airplane responds over time to a disturbance
+	- neutral dynamic stab: oscillations that never dampen out
+	- pos dynamic stab: oscillations that dampen out over time
+	- neg dynamic stab: oscillations that get worse over time
+- Four Left Turning Tendencies
+	- P-factor: The descending blade has a higher AOA and, therefore, increased thrust
+	- gyroscopic precession: When raising the nose for a climb, precession will produce a force to the right. When lowering the nose for descent, precession will produce a force to the left
+	- toque: It is greatest at low airspeeds with high power settings and a high angle of attack
+	- slipstream: The corkscrew wind strikes the tail (rudder) on the left side. The slipstream effect causes the aircraft to yaw left about the vertical axis, and right about the longitudinal axis.
+- adverse yaw: nose yaw oppo direction of turn. In a turn to the right, the right aileron is up, and the left aileron is down. In a turn to the left, the left aileron is up, and the right aileron is down. However, as a downward-deflected aileron increases the airfoil's lift, it also increases the drag. When the inboard aileron deflects down, lift and drag are increasing (more so on the outboard wing).
+- load factor: ![[Pasted image 20260706005431.png]]
+- As the bank steepens, the horizontal lift component increases, centrifugal force increases, and the load factor increases.
+- Va: one full deflection of control surface->stall before break
+	- heavier: higher aoa, higher stall speed, higher Va
+	- As you pull back and increase Gs, you'll hit your G limit before you reach the critical angle of attack.
+- 
