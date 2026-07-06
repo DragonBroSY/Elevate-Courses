@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 7ea406fc787c
+source_hash: 6bdfb8f1e06e
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -424,12 +424,12 @@ App checklist:
 - 91.151: fuel reserve requirement
 - 91.159: vfr cruising alt, based on mag crs, at least 3000' AGL to apply
 ## 06/02
-- flaps 40 will be easy to baloon->be more precise on a/s. add 40 flaps, nose down, add power back
+- flaps 40 will be easy to balloon->be more precise on a/s. add 40 flaps, nose down, add power back
 - never land short on short field
 - pwr off landing-pitch 76kts right away, need a final leg for last min adjustment and prevent acc stall
 - short field: say "flaps UP, simulate max braking"
 - region of reverse command is at 76kts, backside of the L/D curve, pwr1500, flaps 40, pwr 2000 right away
-- GND ref manuvers: always have emergency aldnig area
+- GND ref maneuvers: always have emergency landing area
 - turn around point: tailwind->fast GS, steeper turn
 - two full swipes of trim is ~76kts
 ## 05/04
@@ -444,4 +444,13 @@ App checklist:
 | stability (fulcrum effect)             | favor    | no       |
 | cruise a/s (elev more flat, less drag) | decrease | increase |
 - max baggage wt: 200 lbs, max ramp wt: 2558 lbs
-- crosswind taxi: fwd quartering (headwind)-aeilerons into the wind
+- crosswind taxi: 
+	- fwd quartering (headwind)-ailerons into the wind, elevator neutral or aft "climb into the wind"
+	- aft quartering (tailwind)-ailerons away from the wind, elevator forward "dive away from the wind"
+- Lost procedures: 5Cs
+	- confess
+	- climb
+	- conserve
+	- call
+	- comply
+- 
