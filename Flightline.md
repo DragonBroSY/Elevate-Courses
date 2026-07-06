@@ -433,4 +433,14 @@ App checklist:
 - two full swipes of trim is ~76kts
 ## 05/04
 - Unusual att: in the blue, pwr thru, in the brown, pwr out
-- 
+## 06/11
+- FWD CG-MILF (more stable, increased Vs, less cruise speed, favorable stall recovery)
+
+|                                        | FWD CG   | AFT CG   |
+| -------------------------------------- | -------- | -------- |
+| Stall Recovery                         | favor    | no       |
+| stall speed                            | increase | decrease |
+| stability (fulcrum effect)             | favor    | no       |
+| cruise a/s (elev more flat, less drag) | decrease | increase |
+- max baggage wt: 200 lbs, max ramp wt: 2558 lbs
+- crosswind taxi: fwd quartering (headwind)-aeilerons into the wind
