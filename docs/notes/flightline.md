@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 6bdfb8f1e06e
+source_hash: 32942a7d8ef9
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -453,4 +453,10 @@ App checklist:
 	- conserve
 	- call
 	- comply
-- 
+## 06/12
+- ICEFLAGS:
+	- Inversion: desc to level off, climb to level off
+	- Coriolis: 
+	- elevator illusion:
+	- false horizon:
+	- 
