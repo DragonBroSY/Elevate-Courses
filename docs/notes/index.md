@@ -17,7 +17,6 @@ title: "Course Notes"
 | [Elevate — Course Index](elevate) | index, course overview, flight training |
 | [Flightline Reference](flightline) | Checklists, maneuvers, session debrief notes |
 | [IFR Elevates](ifr-elevates) |  |
-| [Checkride Oral — Complete Study Guide](checkride-oral-study-guide) | Missed knowledge test codes, DPE oral prep, model answers |
 
 ---
 

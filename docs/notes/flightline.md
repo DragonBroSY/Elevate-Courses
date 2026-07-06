@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 23ee1d75aef9
+source_hash: 907d4fc43f93
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -387,4 +387,14 @@ App checklist:
 - ![Pasted image 20260602125925.png](../assets/Pasted%20image%2020260602125925.png)
 - ![Pasted image 20260602125958.png](../assets/Pasted%20image%2020260602125958.png)
 - ![Pasted image 20260602130012.png](../assets/Pasted%20image%2020260602130012.png)
+## 05/28
+- Sunset: a/c lights-ON
+- Evening civil twilight: 30 min after sunset, log NIGHT time
+- 1 hour after sunset: log night landings, 1 hour before sunrise-stop night landings log
+- Morning civil twilight-stops night time log
+- sunrise: lights-OFF
+- 61.57(b)1-PIC recency requirement: to carry passengers between 1 hour after sunset and ending 1 hour before sunrise, **you need to make at least 3 takeoffs and landings to a full stop in the preceding 90 days during the period beginning 1 hour after sunset and ending 1 hour before sunrise.**
+- 91.205(b): ATOMATOFLAMES-VFR day
+- 91.205(c): VFR night-FLAPS (fuses, landing light, anti-colision, pos lights, source of power)
+- 91.205(d): instr: GRABCARD
 - 
