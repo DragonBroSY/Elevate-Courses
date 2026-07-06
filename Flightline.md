@@ -455,7 +455,12 @@ App checklist:
 ## 06/12
 - ICEFLAGS:
 	- Inversion: desc to level off, climb to level off
-	- Coriolis: 
-	- elevator illusion:
-	- false horizon:
-	- 
+	- Coriolis: prolonged turn the fluid in ear moves then a movement of head in different direction send fluid to different direction
+	- elevator illusion: sudden upward accel from updraft gives the illusion of in a climb, incorrectly push the nose low
+	- false horizon: incorrectly align with cloud/fog/city lights at night
+	- leans:
+	- autokinesis: night flying and stationary light appears to move after stared too long
+	- graveyard spiral: prolonged coordinated, constant turn give pilot illusion of not turning, when returned to level flight, feel a turn in opposite direction and incorrectly entering the turn again. loss of altitude is countered with pulling back which tightens the turn even more.
+	- somatogravic: rapid accel causes the same sensation as tilting head backward, this nose high attitude is countered with push nose forward
+- Hypoxia:
+	- hypoxic: 
