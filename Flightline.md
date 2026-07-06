@@ -420,5 +420,11 @@ App checklist:
 	- flashing green: taxi, return for landing
 	- flashing red: taxi clear of rwy in use, not safe
 	- flashing white: return to starting point on airport
-- 91.151: fuel reserve requiremtn
-- 
+- 91.151: fuel reserve requirement
+- 91.159: vfr cruising alt, based on mag crs, at least 3000' AGL to apply
+## 06/02
+- flaps 40 will be easy to baloon->be more precise on a/s. add 40 flaps, nose down, add power back
+- never land short on short field
+- pwr off landing-pitch 76kts right away, need a final leg for last min adjustment and prevent acc stall
+- short field: say "flaps UP, simulate max braking"
+- region of reverse command is at 76kts, backside of the L/D curve, pwr1500, flaps 
