@@ -408,3 +408,17 @@ App checklist:
 - 91.15: dropping object
 - 91.17: alcohol and drugs
 - 91.117: speed
+	- **250 Knots Below 10,000 Feet MSL**
+	- **200 Knots Within 4 NM of Class C/D Primary Airport**
+	- **200 Knots Under Class B Airspace**
+- 91.119: MSA
+	- congested: 1000' abv, 2000' horizonal
+	- non-congest: 500' abv
+- 91.125: light gun
+	- solid green: cleared t/o, clear to land
+	- solid red: stop, circle
+	- flashing green: taxi, return for landing
+	- flashing red: taxi clear of rwy in use, not safe
+	- flashing white: return to starting point on airport
+- 91.151: fuel reserve requiremtn
+- 
