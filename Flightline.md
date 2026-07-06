@@ -427,4 +427,10 @@ App checklist:
 - never land short on short field
 - pwr off landing-pitch 76kts right away, need a final leg for last min adjustment and prevent acc stall
 - short field: say "flaps UP, simulate max braking"
-- region of reverse command is at 76kts, backside of the L/D curve, pwr1500, flaps 
+- region of reverse command is at 76kts, backside of the L/D curve, pwr1500, flaps 40, pwr 2000 right away
+- GND ref manuvers: always have emergency aldnig area
+- turn around point: tailwind->fast GS, steeper turn
+- two full swipes of trim is ~76kts
+## 05/04
+- Unusual att: in the blue, pwr thru, in the brown, pwr out
+- 
