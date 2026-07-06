@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 907d4fc43f93
+source_hash: 4952c0f627c5
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -395,6 +395,17 @@ App checklist:
 - sunrise: lights-OFF
 - 61.57(b)1-PIC recency requirement: to carry passengers between 1 hour after sunset and ending 1 hour before sunrise, **you need to make at least 3 takeoffs and landings to a full stop in the preceding 90 days during the period beginning 1 hour after sunset and ending 1 hour before sunrise.**
 - 91.205(b): ATOMATOFLAMES-VFR day
-- 91.205(c): VFR night-FLAPS (fuses, landing light, anti-colision, pos lights, source of power)
+- 91.205(c): VFR night-FLAPS (fuses, landing light, anti-collision, pos lights, source of power)
 - 91.205(d): instr: GRABCARD
-- 
+## 05/29
+- part 43-appx A, subtask C: preventive mx
+- part 61 how to get cert:
+	- 61.1x3: eligibility
+	- 61.1x5: aero knowledge
+	- 61.1x7: flight proficiency
+	- 61.1x9: aero exp
+	- x=0=pvt, x=2=commercial, x=5=atp, x=8=cfi
+- 91.3 PIC responsibility (final authority, deviation form rest of 91, may need written report after)
+- 91.15: dropping object
+- 91.17: alcohol and drugs
+- 91.117: speed
