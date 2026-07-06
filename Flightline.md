@@ -452,4 +452,10 @@ App checklist:
 	- conserve
 	- call
 	- comply
-- 
+## 06/12
+- ICEFLAGS:
+	- Inversion: desc to level off, climb to level off
+	- Coriolis: 
+	- elevator illusion:
+	- false horizon:
+	- 
