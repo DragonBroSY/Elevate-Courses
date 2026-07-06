@@ -2,12 +2,12 @@
 layout: note
 publish: true
 title: "Checkride Oral — Complete Study Guide"
-date: 2026-07-05
-topics: "checkride, oral exam, DPE, ACS, private pilot, ASEL, missed knowledge codes, model answers"
+date: 2026-07-06
+topics: "checkride, oral exam, DPE, ACS, private pilot, ASEL, missed knowledge codes, model answers, KJZP"
 ---
 
 # Private Pilot (ASEL) Checkride Oral — Complete Study Guide
-## Missed Knowledge Codes: Content, Sample Questions & Model Answers
+## Part 1: Missed Knowledge Codes | Part 2: DPE Sample Questions & Scenario
 
 **How the DPE uses these:** Your examiner receives your knowledge test report and is *required* (per the ACS and 14 CFR 61.43) to evaluate the areas you missed. Expect at least one or two questions per code below, usually woven into scenarios. Know these cold and the rest of the oral gets easier.
 
@@ -348,6 +348,104 @@ Mnemonic: **TVMDC** — "True Virgins Make Dull Company," and **East is least, W
 Approach: gusty means I add half the gust factor to my 1.3 Vso approach speed and consider partial flaps per the POH. Crab down final, transition to wing-low in the roundout, upwind wheel first, aileron increasing into the wind on rollout. Stabilized-approach gate at 400 feet — short runway means no floating, so if I'm fast or long, immediate go-around.
 
 Engine failure in the pattern: I'm already low, so it's compressed ABCDE — pitch for best glide instantly, and my 'best field' is probably the runway if I'm on downwind abeam or later; otherwise the best option ahead. Tight, coordinated turns only — this is exactly the cross-control stall setup we discussed. Memory items for restart if altitude permits, otherwise secure and land. The thread through all of it is energy: know how much I have, where it's going, and never trade it for a stall."
+
+---
+
+## Part 2: Your DPE's Sample Questions (Letter of Appointment — KJZP)
+
+Your DPE published seven sample oral questions and a planning scenario (JZP → MQY golf trip). Model answers below, same format. **The planning scenario has a built-in trap — see the notes at the end of this part.**
+
+---
+
+### Q1. "Explain the privileges and limitations associated with the Private Pilot Certificate."
+*Source: 14 CFR 61.113, 61.56, 61.57, 61.23*
+
+"As a private pilot I can act as PIC carrying passengers and property, day or night, VFR — but **not for compensation or hire**, and I can't pay less than my **pro-rata share** of the direct operating expenses — fuel, oil, airport fees, rental — when flying with passengers, and we must have a **common purpose** for the flight. The main exceptions in 61.113: I may fly in connection with a business if the flight is only incidental to it and carries no passengers or property for hire; charitable/community-event flights under 91.146; demonstrating an aircraft to a buyer if I have over 200 hours; towing gliders with the proper endorsement and experience; and I can be reimbursed for search-and-rescue operations. To carry passengers I also need currency — three takeoffs and landings within the preceding 90 days in category and class, and for night passengers, three takeoffs and landings to a **full stop** at night. I need a flight review every 24 calendar months and a current medical — third class or BasicMed as applicable."
+
+---
+
+### Q2. "Explain your process for determining that this aircraft is airworthy."
+*Source: 14 CFR 91.7, 91.205, 91.213, 91.409/91.411/91.413/91.207; PHAK Ch. 9*
+
+"Under 91.7, as PIC I'm responsible for determining the aircraft is in condition for safe flight. Airworthy means two things: the aircraft **conforms to its type design** (or properly approved alterations) and is in **condition for safe operation**. My process:
+
+1. **Documents on board** — ARROW.
+2. **Maintenance logbooks** (engine, airframe, propeller — which I've brought today): verify the **annual** within the preceding 12 calendar months, **100-hour** if operated for hire, **transponder** within 24 calendar months, **ELT** inspected within 12 calendar months with battery limits, pitot-static/altimeter within 24 months for IFR, and **AD compliance** — recurring ADs signed off with the method of compliance.
+3. **Required equipment** — 91.205 for day VFR (the TOMATO FLAMES list) and night (FLAPS additions). Anything inoperative gets handled under **91.213**: no MEL in this airplane, so the item must not be required by 91.205, the type certificate, ADs, or the equipment list — then it's **deactivated and placarded**, or removed by maintenance, and I still make the final call that it's safe.
+4. **Preflight inspection** per POH Section 4 — the physical confirmation of condition for safe flight."
+
+---
+
+### Q3. "Explain your process of weather analysis for this flight — graphical and textual products."
+*Source: AC 00-45H (Aviation Weather Services), PHAK Ch. 13, AIM Ch. 7*
+
+"I start the evening before with the big picture and refine toward departure time.
+
+**Big picture (graphical):** surface analysis and **prog charts** for fronts and pressure systems affecting the route; the **Graphical Forecasts for Aviation (GFA)** on aviationweather.gov for ceilings, visibility, clouds, and precipitation along JZP–MQY; satellite and radar for what's actually happening; icing and turbulence graphics as applicable — and in a Georgia summer, the **convective outlook**, since a 1 p.m. arrival puts us right at the start of afternoon buildups.
+
+**Textual:** **METARs** for current conditions at JZP, MQY, and en-route stations like Chattanooga; **TAFs** for terminal forecasts; **winds and temps aloft** for my nav log and density-altitude picture; **PIREPs** for real-world ride and cloud reports; **AIRMETs and SIGMETs** — especially convective SIGMETs; and **NOTAMs and TFRs** for both airports and the route.
+
+Then a **standard briefing** through Leidos (1800wxbrief) or my EFB to make it official, and I filter it all through my **personal minimums** for the go/no-go, with an alternate plan if weather is marginal. Per the letter, I've printed/photographed the charts I used."
+
+---
+
+### Q4. "Explain your route planning for this flight, including airspace and nav/comm facilities."
+*Source: Sectional chart, AIM, PHAK Ch. 15–16*
+
+"JZP to MQY is roughly 130–140 NM to the northwest into middle Tennessee. My planning:
+
+**Terrain first** — departing Jasper I'm immediately dealing with the north Georgia mountains; I'd pick a cruising altitude giving comfortable clearance over the highest terrain along my route, and per **91.159**, my magnetic course is westerly (180°–359°), so **even thousands plus 500** — likely 6,500.
+
+**Airspace along the route (verify on the current sectional):** JZP is a non-towered field — Class G below Class E, CTAF procedures. En route I pass near **Chattanooga's Class C** — I'll either talk to Chattanooga Approach for a transition or route to avoid it. Approaching MQY I'm in the Nashville terminal area — **MQY is a towered Class D**, and I need to check the current chart for any overlying Class C shelf from BNA plus its Mode C veil requirements. I also check for **MOAs, restricted areas, and TFRs** along the route — stadium TFRs and any temporary restrictions the day of.
+
+**Navigation:** pilotage and dead reckoning as primary for the checkride — checkpoints every 10–15 NM on the nav log with headings, times, and fuel burns — backed up by VOR cross-checks and GPS.
+
+**Communications:** JZP CTAF for departure; **flight following** from Atlanta Center, handed to Chattanooga and then Nashville Approach; MQY ATIS and Tower for arrival. Frequencies are all on my nav log. Fuel: **91.151** requires 30 minutes reserve for day VFR, but my personal minimum is an hour on the ground at MQY."
+
+---
+
+### Q5. "Explain how DA affects performance. How does CG affect performance?"
+*Source: PHAK Ch. 5 and 11*
+
+"**Density altitude** — covered in depth in Part 1, Section 1: high, hot, humid air degrades engine power, propeller thrust, and lift, so longer takeoff rolls, shallower climbs, and higher true airspeeds for a given indicated airspeed.
+
+**CG position** — this is about stability versus efficiency:
+
+An **aft CG** makes the airplane **less longitudinally stable** — the tail needs less down-force, so there's less induced drag and a slightly **faster cruise and lower stall speed** — but stall and spin **recovery is harder**, and beyond the aft limit, recovery may be impossible.
+
+A **forward CG** makes the airplane **more stable** and stall/spin resistant, but the tail must generate more down-force, which effectively adds weight — **higher stall speed, more drag, slower cruise**, and at the forward limit I may run out of elevator authority to flare.
+
+The takeaway for today's flight: with two 200+ pound friends and golf bags in the back, I compute CG for **takeoff and landing** (it shifts as fuel burns) and confirm it stays inside the envelope the whole flight."
+
+---
+
+### Q6. "Alternator failure indications? Blocked static port effects? How does the HSI get a directional solution?"
+*Source: PHAK Ch. 7–8, POH Sections 3 and 7*
+
+"**Alternator failure:** the ammeter shows a **discharge** (or the load meter drops to zero) and the **low-voltage annunciator** illuminates. The battery is now the only source, so everything electrical keeps working — until it doesn't. My response per the POH: verify with the ammeter, attempt one **alternator reset** (ALT side of the master off, then on), and if it doesn't restore, **load-shed** to essentials and land as soon as practicable, knowing I have limited battery time — flaps, transponder, radios, and lights are all drawing it down.
+
+**Blocked static port:** the static instruments are the **altimeter, VSI, and airspeed indicator**. Altimeter **freezes** at the altitude where the blockage occurred; VSI reads **zero** constantly; and the ASI still works but lies — it reads **low in a climb and high in a descent** (trapped static pressure). Remedy: **alternate static source** per the POH — expect slightly high altitude/airspeed indications since cabin pressure is lower than ambient — or in a true emergency, breaking the VSI glass gives the system a static source (and reverses the VSI).
+
+**HSI directional solution:** the HSI is a heading indicator combined with the VOR/nav display. Its heading comes from a **slaved compass system** — a remote **flux gate (magnetometer)** senses the earth's magnetic field and continuously corrects the directional gyro, so unlike a basic DG it doesn't need manual realignment every 15 minutes. In a glass cockpit, the **AHRS plus magnetometer** does the same job."
+
+---
+
+### Q7. "Explain how you assess your fitness for flight."
+*Source: PHAK Ch. 17, AC 60-22; 14 CFR 61.53, 91.17*
+
+"**IMSAFE** before every flight: **I**llness — am I sick? **M**edication — am I on anything, and is it on the FAA's no-go list (and under 61.53, if I have a known medical deficiency, I don't act as PIC)? **S**tress — life or work stress degrading my focus? **A**lcohol — 91.17: **8 hours bottle-to-throttle, under 0.04 BAC**, and no effects — my personal rule is longer; **F**atigue — did I sleep? **E**motion/Eating — am I emotionally settled and fueled?
+
+I fold that into **PAVE** for the whole flight: **P**ilot (IMSAFE), **A**ircraft, en**V**ironment, and **E**xternal pressures. And in *this* scenario the external pressure is the whole point — a 1 p.m. tee time with friends waiting is textbook **get-there-itis**. My mitigation is deciding my go/no-go criteria the night before, telling my friends up front that weather or airplane issues mean we drive or don't go, and having that alternative already arranged so the airplane never has to make the tournament."
+
+---
+
+### Scenario Notes: JZP → MQY Golf Trip — The Traps
+
+**1. Weight & balance is the big one.** Run the actual numbers: you + friends at **210 and 220 lbs** + **90 lbs** of golf bags is 520+ lbs of payload before you sit down. In a typical 172 with a ~850–900 lb useful load, full fuel (53 gal ≈ 318 lbs) puts you **over max gross**. The expected answer: compute it, catch it, and solve it — **reduced fuel with a planned fuel stop**, verifying you still meet 91.151 reserves, or leave a golf bag/passenger behind. Also check the **baggage compartment limit** (typically 120 lbs) and aft CG with bags in back. And remember for the checkride flight itself: **the DPE weighs 210** — bring a W&B computed for the two of you.
+
+**2. Timing pressure.** Tournament at 1:00, awards at 6:00 — the scenario bakes in get-there-itis both directions (afternoon convection for the ride home after 6 p.m. dinner? Night currency? Fuel stop time added?). Address it unprompted — DPEs are listening for whether you *notice* the pressure.
+
+**3. Bring the paperwork the letter asks for:** decoded missed-code descriptions (Part 1 of this guide covers all of them), printed/photographed wx products, nav log printed if using an EFB, current T/O and landing data for checkride-day temps and winds, and the aircraft logbooks with tabs on the inspections.
 
 ---
 
