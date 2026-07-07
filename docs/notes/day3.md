@@ -3,12 +3,13 @@ layout: note
 title: "Day 3 — Airspace"
 date: 2026-03-31
 topics: "airspace, Class A B C D E G, TRSA, TFR, SFRA, sectional charts, TAC, VFR, SVFR"
-source_hash: 8a15bbcad4d5
+source_hash: 48a341e4961f
 ---
 
 ### Airspace
 - ![Pasted image 20260330213721.png](../assets/Pasted%20image%2020260330213721.png)
 - ![Pasted image 20260330214804.png](../assets/Pasted%20image%2020260330214804.png)
+- *2400&2500 MSL chart symbol for a Class E floor defined at a specific MSL altitude (rather than the usual 700' or 1,200' AGL). That stepped "staircase/zipper" line is the boundary between two areas with different Class E floors. The number sits on the side of the line where it applies: On the 2,400 MSL side of the line, Class E begins at 2,400 feet MSL — everything below that is Class G On the 4,500 MSL side, Class E doesn't begin until 4,500 feet MSL — so Class G extends higher there. You see this mostly out West and in mountainous areas, where terrain makes AGL-based floors impractical, so the FAA defines the Class E floor as a hard MSL altitude instead. In your diagram it's drawn in that gap between the 14,500 MSL region (where Class G runs all the way up because no lower E floor is designated) and the 1,200' AGL region (magenta/blue shading areas).*
 - this is due to radar coverage limitation: ![Pasted image 20260330215038.png](../assets/Pasted%20image%2020260330215038.png)
 - ![Pasted image 20260330215838.png](../assets/Pasted%20image%2020260330215838.png)
 - ![Pasted image 20260330220134.png](../assets/Pasted%20image%2020260330220134.png)
