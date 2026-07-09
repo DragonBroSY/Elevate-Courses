@@ -5,6 +5,8 @@ date: 2026-06-16
 source_hash: f250e3c12651
 ---
 
+**Reference:** [IFR Quick-Review Study Guide (PilotsCafe, V4.0.0)](../assets/IFRQuickReviewGuide.pdf) — full instrument-airplane quick-review PDF.
+
 - ILS-GLAN: guidance: GS, Localizer
 - 91.175C: 12 diff visual refs descend below DA/DH or MDA?
 ![Pasted image 20260611215721.png](../assets/Pasted%20image%2020260611215721.png)
