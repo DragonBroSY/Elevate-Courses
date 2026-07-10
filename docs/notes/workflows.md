@@ -58,12 +58,18 @@ Write in Obsidian → push → GitHub Actions → live site.
 
 ## 2. Adding PDFs / Files
 
-1. Drop file into `docs/assets/`
-2. Add a link in `docs/notes/resources.md`:
-   ```markdown
-   [Archer POH](../assets/poh-archer.pdf)
-   ```
-3. Push — GitHub Pages serves it immediately
+Drop the file into `pdf-inbox/` → push. That's it.
+
+`publish_notes.py` (run automatically by GitHub Actions on every push) will:
+- Copy it to `docs/assets/`
+- Add a row to `docs/notes/resources.md` (title auto-generated from the filename)
+- Move the original into `pdf-inbox/published/` (gitignored, so it isn't duplicated in the repo)
+
+Edit the auto-added row in `resources.md` afterward if you want a nicer title/description —
+that edit sticks; the inbox only *adds* rows, it never overwrites existing ones.
+
+(Manual alternative, if you want more control over the title/section up front: drop the
+file straight into `docs/assets/` yourself and add the `resources.md` row by hand.)
 
 ---
 

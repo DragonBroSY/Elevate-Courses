@@ -12,7 +12,7 @@ Study materials, reference PDFs, and useful links.
 
 ## PDFs & Documents
 
-*Drop PDFs into `docs/assets/` and add links here.*
+*Drop files into `pdf-inbox/` and push — they show up here automatically.*
 
 | File | Description |
 |------|-------------|

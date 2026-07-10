@@ -15,7 +15,11 @@ Overwrite protection:
   generated file is left untouched — preserving any edits made on GitHub.
   If the vault file changed, it overwrites (vault wins).
 
-Run automatically via push.sh, or manually:
+Also drains pdf-inbox/: any file dropped there is copied to docs/assets/,
+listed in docs/notes/resources.md, and moved to pdf-inbox/published/
+(gitignored, so it isn't duplicated in the repo).
+
+Run automatically via push.sh (or GitHub Actions on every push), or manually:
   python publish_notes.py
 """
 
@@ -24,10 +28,13 @@ import re
 import shutil
 from pathlib import Path
 
-VAULT_ROOT  = Path(__file__).parent
-DOCS_NOTES  = VAULT_ROOT / "docs" / "notes"
-DOCS_ASSETS = VAULT_ROOT / "docs" / "assets"
-IMG_EXTS    = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".heic"}
+VAULT_ROOT   = Path(__file__).parent
+DOCS_NOTES   = VAULT_ROOT / "docs" / "notes"
+DOCS_ASSETS  = VAULT_ROOT / "docs" / "assets"
+PDF_INBOX    = VAULT_ROOT / "pdf-inbox"
+PDF_DONE     = PDF_INBOX / "published"
+RESOURCES_MD = DOCS_NOTES / "resources.md"
+IMG_EXTS     = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".heic"}
 
 
 # -- Helpers ------------------------------------------------------------------
@@ -98,11 +105,89 @@ def convert(text, assets_prefix="../assets"):
     return text
 
 
+# -- PDF inbox -----------------------------------------------------------------
+
+def humanize_filename(stem):
+    """Turn a filename stem into a readable title: camelCase/snake_case/kebab-case -> Title Case."""
+    s = re.sub(r"[_\-]+", " ", stem)
+    s = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", s)
+    return " ".join(w.capitalize() for w in s.split())
+
+
+def process_pdf_inbox():
+    """Copy any files dropped in pdf-inbox/ to docs/assets/ and return their names."""
+    if not PDF_INBOX.exists():
+        return []
+
+    PDF_DONE.mkdir(parents=True, exist_ok=True)
+    dropped = [
+        f for f in sorted(PDF_INBOX.iterdir())
+        if f.is_file() and not f.name.startswith(".") and f.name.lower() != "readme.md"
+    ]
+
+    added = []
+    for f in dropped:
+        dest = DOCS_ASSETS / f.name
+        if dest.exists():
+            print(f"    WARNING {f.name} already exists in docs/assets/, not overwriting")
+        else:
+            shutil.copy2(f, dest)
+            print(f"  + pdf-inbox: {f.name} -> docs/assets/")
+        added.append(f.name)
+        f.rename(PDF_DONE / f.name)
+
+    return added
+
+
+def update_resources_table(new_files):
+    """Insert a row per new file into the 'PDFs & Documents' table in resources.md."""
+    if not new_files or not RESOURCES_MD.exists():
+        return
+
+    lines = RESOURCES_MD.read_text(encoding="utf-8").splitlines()
+
+    try:
+        heading_idx = next(i for i, l in enumerate(lines) if l.strip() == "## PDFs & Documents")
+        sep_idx = next(
+            i for i in range(heading_idx, len(lines))
+            if lines[i].strip().startswith("|") and set(lines[i].strip()) <= set("|- ")
+        )
+    except StopIteration:
+        print("    WARNING resources.md missing a '## PDFs & Documents' table, skipping")
+        return
+
+    insert_at = sep_idx + 1
+    if insert_at < len(lines) and lines[insert_at].strip() == "| — | — |":
+        del lines[insert_at]
+
+    existing = {
+        l.split("](")[1].split(")")[0].rsplit("/", 1)[-1]
+        for l in lines[insert_at:]
+        if l.strip().startswith("|") and "](" in l
+    }
+
+    new_rows = [
+        f"| [{humanize_filename(Path(name).stem)}](../assets/{name.replace(' ', '%20')}) | — |"
+        for name in new_files
+        if name not in existing
+    ]
+
+    for row in reversed(new_rows):
+        lines.insert(insert_at, row)
+
+    if new_rows:
+        RESOURCES_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        print(f"  Updated resources.md ({len(new_rows)} new entr{'y' if len(new_rows)==1 else 'ies'})")
+
+
 # -- Main ---------------------------------------------------------------------
 
 def publish():
     DOCS_NOTES.mkdir(parents=True, exist_ok=True)
     DOCS_ASSETS.mkdir(parents=True, exist_ok=True)
+
+    inbox_files = process_pdf_inbox()
+    update_resources_table(inbox_files)
 
     published = []  # [(title, slug, date, topics)]
 

@@ -12,5 +12,8 @@ audio-inbox/*.aac
 audio-inbox/*.opus
 audio-inbox/uploaded/
 
+# PDF inbox — file is copied to docs/assets/ on publish; local copy discarded after
+pdf-inbox/published/
+
 # Credentials
 .env
