@@ -16,7 +16,8 @@ Study materials, reference PDFs, and useful links.
 
 | File | Description |
 |------|-------------|
-| — | — |
+| [Atp Pvt](../assets/ATP-PVT.pdf) | — |
+| [Pvt Elevates](../assets/PVT%20Elevates.pdf) | — |
 
 ---
 
