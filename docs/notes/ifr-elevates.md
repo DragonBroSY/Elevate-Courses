@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: 7b5ec8558e7e
+source_hash: c2f85950a826
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -321,4 +321,8 @@ $$
 - ![Pasted image 20260710215949.png](../assets/Pasted%20image%2020260710215949.png)
 - ![Pasted image 20260710220223.png](../assets/Pasted%20image%2020260710220223.png)
 - 10, 20, 30, 45, 60 degree marks
-- 
+- ![Pasted image 20260710220744.png](../assets/Pasted%20image%2020260710220744.png)
+- Turn rate trend vector is 3 deg/sec long hash mark 
+- ![Pasted image 20260710221444.png](../assets/Pasted%20image%2020260710221444.png)
+	- Magnetic var and true North are different ![Pasted image 20260710221617.png](../assets/Pasted%20image%2020260710221617.png)
+	- Deviation: outside electronic interference, correct by compass de
