@@ -323,4 +323,9 @@ $$
 - Turn rate trend vector is 3 deg/sec long hash mark 
 - ![[Pasted image 20260710221444.png]]
 	- Magnetic var and true North are different ![[Pasted image 20260710221617.png]]
-	- Deviation: outside electronic interference, correct by compass de
+	- Deviation: outside electronic interference, correct by compass deviation card
+	- Dip: close to north pole, compass will dop towards it
+	- Northernly turning errors UNOS: compass lags, since compass always want seek North "undershoot N, undershoot S"
+	- ANDS: Acc North, Dec South
+- ![[Pasted image 20260710222108.png]]
+- 
