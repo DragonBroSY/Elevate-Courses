@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: c0f226c55bc8
+source_hash: 7b5ec8558e7e
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -317,4 +317,8 @@ $$
 
 ## Day 2
 - ![Pasted image 20260710215456.png](../assets/Pasted%20image%2020260710215456.png)
+- ![Pasted image 20260710215600.png](../assets/Pasted%20image%2020260710215600.png)
+- ![Pasted image 20260710215949.png](../assets/Pasted%20image%2020260710215949.png)
+- ![Pasted image 20260710220223.png](../assets/Pasted%20image%2020260710220223.png)
+- 10, 20, 30, 45, 60 degree marks
 - 
