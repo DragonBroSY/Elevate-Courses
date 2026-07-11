@@ -315,4 +315,8 @@ $$
 
 ## Day 2
 - ![[Pasted image 20260710215456.png]]
+- ![[Pasted image 20260710215600.png]]
+- ![[Pasted image 20260710215949.png]]
+- ![[Pasted image 20260710220223.png]]
+- 10, 20, 30, 45, 60 degree marks
 - 
