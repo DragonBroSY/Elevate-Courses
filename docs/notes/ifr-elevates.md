@@ -2,7 +2,7 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: c2f85950a826
+source_hash: c360578907ef
 ---
 
 - ILS-GLAN: guidance: GS, Localizer
@@ -325,4 +325,9 @@ $$
 - Turn rate trend vector is 3 deg/sec long hash mark 
 - ![Pasted image 20260710221444.png](../assets/Pasted%20image%2020260710221444.png)
 	- Magnetic var and true North are different ![Pasted image 20260710221617.png](../assets/Pasted%20image%2020260710221617.png)
-	- Deviation: outside electronic interference, correct by compass de
+	- Deviation: outside electronic interference, correct by compass deviation card
+	- Dip: close to north pole, compass will dop towards it
+	- Northernly turning errors UNOS: compass lags, since compass always want seek North "undershoot N, undershoot S"
+	- ANDS: Acc North, Dec South
+- ![Pasted image 20260710222108.png](../assets/Pasted%20image%2020260710222108.png)
+- 
