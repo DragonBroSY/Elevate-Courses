@@ -329,4 +329,6 @@ $$
 	- ANDS: Acc North, Dec South
 - ![[Pasted image 20260710222108.png]]
 - ![[Pasted image 20260710224922.png]]
+- ![[Pasted image 20260710231326.png]]
+- ![[Pasted image 20260710231433.png]]
 - 
