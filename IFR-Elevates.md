@@ -312,4 +312,7 @@ $$
 - ![[Pasted image 20260627001323.png]]
 - unscheduled ex is CWA: airment, sigmets, conv sigmets
 - Asos accessible within 25nm of facility
+
+## Day 2
+- ![[Pasted image 20260710215456.png]]
 - 
