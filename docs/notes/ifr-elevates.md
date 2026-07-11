@@ -2,10 +2,8 @@
 layout: note
 title: "IFR Elevates"
 date: 2026-06-16
-source_hash: f250e3c12651
+source_hash: c0f226c55bc8
 ---
-
-**Reference:** [IFR Quick-Review Study Guide (PilotsCafe, V4.0.0)](../assets/IFRQuickReviewGuide.pdf) — full instrument-airplane quick-review PDF.
 
 - ILS-GLAN: guidance: GS, Localizer
 - 91.175C: 12 diff visual refs descend below DA/DH or MDA?
@@ -316,4 +314,7 @@ $$
 - ![Pasted image 20260627001323.png](../assets/Pasted%20image%2020260627001323.png)
 - unscheduled ex is CWA: airment, sigmets, conv sigmets
 - Asos accessible within 25nm of facility
+
+## Day 2
+- ![Pasted image 20260710215456.png](../assets/Pasted%20image%2020260710215456.png)
 - 
