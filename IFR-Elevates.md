@@ -319,4 +319,8 @@ $$
 - ![[Pasted image 20260710215949.png]]
 - ![[Pasted image 20260710220223.png]]
 - 10, 20, 30, 45, 60 degree marks
-- 
+- ![[Pasted image 20260710220744.png]]
+- Turn rate trend vector is 3 deg/sec long hash mark 
+- ![[Pasted image 20260710221444.png]]
+	- Magnetic var and true North are different ![[Pasted image 20260710221617.png]]
+	- Deviation: outside electronic interference, correct by compass de
