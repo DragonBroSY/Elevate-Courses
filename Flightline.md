@@ -487,4 +487,11 @@ App checklist:
 - Va: one full deflection of control surface->stall before break
 	- heavier: higher aoa, higher stall speed, higher Va
 	- As you pull back and increase Gs, you'll hit your G limit before you reach the critical angle of attack.
-- 
+## 07/15
+- IFR T/O 3 things to meet:
+	- 35' AGL @ DER
+	- 200 FPNM climb
+	- No turn until 400' AGL
+- 3NM from IAF-slow to 90kts. actions at IAF: verify mins(LPV, LNAV), VLOC/GPS, CTAF
+- level off at 50'+DA (ACS is +100' -0)
+- 5Cs on missed app(aviate, nav, comm-cram, climb, clean, click obs, call)
