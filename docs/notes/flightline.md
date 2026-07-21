@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: b7c4de17c898
+source_hash: 83fc9d63d336
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -496,3 +496,29 @@ App checklist:
 - 3NM from IAF-slow to 90kts. actions at IAF: verify mins(LPV, LNAV), VLOC/GPS, CTAF
 - level off at 50'+DA (ACS is +100' -0)
 - 5Cs on missed app(aviate, nav, comm-cram, climb, clean, click obs, call)
+
+## 07/19
+- actions at IAF: 
+	- verify mins (LPV, LNAV, etc)
+	- vloc/gps mode
+	- ctaf call
+- actions at FAF:
+	- flaps 10deg, 1500rpm, 80kts
+	- before landing xlist
+	- 10nm ctaf call, 1000' to minimum call
+## xlist inserts
+- normal:
+	- after start: last item-RAIM, WAAS--check
+	- taxi: last item-1st protected turn
+	- runup: fuel gauges/qty-check, set timer, flight inst-check, hdg/alt bug
+	- before t/o: depart brief-brief depart procedure-complete, ODP
+	- after t/o: a/s-87kts
+	- approach: app briefing-complete RET3O, mixture-slightly enrichen, when desc
+	- before landing: pumps on, landing lts on, proper tank, mixture full rich, flaps
+	- after landing: bowling motion
+- emer:
+	- spin recovery: REAP
+	- loss of fuel pressure: next are 'three in the green'
+	- engine running roughly: 4 things-'carb heat, mixture, fuel pump, fuel selector'
+	- engine power loss in flight: 4 things in reverse-'fuel selector, fuel pump, mixture, carb heat'
+	- 
