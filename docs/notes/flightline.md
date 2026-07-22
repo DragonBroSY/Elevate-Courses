@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 83fc9d63d336
+source_hash: 31dee274e980
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -521,4 +521,6 @@ App checklist:
 	- loss of fuel pressure: next are 'three in the green'
 	- engine running roughly: 4 things-'carb heat, mixture, fuel pump, fuel selector'
 	- engine power loss in flight: 4 things in reverse-'fuel selector, fuel pump, mixture, carb heat'
-	- 
+- IAF: minimum mode (verufy minimums, VLOC/GPS mode)
+- FAF: config before thou (config-80kts, 10deg, before landing check, thousand to minimum calls)
+- 5Ts at every fix: turn, time, twist, TQ, talk (ATC, CTAF)
