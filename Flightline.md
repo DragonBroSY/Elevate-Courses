@@ -520,4 +520,6 @@ App checklist:
 	- loss of fuel pressure: next are 'three in the green'
 	- engine running roughly: 4 things-'carb heat, mixture, fuel pump, fuel selector'
 	- engine power loss in flight: 4 things in reverse-'fuel selector, fuel pump, mixture, carb heat'
-	- 
+- IAF: minimum mode (verufy minimums, VLOC/GPS mode)
+- FAF: config before thou (config-80kts, 10deg, before landing check, thousand to minimum calls)
+- 5Ts at every fix: turn, time, twist, TQ, talk (ATC, CTAF)
