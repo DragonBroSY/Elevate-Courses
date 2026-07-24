@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 607c8c8d9356
+source_hash: 6fd36113a21a
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -534,4 +534,3 @@ App checklist:
 | if center gives app freq, put in the next logical freq, ie. twr in stby |                                                                                  |                                           |                                                       |
 | missed app inst: published, unpublished                                 |                                                                                  |                                           |                                                       |
 - 5Cs for go-miss: click after MAP
-- 
