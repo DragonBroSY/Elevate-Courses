@@ -525,7 +525,12 @@ App checklist:
 - 5Ts at every fix: turn, time, twist, TQ, talk (ATC, CTAF)
 ## 07/23
 
-|     | Enroute   | IF  | FAF | Minimum |
-| --- | --------- | --- | --- | ------- |
-|     | WX/notams |     |     |         |
-|     |           |     |     |         |
+| Enroute                                                                 | IF                                                                               | FAF                                       | Minimum                                               |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------- |
+| WX/notams                                                               | PT or noPT                                                                       | CTAF 5NM call                             | prior-100 to mins call                                |
+| Brief Plate: verify correct plate, notams                               | vectors or direct to fix                                                         | config: DA-.5dot below GS, MDA-.5NM prior | DA: No Visual-go miss, Visual-call RWY, desc          |
+| approach xlist                                                          | before: 90kts w/i 3NM, 10NM to RWY(CTAF 10NM call), verfify GPS mins, verify CRS | 1000 ft to min callout                    | MDA: No Visual-hold MDA until MAP, Visual-flaps 25deg |
+| if center gives app freq, put in the next logical freq, ie. twr in stby |                                                                                  |                                           |                                                       |
+| missed app inst: published, unpublished                                 |                                                                                  |                                           |                                                       |
+- 5Cs for go-miss: click after MAP
+- 
