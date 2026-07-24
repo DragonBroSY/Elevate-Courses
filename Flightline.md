@@ -533,3 +533,43 @@ App checklist:
 | if center gives app freq, put in the next logical freq, ie. twr in stby |                                                                                  |                                           |                                                       |
 | missed app inst: published, unpublished                                 |                                                                                  |                                           |                                                       |
 - 5Cs for go-miss: click after MAP
+## Ground
+- Mandatory IFR reporting:
+	- MARVELOUSVFRC500 (missed app, a/s +-10kts 5%, reaching holding fix, CFR on top alt change, ETA change +-2min, leave holding fix, )
+- ILS component: GLAM-GS, Loc, app lighting sys (ALS), Marker Beacon
+- loss comms: if VFR, stay VFR
+	- ALT: MEA-MEA, Expected, Assigned (highest of)
+	- RTE: Assigned, Vectored, Expected, Filed (in order)
+- GPS based:
+	- 
+
+|           | Precision? | GS       | DA           |
+| --------- | ---------- | -------- | ------------ |
+| LPV "ILS" | yes        | yes      | DA need WAAS |
+| LP "VOR"  | no         | no       | MDA          |
+| LNAV+VNAV | yes        | yes      | DA need WAAS |
+| LNAV      | no         | no       | MDA          |
+| LP+V      | no         | advisory | MDA          |
+| LNAV+V    | no         | advisory | MDA          |
+- 91.167-91.199: IFR rules
+- 91.205(d): GRAB CARDD
+- 61.65:
+- "they sell moca at starbucks" '*2400'
+- MEA: reception all the way to VOR
+- MORA: w/i 22NM reception
+- '2400G'-GPS-MEA (a lot lower)
+- green airport-inst app, brown-no inst app, blue-high alt
+- PITO LARS (parallel inbound, td outbound, td-30, parallel-45) 'parallel is protected side'
+- NO PT when: SHARPTT
+	- straght in
+	- hold in lieu
+	- dme arc
+	- radar vec
+	- noPT
+	- teardrop barb
+	- timed "stacked in holding"
+- IFR T/O to meet 3 things
+	- 35'AGL at DER
+	- 200FPNM climb
+	- no turn until 400'AGL
+- 
