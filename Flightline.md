@@ -533,4 +533,3 @@ App checklist:
 | if center gives app freq, put in the next logical freq, ie. twr in stby |                                                                                  |                                           |                                                       |
 | missed app inst: published, unpublished                                 |                                                                                  |                                           |                                                       |
 - 5Cs for go-miss: click after MAP
-- 
