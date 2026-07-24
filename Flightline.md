@@ -523,3 +523,9 @@ App checklist:
 - IAF: minimum mode (verufy minimums, VLOC/GPS mode)
 - FAF: config before thou (config-80kts, 10deg, before landing check, thousand to minimum calls)
 - 5Ts at every fix: turn, time, twist, TQ, talk (ATC, CTAF)
+## 07/23
+
+|     | Enroute   | IF  | FAF | Minimum |
+| --- | --------- | --- | --- | ------- |
+|     | WX/notams |     |     |         |
+|     |           |     |     |         |
