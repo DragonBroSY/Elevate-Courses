@@ -543,14 +543,14 @@ App checklist:
 - GPS based:
 	- 
 
-|           | Precision? | GS       | DA           |
-| --------- | ---------- | -------- | ------------ |
-| LPV "ILS" | yes        | yes      | DA need WAAS |
-| LP "VOR"  | no         | no       | MDA          |
-| LNAV+VNAV | yes        | yes      | DA need WAAS |
-| LNAV      | no         | no       | MDA          |
-| LP+V      | no         | advisory | MDA          |
-| LNAV+V    | no         | advisory | MDA          |
+|           | Precision? | GS       | DA            |
+| --------- | ---------- | -------- | ------------- |
+| LPV "ILS" | yes        | yes      | DA need WAAS  |
+| LP "VOR"  | no         | no       | MDA need WAAS |
+| LNAV+VNAV | yes        | yes      | DA need WAAS  |
+| LNAV      | no         | no       | MDA           |
+| LP+V      | no         | advisory | MDA           |
+| LNAV+V    | no         | advisory | MDA           |
 - 91.167-91.199: IFR rules
 - 91.205(d): GRAB CARDD
 - 61.65:
@@ -568,8 +568,21 @@ App checklist:
 	- noPT
 	- teardrop barb
 	- timed "stacked in holding"
-- IFR T/O to meet 3 things
+- IFR T/O to meet 3 things (91.167 std depart procedure)
 	- 35'AGL at DER
 	- 200FPNM climb
 	- no turn until 400'AGL
+- 91.175c:
+	- RWY, Touchdown Zone, Threshold x9
+	- VGSI (VASI, PAPI), REIL, ALS (only abv 100' touchdown zone elev)
+## 07/18
+- start timer is part of before T/O check
+- VOR app: tune/ID is part of app xlist
+- remove hold from flight plan if cleared straight in
+- circle to land: hold MDA until config point-abeam numbers-flaps 25
+- on the missed: 'upwind 24 departing to the NW'
+- good rule: get to minimums at VDP
+- if 0.5NM to RWY at MDA and not visual, go missed
+- LP needs WAAS
+- add PWR 50' prior to set altitude
 - 
