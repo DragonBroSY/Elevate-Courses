@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: a9728b6ce737
+source_hash: 74a860610e48
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -616,3 +616,24 @@ App checklist:
 | if center gives app freq, put pwr in stby                                               |                                                                                                                                     |                                                                   |
 | 90knts within 3NM, 10mile ctaf call, verify gps mins ('min mode alive & twist tq talk') |                                                                                                                                     |                                                                   |
 | missed app: published or alt/unpublished                                                |                                                                                                                                     |                                                                   |
+## 07/27
+- CTL MAP is 1.3NM from the RWY, continuous circle, if entering downwind, HDG should be reciprocal (sanity check). if miss during circling, should get over apch RWY, then hit 'OBS', otherwise 430 will draw a straight line from present position to the missed fix (we don't want this), nice shallow turns
+- tune/ID VOR for both 430s, vloc mode for both 430s
+- ctaf call is 10, 7, 5, 3
+- ILS21L: once established on LOC, start desc on GS if cleared for apch
+- file IFR alt required when: 0123
+	- 0-no inst apch avail
+	- 1 hour before and after ETA, 2000' cig, 3SM vis
+## 07/30
+- report when @ holding fix
+- look @ xtk on g430 for loc deviation
+- wind diamond and arrow needs to be touching on final, otherwise the correction is way too big
+- 'cross IAF at 3000 cleared for the VOR-B' means cleared for the stright-in, no PT required, Electric City VOR is also the FAF
+- VOR-A at PDK: don't be @ MDA too far, 1.3NM for CTL -> stay at MDA 50' above until abeam touchdown zone, config 2nd notch
+## 07/31
+- partial panel: g430 lateral nav and altimeter (along with 6pack) scans within 5NM of RWY, stay within .02 on XTK-> new mins LNAV (no GS), notify ATC, need assistance (delayed vectors for extra time)
+- straight-in 21L: aim for a 3mile final
+## 08/04
+- 6hits current: 
+- IFR departure clearance void time: ![Pasted image 20260804164911.png](../assets/Pasted%20image%2020260804164911.png)
+- 
