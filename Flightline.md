@@ -578,11 +578,40 @@ App checklist:
 ## 07/18
 - start timer is part of before T/O check
 - VOR app: tune/ID is part of app xlist
-- remove hold from flight plan if cleared straight in
+- remove hold from flight plan if cleared straight in, vectored to final think IAF not required 'activate vectors to final'
 - circle to land: hold MDA until config point-abeam numbers-flaps 25
 - on the missed: 'upwind 24 departing to the NW'
 - good rule: get to minimums at VDP
 - if 0.5NM to RWY at MDA and not visual, go missed
 - LP needs WAAS
 - add PWR 50' prior to set altitude
+- on the miss: 'atl aprch, cxk616 miss aprch, climbing 2800 for 4000'
+## 07/19
+- AJR RWY07 TAA 'T-intersect'->NoPT 'SHARPTT'
+- if switch freq, make contact first
+- 'wx, notam and request'->make sure to get notams
+- visual call->foggles off, call rwy in sight
+- FAF: 1000' to min call, 10-NM ctaf call (part of 'config before thou' and 'twist tq talk')
+## 07/20
+- missed call on ctaf: 'traffic, upwind 24 depating NW'
+- brief the hold, then plate
+- good rule of thumb: get to mins at VDP
+- if 0.5NM to RWY @MDA and not visual->go missed
+- ctaf calls: '10mile SW final RNAV17' 'VOR35 left downwind RWY17'
+## 07/23
+- LP needs WAAS
+- 5Ts at IAF, FAF
+- add power 50'  prior to set ALT
+- PDK ILS21L has DA notam'd at 1393
 - 
+
+| IF                                                                                      | FAF                                                                                                                                 | Mins                                                              |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Wx/Notams                                                                               | ctaf 5mile call, config, DA-.5 dot blw GA, or .5NM before FAF for MDA, 1000' to min callout ('config before thou $ twist tq, talk') | 100' to min call                                                  |
+| Brief plate<br>- verify plate<br>- notams                                               |                                                                                                                                     | DA: <br>- visual: call RWY and desc<br>- not visual: go missed    |
+| PT or NoPT                                                                              |                                                                                                                                     | MDA: <br>- visual: flaps 25deg<br>- no visual: hold MDA until MAP |
+| vectors or DirectTo Fix                                                                 |                                                                                                                                     | 5Cs for go missed: cram, climb, clean, click (after MAP), call    |
+| app xlist                                                                               |                                                                                                                                     |                                                                   |
+| if center gives app freq, put pwr in stby                                               |                                                                                                                                     |                                                                   |
+| 90knts within 3NM, 10mile ctaf call, verify gps mins ('min mode alive & twist tq talk') |                                                                                                                                     |                                                                   |
+| missed app: published or alt/unpublished                                                |                                                                                                                                     |                                                                   |
