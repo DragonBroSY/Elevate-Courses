@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 74a860610e48
+source_hash: 0335a1ae0942
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -636,4 +636,4 @@ App checklist:
 ## 08/04
 - 6hits current: 
 - IFR departure clearance void time: ![Pasted image 20260804164911.png](../assets/Pasted%20image%2020260804164911.png)
-- 
+- 91.167: fuel req't
