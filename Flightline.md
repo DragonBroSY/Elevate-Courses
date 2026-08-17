@@ -635,4 +635,4 @@ App checklist:
 ## 08/04
 - 6hits current: 
 - IFR departure clearance void time: ![[Pasted image 20260804164911.png]]
-- 
+- 91.167: fuel req't
