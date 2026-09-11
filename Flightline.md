@@ -648,3 +648,4 @@ App checklist:
 ![[Pasted image 20260911110121.png]]
 ![[Pasted image 20260911110133.png]]
 ![[Pasted image 20260911110146.png]]
+![[Pasted image 20260911125815.png]]
