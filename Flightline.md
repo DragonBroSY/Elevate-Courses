@@ -636,3 +636,15 @@ App checklist:
 - 6hits current: 
 - IFR departure clearance void time: ![[Pasted image 20260804164911.png]]
 - 91.167: fuel req't
+## Commercial Maneuvers
+![[Pasted image 20260911105517.png]]
+![[Pasted image 20260911105609.png]]
+![[Pasted image 20260911105834.png]]
+![[Pasted image 20260911105910.png]]
+![[Pasted image 20260911110018.png]]
+![[Pasted image 20260911110033.png]]
+![[Pasted image 20260911110046.png]]
+![[Pasted image 20260911110108.png]]
+![[Pasted image 20260911110121.png]]
+![[Pasted image 20260911110133.png]]
+![[Pasted image 20260911110146.png]]
