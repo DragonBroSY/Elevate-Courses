@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 0335a1ae0942
+source_hash: 5c8dd73deb53
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -637,3 +637,15 @@ App checklist:
 - 6hits current: 
 - IFR departure clearance void time: ![Pasted image 20260804164911.png](../assets/Pasted%20image%2020260804164911.png)
 - 91.167: fuel req't
+## Commercial Maneuvers
+![Pasted image 20260911105517.png](../assets/Pasted%20image%2020260911105517.png)
+![Pasted image 20260911105609.png](../assets/Pasted%20image%2020260911105609.png)
+![Pasted image 20260911105834.png](../assets/Pasted%20image%2020260911105834.png)
+![Pasted image 20260911105910.png](../assets/Pasted%20image%2020260911105910.png)
+![Pasted image 20260911110018.png](../assets/Pasted%20image%2020260911110018.png)
+![Pasted image 20260911110033.png](../assets/Pasted%20image%2020260911110033.png)
+![Pasted image 20260911110046.png](../assets/Pasted%20image%2020260911110046.png)
+![Pasted image 20260911110108.png](../assets/Pasted%20image%2020260911110108.png)
+![Pasted image 20260911110121.png](../assets/Pasted%20image%2020260911110121.png)
+![Pasted image 20260911110133.png](../assets/Pasted%20image%2020260911110133.png)
+![Pasted image 20260911110146.png](../assets/Pasted%20image%2020260911110146.png)
