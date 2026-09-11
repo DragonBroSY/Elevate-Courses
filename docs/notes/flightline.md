@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: 5c8dd73deb53
+source_hash: eadef62cffd8
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -649,3 +649,4 @@ App checklist:
 ![Pasted image 20260911110121.png](../assets/Pasted%20image%2020260911110121.png)
 ![Pasted image 20260911110133.png](../assets/Pasted%20image%2020260911110133.png)
 ![Pasted image 20260911110146.png](../assets/Pasted%20image%2020260911110146.png)
+![Pasted image 20260911125815.png](../assets/Pasted%20image%2020260911125815.png)
