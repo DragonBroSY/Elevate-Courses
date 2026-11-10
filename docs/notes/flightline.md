@@ -3,7 +3,7 @@ layout: note
 title: "Flightline Reference"
 date: 2026-03-18
 topics: "Checklists, maneuvers, session debrief notes"
-source_hash: eadef62cffd8
+source_hash: b4c42ceabd80
 ---
 
 ![Archer-cockpit.jpg](../assets/Archer-cockpit.jpg)
@@ -650,3 +650,23 @@ App checklist:
 ![Pasted image 20260911110133.png](../assets/Pasted%20image%2020260911110133.png)
 ![Pasted image 20260911110146.png](../assets/Pasted%20image%2020260911110146.png)
 ![Pasted image 20260911125815.png](../assets/Pasted%20image%2020260911125815.png)
+# Comm SE techniques
+- chandelles: nose up 15deg and hold
+- lazy8: at 90deg, let nose drop
+- steep spiral: lose 1000'/360deg, finish maneuver >=1500'AGL, add elevation in realtime
+- 8 on pylon: start at 100kts, 1000' AGL. wind comes from right
+# Comm Multi
+- short field t/o engine failure: throttle-closed, directional control with rudder, brakes
+- SE out below 3000'AGL: simulate prop feather and mixture idlecutoff
+- all maneuvers with flaps mov't: one notch, verify altitude, then next notch
+- ILS25 LZU: established -> CDI needle is centered, then descend via profile view. SE approach need to finish flow, simulate feather and idlecutoff
+# 11/09
+- T/O: rotate at 70kts right away, use 82kts all the way, mixture full rich per T/O xlist
+- SE during climb: pitch down for 88kts
+- steep turn: lock in 45deg, fix altitude with pitch only
+- slow flight: reduce power to 17" MP before execute config, on recovery: no climb, pull power almost immediatly
+- Vmc Demo: recovery-88kts then scissor MP to 20", don't let off the rudder or aileron on recovery to maintain HDG
+- shutdown eng: stop at identify/verify, assess altitude, if above troubleshoot, if below simulate feather/idlecutoff
+- SE App: can't pitch up to hold altutude, a/s=88kts is more important (stay 75' high on all assigned altitude for buffer), ctaf calls, watch gps for turning countdowns
+- 
+
